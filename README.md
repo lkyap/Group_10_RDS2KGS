@@ -1,1 +1,1 @@
-# project_rdmstokgs
+# Data Science Capstone Project - RDS to KGS
