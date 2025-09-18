@@ -1,40 +1,35 @@
-# eval/config.py
+
 from pathlib import Path
 
 # === PATHS ===
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-# The Spider ZIP is already in data/spider.zip.
-# After your team runs extract.ipynb once, this folder should exist:
-SPIDER_DIR = REPO_ROOT / "data" / "spider"            # expects .../spider/database/*.sqlite and dev.json/train_spider.json
+# Spider dataset (unzipped already)
+SPIDER_DIR = REPO_ROOT / "data" / "spider"            # contains tables.json, dev.json/train_spider.json, database/*
 SPIDER_DB_DIR = SPIDER_DIR / "database"
 
-# Where we read optional precomputed cypher queries from
-CYPHER_ROOT = REPO_ROOT / "eval" / "cypher"
-
-# Where results go
+# Outputs
 OUTPUT_DIR = REPO_ROOT / "eval" / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # === EVAL OPTIONS ===
-# Which Spider split to use: "dev" (smaller) or "train" (bigger)
+# SPLIT: "dev" or "train"
 SPLIT = "dev"
 
-# How many questions per database (None = all)
-QUESTIONS_PER_DB = 10   # start small; you can raise it later
+# Limit to specific db_ids (None = all), e.g. ["concert_singer"]
+INCLUDED_DB_IDS = None
 
-# Limit to certain databases (None = use all in the split)
-INCLUDED_DB_IDS = None  # e.g., ["concert_singer"]
+# Limit questions per DB (None = all)
+QUESTIONS_PER_DB = None
 
-# Cypher query mode:
-# "precomputed": read cypher from eval/cypher/{db_id}/{qid}.cypher
-# "agent": (later) call your LLM/agent to generate cypher
-CYPHER_MODE = "precomputed"
+# Count-only comparison (gold SQL wrapped as SELECT COUNT(*) FROM (<sql>) t)
+COUNT_ONLY = True
 
-# === NEO4J === (fill these when your KG is loaded)
+# === LLM ===
+# Set OPENAI_API_KEY in your environment before running.
+DEFAULT_LLM_MODEL = "gpt-4o-mini"   # or "gpt-5-mini" if you have access
+
+# === NEO4J CONNECTION (your local Neo4j where your KG is loaded) ===
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "password"
-
-# We compare counts first (your requirement: “100 rows in SQL → 100 in KG”)
-COUNT_ONLY = True
+NEO4J_PASSWORD = "test1234"  # change if different
