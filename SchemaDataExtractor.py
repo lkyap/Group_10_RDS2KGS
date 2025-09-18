@@ -77,11 +77,13 @@ class DatabaseExtractor:
             if limit != None:
                 query += f"limit {limit}"
             
+            cursor.execute(query)
+
             # Extract column names from cursor description
             cur_desc = cursor.description
             col_names = [desc[0] for desc in cur_desc]
             
-            cursor.execute(query)
+            
             data_record = cursor.fetchall()
             data[name] = [dict(zip(col_names,record)) for record in data_record]
 
