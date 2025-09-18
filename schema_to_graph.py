@@ -20,9 +20,11 @@ import json
 from pathlib import Path
 
 # Path where extract.ipynb saved schema.json files
-SCHEMA_ROOT = Path("/artifacts/runs/spider")
-GRAPH_OUTPUT = SCHEMA_ROOT.parent / "graph_schemas"
+BASE_DIR = Path(__file__).parent
+SCHEMA_ROOT = BASE_DIR / "artifacts" / "runs" / "spider"
+GRAPH_OUTPUT = BASE_DIR / "artifacts" / "runs" / "graph_schemas"
 GRAPH_OUTPUT.mkdir(parents=True, exist_ok=True)
+
 
 # Find all schema.json files in the subfolders
 schema_files = list(SCHEMA_ROOT.rglob("schema.json"))
