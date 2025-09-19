@@ -1,3 +1,14 @@
+"""
+Authors: Yap, Felix
+
+Description: Extract database schema from SQLITE database 
+Input: Database in SQLITE
+Output: Database schema / data / schema & data
+
+Usage: Check on main.py
+"""
+
+
 import sqlite3
 import os
 import json
@@ -72,10 +83,10 @@ class DatabaseExtractor:
 
         for name in tables:
             # Retrieve all rows 
-            query = f"select * from {name} "
+            query = f"select * from {name}"
             # set the limit of row if user defined
             if limit != None:
-                query += f"limit {limit}"
+                query += f" limit {limit}"
             
             cursor.execute(query)
 
