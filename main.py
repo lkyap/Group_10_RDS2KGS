@@ -15,7 +15,7 @@ import os
 
 
 extractor = DatabaseExtractor()
-schema = extractor.extract_schema("C:/Users/ewa_c/lkyap/UWA - Master DS Course Units/S2-2025/Project/spider_data/spider_data/database/flight_company/flight_company.sqlite")
+schema = extractor.extract_schema("flight_company.sqlite")
 print(schema)
 print("\n")
 
