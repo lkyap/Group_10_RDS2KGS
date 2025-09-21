@@ -1,6 +1,17 @@
+"""
+Author: Yap, Ashwin, Evanna
+
+Descriptions:
+1. Set up OpenAI model
+2. Use LLM to extract entity which represents nodes
+3. Use LLM to extract relationship based on entity extracted and database schema
+
+"""
+
+
 import json
 from openai import OpenAI
-from LLMPrompt import entity_discovery_prompt, relationship_discovery_prompt
+from LLMPrompt import entity_discovery_prompt, relationship_discovery_prompt, graph_entity_prompt
 
 class LLMKGAgent:
     def __init__(self, model = "gpt-5-mini"):
@@ -18,6 +29,7 @@ class LLMKGAgent:
             ],
             response_format={"type":"json_object"} # Return JSON format
         )
+        
         return json.loads(response.choices[0].message.content)
     
     def discover_relationship(self, schema:dict,entity_config: list[dict]):
@@ -33,5 +45,17 @@ class LLMKGAgent:
             ],
             response_format = {"type":"json_object"} # get the response in json format
         )
+        
         return json.loads(response.choices[0].message.content)
     
+    def generate_kgs(self, schema:dict):
+        schema_str = json.dumps(schema, indent=2)
+        response = self.client.chat.completions.create(
+            model= self.model,
+            messages=[
+                {"role":"system","content":graph_entity_prompt},
+                {"role":"user","content":f"Use schema_str to generate full knowledge graph: \n {schema_str}"}
+            ],
+            response_format={"type":"json_object"}
+        )
+        return json.loads(response.choices[0].message.content)
