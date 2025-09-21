@@ -21,4 +21,5 @@ To view the metagraph, do the following
 1. Open Google Chrome, type in localhost:7474
 2. Login with your password for Neo4j
 3. Under neo4j database, you should see the metagraph
+4. If you face error, create a new database in neo4j, and remember the password and the host. Then use the same host after you visited localhost:7474. 
 
