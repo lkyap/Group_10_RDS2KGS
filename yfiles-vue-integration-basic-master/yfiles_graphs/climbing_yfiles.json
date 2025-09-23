@@ -1,0 +1,20 @@
+{
+  "id": "climbing",
+  "nodes": [
+    {
+      "id": "climber",
+      "label": "climber\\nPK: Climber_ID"
+    },
+    {
+      "id": "mountain",
+      "label": "mountain\\nPK: Mountain_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "climber",
+      "to": "mountain",
+      "label": "Mountain_ID -> Mountain_ID"
+    }
+  ]
+}

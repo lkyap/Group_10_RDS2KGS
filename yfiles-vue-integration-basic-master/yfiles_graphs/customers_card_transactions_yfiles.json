@@ -1,0 +1,33 @@
+{
+  "id": "customers_card_transactions",
+  "nodes": [
+    {
+      "id": "Accounts",
+      "label": "Accounts\\nPK: account_id"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Customers_Cards",
+      "label": "Customers_Cards\\nPK: card_id"
+    },
+    {
+      "id": "Financial_Transactions",
+      "label": "Financial_Transactions\\nPK: (none)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Financial_Transactions",
+      "to": "Accounts",
+      "label": "account_id -> account_id"
+    },
+    {
+      "from": "Financial_Transactions",
+      "to": "Customers_Cards",
+      "label": "card_id -> card_id"
+    }
+  ]
+}

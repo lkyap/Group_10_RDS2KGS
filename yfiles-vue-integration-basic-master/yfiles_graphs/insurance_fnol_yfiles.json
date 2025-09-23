@@ -1,0 +1,70 @@
+{
+  "id": "insurance_fnol",
+  "nodes": [
+    {
+      "id": "Available_Policies",
+      "label": "Available_Policies\\nPK: Policy_ID"
+    },
+    {
+      "id": "Claims",
+      "label": "Claims\\nPK: Claim_ID"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: Customer_ID"
+    },
+    {
+      "id": "Customers_Policies",
+      "label": "Customers_Policies\\nPK: Customer_ID, Policy_ID"
+    },
+    {
+      "id": "First_Notification_of_Loss",
+      "label": "First_Notification_of_Loss\\nPK: FNOL_ID"
+    },
+    {
+      "id": "Services",
+      "label": "Services\\nPK: Service_ID"
+    },
+    {
+      "id": "Settlements",
+      "label": "Settlements\\nPK: Settlement_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Claims",
+      "to": "First_Notification_of_Loss",
+      "label": "FNOL_ID -> FNOL_ID"
+    },
+    {
+      "from": "Customers_Policies",
+      "to": "Available_Policies",
+      "label": "Policy_ID -> Policy_ID"
+    },
+    {
+      "from": "Customers_Policies",
+      "to": "Customers",
+      "label": "Customer_ID -> Customer_ID"
+    },
+    {
+      "from": "First_Notification_of_Loss",
+      "to": "Customers_Policies",
+      "label": "Customer_ID -> Customer_ID"
+    },
+    {
+      "from": "First_Notification_of_Loss",
+      "to": "Customers_Policies",
+      "label": "Policy_ID -> Policy_ID"
+    },
+    {
+      "from": "First_Notification_of_Loss",
+      "to": "Services",
+      "label": "Service_ID -> Service_ID"
+    },
+    {
+      "from": "Settlements",
+      "to": "Claims",
+      "label": "Claim_ID -> Claim_ID"
+    }
+  ]
+}

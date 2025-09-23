@@ -1,0 +1,30 @@
+{
+  "id": "company_1",
+  "nodes": [
+    {
+      "id": "department",
+      "label": "department\\nPK: Dnumber"
+    },
+    {
+      "id": "dependent",
+      "label": "dependent\\nPK: Essn, Dependent_name"
+    },
+    {
+      "id": "dept_locations",
+      "label": "dept_locations\\nPK: Dnumber, Dlocation"
+    },
+    {
+      "id": "employee",
+      "label": "employee\\nPK: Ssn"
+    },
+    {
+      "id": "project",
+      "label": "project\\nPK: Pnumber"
+    },
+    {
+      "id": "works_on",
+      "label": "works_on\\nPK: Essn, Pno"
+    }
+  ],
+  "edges": []
+}

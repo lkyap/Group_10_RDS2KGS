@@ -1,0 +1,38 @@
+{
+  "id": "customer_complaints",
+  "nodes": [
+    {
+      "id": "Complaints",
+      "label": "Complaints\\nPK: (none)"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: product_id"
+    },
+    {
+      "id": "Staff",
+      "label": "Staff\\nPK: staff_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Complaints",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Complaints",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    },
+    {
+      "from": "Complaints",
+      "to": "Staff",
+      "label": "staff_id -> staff_id"
+    }
+  ]
+}

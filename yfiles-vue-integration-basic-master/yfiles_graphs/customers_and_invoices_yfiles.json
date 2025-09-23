@@ -1,0 +1,98 @@
+{
+  "id": "customers_and_invoices",
+  "nodes": [
+    {
+      "id": "Accounts",
+      "label": "Accounts\\nPK: account_id"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Financial_Transactions",
+      "label": "Financial_Transactions\\nPK: (none)"
+    },
+    {
+      "id": "Invoice_Line_Items",
+      "label": "Invoice_Line_Items\\nPK: (none)"
+    },
+    {
+      "id": "Invoices",
+      "label": "Invoices\\nPK: invoice_number"
+    },
+    {
+      "id": "Order_Items",
+      "label": "Order_Items\\nPK: order_item_id"
+    },
+    {
+      "id": "Orders",
+      "label": "Orders\\nPK: order_id"
+    },
+    {
+      "id": "Product_Categories",
+      "label": "Product_Categories\\nPK: production_type_code"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: product_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Accounts",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Financial_Transactions",
+      "to": "Accounts",
+      "label": "account_id -> account_id"
+    },
+    {
+      "from": "Financial_Transactions",
+      "to": "Invoices",
+      "label": "invoice_number -> invoice_number"
+    },
+    {
+      "from": "Invoice_Line_Items",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    },
+    {
+      "from": "Invoice_Line_Items",
+      "to": "Invoices",
+      "label": "invoice_number -> invoice_number"
+    },
+    {
+      "from": "Invoice_Line_Items",
+      "to": "Order_Items",
+      "label": "order_item_id -> order_item_id"
+    },
+    {
+      "from": "Invoices",
+      "to": "Orders",
+      "label": "order_id -> order_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Orders",
+      "label": "order_id -> order_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    },
+    {
+      "from": "Orders",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Products",
+      "to": "Product_Categories",
+      "label": "production_type_code -> production_type_code"
+    }
+  ]
+}

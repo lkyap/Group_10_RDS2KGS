@@ -1,0 +1,65 @@
+{
+  "id": "insurance_and_eClaims",
+  "nodes": [
+    {
+      "id": "Claim_Headers",
+      "label": "Claim_Headers\\nPK: Claim_Header_ID"
+    },
+    {
+      "id": "Claims_Documents",
+      "label": "Claims_Documents\\nPK: Claim_ID, Document_Type_Code"
+    },
+    {
+      "id": "Claims_Processing",
+      "label": "Claims_Processing\\nPK: Claim_Processing_ID"
+    },
+    {
+      "id": "Claims_Processing_Stages",
+      "label": "Claims_Processing_Stages\\nPK: Claim_Stage_ID"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: Customer_ID"
+    },
+    {
+      "id": "Policies",
+      "label": "Policies\\nPK: Policy_ID"
+    },
+    {
+      "id": "Staff",
+      "label": "Staff\\nPK: Staff_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Claim_Headers",
+      "to": "Policies",
+      "label": "Policy_ID -> Policy_ID"
+    },
+    {
+      "from": "Claims_Documents",
+      "to": "Staff",
+      "label": "Created_by_Staff_ID -> Staff_ID"
+    },
+    {
+      "from": "Claims_Documents",
+      "to": "Claim_Headers",
+      "label": "Claim_ID -> Claim_Header_ID"
+    },
+    {
+      "from": "Claims_Processing",
+      "to": "Staff",
+      "label": "Staff_ID -> Staff_ID"
+    },
+    {
+      "from": "Claims_Processing",
+      "to": "Claim_Headers",
+      "label": "Claim_ID -> Claim_Header_ID"
+    },
+    {
+      "from": "Policies",
+      "to": "Customers",
+      "label": "Customer_ID -> Customer_ID"
+    }
+  ]
+}

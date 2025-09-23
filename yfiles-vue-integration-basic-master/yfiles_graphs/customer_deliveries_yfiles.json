@@ -1,0 +1,134 @@
+{
+  "id": "customer_deliveries",
+  "nodes": [
+    {
+      "id": "Actual_Order_Products",
+      "label": "Actual_Order_Products\\nPK: (none)"
+    },
+    {
+      "id": "Actual_Orders",
+      "label": "Actual_Orders\\nPK: actual_order_id"
+    },
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Customer_Addresses",
+      "label": "Customer_Addresses\\nPK: (none)"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Delivery_Route_Locations",
+      "label": "Delivery_Route_Locations\\nPK: location_code"
+    },
+    {
+      "id": "Delivery_Routes",
+      "label": "Delivery_Routes\\nPK: route_id"
+    },
+    {
+      "id": "Employees",
+      "label": "Employees\\nPK: employee_id"
+    },
+    {
+      "id": "Order_Deliveries",
+      "label": "Order_Deliveries\\nPK: (none)"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: product_id"
+    },
+    {
+      "id": "Regular_Order_Products",
+      "label": "Regular_Order_Products\\nPK: (none)"
+    },
+    {
+      "id": "Regular_Orders",
+      "label": "Regular_Orders\\nPK: regular_order_id"
+    },
+    {
+      "id": "Trucks",
+      "label": "Trucks\\nPK: truck_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Actual_Order_Products",
+      "to": "Actual_Orders",
+      "label": "actual_order_id -> actual_order_id"
+    },
+    {
+      "from": "Actual_Order_Products",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    },
+    {
+      "from": "Actual_Orders",
+      "to": "Regular_Orders",
+      "label": "regular_order_id -> regular_order_id"
+    },
+    {
+      "from": "Customer_Addresses",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    },
+    {
+      "from": "Customer_Addresses",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Delivery_Route_Locations",
+      "to": "Delivery_Routes",
+      "label": "route_id -> route_id"
+    },
+    {
+      "from": "Delivery_Route_Locations",
+      "to": "Addresses",
+      "label": "location_address_id -> address_id"
+    },
+    {
+      "from": "Employees",
+      "to": "Addresses",
+      "label": "employee_address_id -> address_id"
+    },
+    {
+      "from": "Order_Deliveries",
+      "to": "Employees",
+      "label": "driver_employee_id -> employee_id"
+    },
+    {
+      "from": "Order_Deliveries",
+      "to": "Delivery_Route_Locations",
+      "label": "location_code -> location_code"
+    },
+    {
+      "from": "Order_Deliveries",
+      "to": "Actual_Orders",
+      "label": "actual_order_id -> actual_order_id"
+    },
+    {
+      "from": "Order_Deliveries",
+      "to": "Trucks",
+      "label": "truck_id -> truck_id"
+    },
+    {
+      "from": "Regular_Order_Products",
+      "to": "Regular_Orders",
+      "label": "regular_order_id -> regular_order_id"
+    },
+    {
+      "from": "Regular_Order_Products",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    },
+    {
+      "from": "Regular_Orders",
+      "to": "Customers",
+      "label": "distributer_id -> customer_id"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "entertainment_awards",
+  "nodes": [
+    {
+      "id": "artwork",
+      "label": "artwork\\nPK: Artwork_ID"
+    },
+    {
+      "id": "festival_detail",
+      "label": "festival_detail\\nPK: Festival_ID"
+    },
+    {
+      "id": "nomination",
+      "label": "nomination\\nPK: Artwork_ID, Festival_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "nomination",
+      "to": "festival_detail",
+      "label": "Festival_ID -> Festival_ID"
+    },
+    {
+      "from": "nomination",
+      "to": "artwork",
+      "label": "Artwork_ID -> Artwork_ID"
+    }
+  ]
+}

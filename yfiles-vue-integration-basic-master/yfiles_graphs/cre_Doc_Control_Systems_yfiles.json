@@ -1,0 +1,116 @@
+{
+  "id": "cre_Doc_Control_Systems",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Circulation_History",
+      "label": "Circulation_History\\nPK: document_id, draft_number, copy_number, employee_id"
+    },
+    {
+      "id": "Document_Drafts",
+      "label": "Document_Drafts\\nPK: document_id, draft_number"
+    },
+    {
+      "id": "Documents",
+      "label": "Documents\\nPK: document_id"
+    },
+    {
+      "id": "Documents_Mailed",
+      "label": "Documents_Mailed\\nPK: document_id, mailed_to_address_id"
+    },
+    {
+      "id": "Draft_Copies",
+      "label": "Draft_Copies\\nPK: document_id, draft_number, copy_number"
+    },
+    {
+      "id": "Employees",
+      "label": "Employees\\nPK: employee_id"
+    },
+    {
+      "id": "Ref_Document_Status",
+      "label": "Ref_Document_Status\\nPK: document_status_code"
+    },
+    {
+      "id": "Ref_Document_Types",
+      "label": "Ref_Document_Types\\nPK: document_type_code"
+    },
+    {
+      "id": "Ref_Shipping_Agents",
+      "label": "Ref_Shipping_Agents\\nPK: shipping_agent_code"
+    },
+    {
+      "id": "Roles",
+      "label": "Roles\\nPK: role_code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Circulation_History",
+      "to": "Employees",
+      "label": "employee_id -> employee_id"
+    },
+    {
+      "from": "Circulation_History",
+      "to": "Draft_Copies",
+      "label": "document_id -> document_id"
+    },
+    {
+      "from": "Circulation_History",
+      "to": "Draft_Copies",
+      "label": "draft_number -> draft_number"
+    },
+    {
+      "from": "Circulation_History",
+      "to": "Draft_Copies",
+      "label": "copy_number -> copy_number"
+    },
+    {
+      "from": "Document_Drafts",
+      "to": "Documents",
+      "label": "document_id -> document_id"
+    },
+    {
+      "from": "Documents",
+      "to": "Ref_Shipping_Agents",
+      "label": "shipping_agent_code -> shipping_agent_code"
+    },
+    {
+      "from": "Documents",
+      "to": "Ref_Document_Status",
+      "label": "document_status_code -> document_status_code"
+    },
+    {
+      "from": "Documents",
+      "to": "Ref_Document_Types",
+      "label": "document_type_code -> document_type_code"
+    },
+    {
+      "from": "Documents_Mailed",
+      "to": "Addresses",
+      "label": "mailed_to_address_id -> address_id"
+    },
+    {
+      "from": "Documents_Mailed",
+      "to": "Documents",
+      "label": "document_id -> document_id"
+    },
+    {
+      "from": "Draft_Copies",
+      "to": "Document_Drafts",
+      "label": "document_id -> document_id"
+    },
+    {
+      "from": "Draft_Copies",
+      "to": "Document_Drafts",
+      "label": "draft_number -> draft_number"
+    },
+    {
+      "from": "Employees",
+      "to": "Roles",
+      "label": "role_code -> role_code"
+    }
+  ]
+}

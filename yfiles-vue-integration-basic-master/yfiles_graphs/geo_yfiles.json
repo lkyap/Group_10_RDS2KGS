@@ -1,0 +1,65 @@
+{
+  "id": "geo",
+  "nodes": [
+    {
+      "id": "border_info",
+      "label": "border_info\\nPK: state_name, border"
+    },
+    {
+      "id": "city",
+      "label": "city\\nPK: city_name, state_name"
+    },
+    {
+      "id": "highlow",
+      "label": "highlow\\nPK: state_name"
+    },
+    {
+      "id": "lake",
+      "label": "lake\\nPK: (none)"
+    },
+    {
+      "id": "mountain",
+      "label": "mountain\\nPK: mountain_name, state_name"
+    },
+    {
+      "id": "river",
+      "label": "river\\nPK: river_name"
+    },
+    {
+      "id": "state",
+      "label": "state\\nPK: state_name"
+    }
+  ],
+  "edges": [
+    {
+      "from": "border_info",
+      "to": "state",
+      "label": "border -> state_name"
+    },
+    {
+      "from": "border_info",
+      "to": "state",
+      "label": "state_name -> state_name"
+    },
+    {
+      "from": "city",
+      "to": "state",
+      "label": "state_name -> state_name"
+    },
+    {
+      "from": "highlow",
+      "to": "state",
+      "label": "state_name -> state_name"
+    },
+    {
+      "from": "mountain",
+      "to": "state",
+      "label": "state_name -> state_name"
+    },
+    {
+      "from": "river",
+      "to": "state",
+      "label": "traverse -> state_name"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "game_injury",
+  "nodes": [
+    {
+      "id": "game",
+      "label": "game\\nPK: id"
+    },
+    {
+      "id": "injury_accident",
+      "label": "injury_accident\\nPK: id"
+    },
+    {
+      "id": "stadium",
+      "label": "stadium\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "game",
+      "to": "stadium",
+      "label": "stadium_id -> id"
+    },
+    {
+      "from": "injury_accident",
+      "to": "game",
+      "label": "game_id -> id"
+    }
+  ]
+}

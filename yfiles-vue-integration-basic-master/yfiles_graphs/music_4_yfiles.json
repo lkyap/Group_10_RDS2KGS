@@ -1,0 +1,29 @@
+{
+  "id": "music_4",
+  "nodes": [
+    {
+      "id": "artist",
+      "label": "artist\\nPK: Artist_ID"
+    },
+    {
+      "id": "music_festival",
+      "label": "music_festival\\nPK: ID"
+    },
+    {
+      "id": "volume",
+      "label": "volume\\nPK: Volume_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "music_festival",
+      "to": "volume",
+      "label": "Volume -> Volume_ID"
+    },
+    {
+      "from": "volume",
+      "to": "artist",
+      "label": "Artist_ID -> Artist_ID"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "allergy_1",
+  "nodes": [
+    {
+      "id": "Allergy_Type",
+      "label": "Allergy_Type\\nPK: Allergy"
+    },
+    {
+      "id": "Has_Allergy",
+      "label": "Has_Allergy\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Has_Allergy",
+      "to": "Allergy_Type",
+      "label": "Allergy -> Allergy"
+    },
+    {
+      "from": "Has_Allergy",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    }
+  ]
+}

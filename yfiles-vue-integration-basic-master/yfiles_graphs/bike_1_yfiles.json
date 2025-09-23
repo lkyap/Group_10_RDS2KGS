@@ -1,0 +1,28 @@
+{
+  "id": "bike_1",
+  "nodes": [
+    {
+      "id": "station",
+      "label": "station\\nPK: id"
+    },
+    {
+      "id": "status",
+      "label": "status\\nPK: (none)"
+    },
+    {
+      "id": "trip",
+      "label": "trip\\nPK: id"
+    },
+    {
+      "id": "weather",
+      "label": "weather\\nPK: (none)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "status",
+      "to": "station",
+      "label": "station_id -> id"
+    }
+  ]
+}

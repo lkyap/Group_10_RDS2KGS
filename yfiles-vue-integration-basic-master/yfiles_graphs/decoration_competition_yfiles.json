@@ -1,0 +1,29 @@
+{
+  "id": "decoration_competition",
+  "nodes": [
+    {
+      "id": "college",
+      "label": "college\\nPK: College_ID"
+    },
+    {
+      "id": "member",
+      "label": "member\\nPK: Member_ID"
+    },
+    {
+      "id": "round",
+      "label": "round\\nPK: Round_ID, Member_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "member",
+      "to": "college",
+      "label": "College_ID -> College_ID"
+    },
+    {
+      "from": "round",
+      "to": "member",
+      "label": "Member_ID -> Member_ID"
+    }
+  ]
+}

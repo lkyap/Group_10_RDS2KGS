@@ -1,0 +1,126 @@
+{
+  "id": "local_govt_and_lot",
+  "nodes": [
+    {
+      "id": "Customer_Event_Notes",
+      "label": "Customer_Event_Notes\\nPK: Customer_Event_Note_ID"
+    },
+    {
+      "id": "Customer_Events",
+      "label": "Customer_Events\\nPK: Customer_Event_ID"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Organizations",
+      "label": "Organizations\\nPK: organization_id"
+    },
+    {
+      "id": "Properties",
+      "label": "Properties\\nPK: property_id"
+    },
+    {
+      "id": "Residents",
+      "label": "Residents\\nPK: resident_id, property_id, date_moved_in"
+    },
+    {
+      "id": "Residents_Services",
+      "label": "Residents_Services\\nPK: resident_id, service_id"
+    },
+    {
+      "id": "Services",
+      "label": "Services\\nPK: service_id"
+    },
+    {
+      "id": "Things",
+      "label": "Things\\nPK: thing_id"
+    },
+    {
+      "id": "Timed_Locations_of_Things",
+      "label": "Timed_Locations_of_Things\\nPK: thing_id, Date_and_Time, Location_Code"
+    },
+    {
+      "id": "Timed_Status_of_Things",
+      "label": "Timed_Status_of_Things\\nPK: thing_id, Date_and_Date, Status_of_Thing_Code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Customer_Event_Notes",
+      "to": "Customer_Events",
+      "label": "Customer_Event_ID -> Customer_Event_ID"
+    },
+    {
+      "from": "Customer_Events",
+      "to": "Residents",
+      "label": "resident_id -> resident_id"
+    },
+    {
+      "from": "Customer_Events",
+      "to": "Residents",
+      "label": "property_id -> property_id"
+    },
+    {
+      "from": "Customer_Events",
+      "to": "Residents",
+      "label": "date_moved_in -> date_moved_in"
+    },
+    {
+      "from": "Customer_Events",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Customer_Events",
+      "to": "Things",
+      "label": "thing_id -> thing_id"
+    },
+    {
+      "from": "Residents",
+      "to": "Properties",
+      "label": "property_id -> property_id"
+    },
+    {
+      "from": "Residents_Services",
+      "to": "Residents",
+      "label": "resident_id -> resident_id"
+    },
+    {
+      "from": "Residents_Services",
+      "to": "Residents",
+      "label": "property_id -> property_id"
+    },
+    {
+      "from": "Residents_Services",
+      "to": "Residents",
+      "label": "date_moved_in -> date_moved_in"
+    },
+    {
+      "from": "Residents_Services",
+      "to": "Services",
+      "label": "service_id -> service_id"
+    },
+    {
+      "from": "Services",
+      "to": "Organizations",
+      "label": "organization_id -> organization_id"
+    },
+    {
+      "from": "Things",
+      "to": "Organizations",
+      "label": "organization_id -> organization_id"
+    },
+    {
+      "from": "Timed_Locations_of_Things",
+      "to": "Things",
+      "label": "thing_id -> thing_id"
+    },
+    {
+      "from": "Timed_Status_of_Things",
+      "to": "Things",
+      "label": "thing_id -> thing_id"
+    }
+  ]
+}

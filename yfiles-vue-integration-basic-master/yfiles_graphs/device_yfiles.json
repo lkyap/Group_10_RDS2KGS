@@ -1,0 +1,29 @@
+{
+  "id": "device",
+  "nodes": [
+    {
+      "id": "device",
+      "label": "device\\nPK: Device_ID"
+    },
+    {
+      "id": "shop",
+      "label": "shop\\nPK: Shop_ID"
+    },
+    {
+      "id": "stock",
+      "label": "stock\\nPK: Shop_ID, Device_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "stock",
+      "to": "device",
+      "label": "Device_ID -> Device_ID"
+    },
+    {
+      "from": "stock",
+      "to": "shop",
+      "label": "Shop_ID -> Shop_ID"
+    }
+  ]
+}

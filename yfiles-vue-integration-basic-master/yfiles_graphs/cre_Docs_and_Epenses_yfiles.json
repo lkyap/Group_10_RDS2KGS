@@ -1,0 +1,65 @@
+{
+  "id": "cre_Docs_and_Epenses",
+  "nodes": [
+    {
+      "id": "Accounts",
+      "label": "Accounts\\nPK: Account_ID"
+    },
+    {
+      "id": "Documents",
+      "label": "Documents\\nPK: Document_ID"
+    },
+    {
+      "id": "Documents_with_Expenses",
+      "label": "Documents_with_Expenses\\nPK: Document_ID"
+    },
+    {
+      "id": "Projects",
+      "label": "Projects\\nPK: Project_ID"
+    },
+    {
+      "id": "Ref_Budget_Codes",
+      "label": "Ref_Budget_Codes\\nPK: Budget_Type_Code"
+    },
+    {
+      "id": "Ref_Document_Types",
+      "label": "Ref_Document_Types\\nPK: Document_Type_Code"
+    },
+    {
+      "id": "Statements",
+      "label": "Statements\\nPK: Statement_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Accounts",
+      "to": "Statements",
+      "label": "Statement_ID -> Statement_ID"
+    },
+    {
+      "from": "Documents",
+      "to": "Projects",
+      "label": "Project_ID -> Project_ID"
+    },
+    {
+      "from": "Documents",
+      "to": "Ref_Document_Types",
+      "label": "Document_Type_Code -> Document_Type_Code"
+    },
+    {
+      "from": "Documents_with_Expenses",
+      "to": "Documents",
+      "label": "Document_ID -> Document_ID"
+    },
+    {
+      "from": "Documents_with_Expenses",
+      "to": "Ref_Budget_Codes",
+      "label": "Budget_Type_Code -> Budget_Type_Code"
+    },
+    {
+      "from": "Statements",
+      "to": "Documents",
+      "label": "Statement_ID -> Document_ID"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "concert_singer",
+  "nodes": [
+    {
+      "id": "concert",
+      "label": "concert\\nPK: concert_ID"
+    },
+    {
+      "id": "singer",
+      "label": "singer\\nPK: Singer_ID"
+    },
+    {
+      "id": "singer_in_concert",
+      "label": "singer_in_concert\\nPK: concert_ID, Singer_ID"
+    },
+    {
+      "id": "stadium",
+      "label": "stadium\\nPK: Stadium_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "concert",
+      "to": "stadium",
+      "label": "Stadium_ID -> Stadium_ID"
+    },
+    {
+      "from": "singer_in_concert",
+      "to": "singer",
+      "label": "Singer_ID -> Singer_ID"
+    },
+    {
+      "from": "singer_in_concert",
+      "to": "concert",
+      "label": "concert_ID -> concert_ID"
+    }
+  ]
+}

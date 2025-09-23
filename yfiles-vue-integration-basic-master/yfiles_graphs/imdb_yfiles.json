@@ -1,0 +1,131 @@
+{
+  "id": "imdb",
+  "nodes": [
+    {
+      "id": "actor",
+      "label": "actor\\nPK: aid"
+    },
+    {
+      "id": "cast",
+      "label": "cast\\nPK: id"
+    },
+    {
+      "id": "classification",
+      "label": "classification\\nPK: id"
+    },
+    {
+      "id": "company",
+      "label": "company\\nPK: id"
+    },
+    {
+      "id": "copyright",
+      "label": "copyright\\nPK: id"
+    },
+    {
+      "id": "directed_by",
+      "label": "directed_by\\nPK: id"
+    },
+    {
+      "id": "director",
+      "label": "director\\nPK: did"
+    },
+    {
+      "id": "genre",
+      "label": "genre\\nPK: gid"
+    },
+    {
+      "id": "keyword",
+      "label": "keyword\\nPK: id"
+    },
+    {
+      "id": "made_by",
+      "label": "made_by\\nPK: id"
+    },
+    {
+      "id": "movie",
+      "label": "movie\\nPK: mid"
+    },
+    {
+      "id": "producer",
+      "label": "producer\\nPK: pid"
+    },
+    {
+      "id": "tags",
+      "label": "tags\\nPK: id"
+    },
+    {
+      "id": "tv_series",
+      "label": "tv_series\\nPK: sid"
+    },
+    {
+      "id": "writer",
+      "label": "writer\\nPK: wid"
+    },
+    {
+      "id": "written_by",
+      "label": "written_by\\nPK: (none)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "cast",
+      "to": "copyright",
+      "label": "msid -> msid"
+    },
+    {
+      "from": "cast",
+      "to": "actor",
+      "label": "aid -> aid"
+    },
+    {
+      "from": "classification",
+      "to": "copyright",
+      "label": "msid -> msid"
+    },
+    {
+      "from": "classification",
+      "to": "genre",
+      "label": "gid -> gid"
+    },
+    {
+      "from": "directed_by",
+      "to": "director",
+      "label": "did -> did"
+    },
+    {
+      "from": "directed_by",
+      "to": "copyright",
+      "label": "msid -> msid"
+    },
+    {
+      "from": "made_by",
+      "to": "producer",
+      "label": "pid -> pid"
+    },
+    {
+      "from": "made_by",
+      "to": "copyright",
+      "label": "msid -> msid"
+    },
+    {
+      "from": "tags",
+      "to": "keyword",
+      "label": "kid -> kid"
+    },
+    {
+      "from": "tags",
+      "to": "copyright",
+      "label": "msid -> msid"
+    },
+    {
+      "from": "written_by",
+      "to": "writer",
+      "label": "wid -> wid"
+    },
+    {
+      "from": "written_by",
+      "to": "copyright",
+      "label": "msid -> msid"
+    }
+  ]
+}

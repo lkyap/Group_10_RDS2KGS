@@ -1,0 +1,29 @@
+{
+  "id": "department_management",
+  "nodes": [
+    {
+      "id": "department",
+      "label": "department\\nPK: Department_ID"
+    },
+    {
+      "id": "head",
+      "label": "head\\nPK: head_ID"
+    },
+    {
+      "id": "management",
+      "label": "management\\nPK: department_ID, head_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "management",
+      "to": "head",
+      "label": "head_ID -> head_ID"
+    },
+    {
+      "from": "management",
+      "to": "department",
+      "label": "department_ID -> Department_ID"
+    }
+  ]
+}

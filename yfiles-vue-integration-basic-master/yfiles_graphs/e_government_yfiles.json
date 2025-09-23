@@ -1,0 +1,92 @@
+{
+  "id": "e_government",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Forms",
+      "label": "Forms\\nPK: form_id"
+    },
+    {
+      "id": "Individuals",
+      "label": "Individuals\\nPK: individual_id"
+    },
+    {
+      "id": "Organization_Contact_Individuals",
+      "label": "Organization_Contact_Individuals\\nPK: individual_id, organization_id"
+    },
+    {
+      "id": "Organizations",
+      "label": "Organizations\\nPK: organization_id"
+    },
+    {
+      "id": "Parties",
+      "label": "Parties\\nPK: party_id"
+    },
+    {
+      "id": "Party_Addresses",
+      "label": "Party_Addresses\\nPK: party_id, address_id"
+    },
+    {
+      "id": "Party_Forms",
+      "label": "Party_Forms\\nPK: party_id, form_id"
+    },
+    {
+      "id": "Party_Services",
+      "label": "Party_Services\\nPK: (none)"
+    },
+    {
+      "id": "Services",
+      "label": "Services\\nPK: service_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Forms",
+      "to": "Services",
+      "label": "service_id -> service_id"
+    },
+    {
+      "from": "Organization_Contact_Individuals",
+      "to": "Individuals",
+      "label": "individual_id -> individual_id"
+    },
+    {
+      "from": "Organization_Contact_Individuals",
+      "to": "Organizations",
+      "label": "organization_id -> organization_id"
+    },
+    {
+      "from": "Party_Addresses",
+      "to": "Parties",
+      "label": "party_id -> party_id"
+    },
+    {
+      "from": "Party_Addresses",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    },
+    {
+      "from": "Party_Forms",
+      "to": "Forms",
+      "label": "form_id -> form_id"
+    },
+    {
+      "from": "Party_Forms",
+      "to": "Parties",
+      "label": "party_id -> party_id"
+    },
+    {
+      "from": "Party_Services",
+      "to": "Parties",
+      "label": "customer_id -> party_id"
+    },
+    {
+      "from": "Party_Services",
+      "to": "Services",
+      "label": "service_id -> service_id"
+    }
+  ]
+}

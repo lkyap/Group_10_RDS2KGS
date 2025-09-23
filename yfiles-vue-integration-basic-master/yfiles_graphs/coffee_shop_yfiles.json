@@ -1,0 +1,33 @@
+{
+  "id": "coffee_shop",
+  "nodes": [
+    {
+      "id": "happy_hour",
+      "label": "happy_hour\\nPK: HH_ID, Shop_ID, Month"
+    },
+    {
+      "id": "happy_hour_member",
+      "label": "happy_hour_member\\nPK: HH_ID, Member_ID"
+    },
+    {
+      "id": "member",
+      "label": "member\\nPK: Member_ID"
+    },
+    {
+      "id": "shop",
+      "label": "shop\\nPK: Shop_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "happy_hour",
+      "to": "shop",
+      "label": "Shop_ID -> Shop_ID"
+    },
+    {
+      "from": "happy_hour_member",
+      "to": "member",
+      "label": "Member_ID -> Member_ID"
+    }
+  ]
+}

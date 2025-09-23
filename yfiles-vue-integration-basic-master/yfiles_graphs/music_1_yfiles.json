@@ -1,0 +1,48 @@
+{
+  "id": "music_1",
+  "nodes": [
+    {
+      "id": "artist",
+      "label": "artist\\nPK: artist_name"
+    },
+    {
+      "id": "files",
+      "label": "files\\nPK: f_id"
+    },
+    {
+      "id": "genre",
+      "label": "genre\\nPK: g_name"
+    },
+    {
+      "id": "song",
+      "label": "song\\nPK: song_name"
+    }
+  ],
+  "edges": [
+    {
+      "from": "artist",
+      "to": "genre",
+      "label": "preferred_genre -> g_name"
+    },
+    {
+      "from": "files",
+      "to": "artist",
+      "label": "artist_name -> artist_name"
+    },
+    {
+      "from": "song",
+      "to": "genre",
+      "label": "genre_is -> g_name"
+    },
+    {
+      "from": "song",
+      "to": "files",
+      "label": "f_id -> f_id"
+    },
+    {
+      "from": "song",
+      "to": "artist",
+      "label": "artist_name -> artist_name"
+    }
+  ]
+}

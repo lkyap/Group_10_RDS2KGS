@@ -1,0 +1,20 @@
+{
+  "id": "election_representative",
+  "nodes": [
+    {
+      "id": "election",
+      "label": "election\\nPK: Election_ID"
+    },
+    {
+      "id": "representative",
+      "label": "representative\\nPK: Representative_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "election",
+      "to": "representative",
+      "label": "Representative_ID -> Representative_ID"
+    }
+  ]
+}

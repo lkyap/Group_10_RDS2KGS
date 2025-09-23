@@ -1,0 +1,204 @@
+{
+  "id": "cre_Drama_Workshop_Groups",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: Address_ID"
+    },
+    {
+      "id": "Bookings",
+      "label": "Bookings\\nPK: Booking_ID"
+    },
+    {
+      "id": "Bookings_Services",
+      "label": "Bookings_Services\\nPK: Order_ID, Product_ID"
+    },
+    {
+      "id": "Clients",
+      "label": "Clients\\nPK: Client_ID"
+    },
+    {
+      "id": "Customer_Orders",
+      "label": "Customer_Orders\\nPK: Order_ID"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: Customer_ID"
+    },
+    {
+      "id": "Drama_Workshop_Groups",
+      "label": "Drama_Workshop_Groups\\nPK: Workshop_Group_ID"
+    },
+    {
+      "id": "Invoice_Items",
+      "label": "Invoice_Items\\nPK: Invoice_Item_ID"
+    },
+    {
+      "id": "Invoices",
+      "label": "Invoices\\nPK: Invoice_ID"
+    },
+    {
+      "id": "Marketing_Regions",
+      "label": "Marketing_Regions\\nPK: Marketing_Region_Code"
+    },
+    {
+      "id": "Order_Items",
+      "label": "Order_Items\\nPK: Order_Item_ID"
+    },
+    {
+      "id": "Performers",
+      "label": "Performers\\nPK: Performer_ID"
+    },
+    {
+      "id": "Performers_in_Bookings",
+      "label": "Performers_in_Bookings\\nPK: Order_ID, Performer_ID"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: Product_ID"
+    },
+    {
+      "id": "Ref_Payment_Methods",
+      "label": "Ref_Payment_Methods\\nPK: payment_method_code"
+    },
+    {
+      "id": "Ref_Service_Types",
+      "label": "Ref_Service_Types\\nPK: Service_Type_Code"
+    },
+    {
+      "id": "Services",
+      "label": "Services\\nPK: Service_ID"
+    },
+    {
+      "id": "Stores",
+      "label": "Stores\\nPK: Store_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Bookings",
+      "to": "Drama_Workshop_Groups",
+      "label": "Workshop_Group_ID -> Workshop_Group_ID"
+    },
+    {
+      "from": "Bookings",
+      "to": "Clients",
+      "label": "Customer_ID -> Client_ID"
+    },
+    {
+      "from": "Bookings_Services",
+      "to": "Services",
+      "label": "Product_ID -> Service_ID"
+    },
+    {
+      "from": "Bookings_Services",
+      "to": "Bookings",
+      "label": "Order_ID -> Booking_ID"
+    },
+    {
+      "from": "Clients",
+      "to": "Addresses",
+      "label": "Address_ID -> Address_ID"
+    },
+    {
+      "from": "Customer_Orders",
+      "to": "Stores",
+      "label": "Store_ID -> Store_ID"
+    },
+    {
+      "from": "Customer_Orders",
+      "to": "Customers",
+      "label": "Customer_ID -> Customer_ID"
+    },
+    {
+      "from": "Customers",
+      "to": "Addresses",
+      "label": "Address_ID -> Address_ID"
+    },
+    {
+      "from": "Drama_Workshop_Groups",
+      "to": "Addresses",
+      "label": "Address_ID -> Address_ID"
+    },
+    {
+      "from": "Invoice_Items",
+      "to": "Bookings_Services",
+      "label": "Order_ID -> Order_ID"
+    },
+    {
+      "from": "Invoice_Items",
+      "to": "Bookings_Services",
+      "label": "Product_ID -> Product_ID"
+    },
+    {
+      "from": "Invoice_Items",
+      "to": "Invoices",
+      "label": "Invoice_ID -> Invoice_ID"
+    },
+    {
+      "from": "Invoice_Items",
+      "to": "Order_Items",
+      "label": "Order_Item_ID -> Order_Item_ID"
+    },
+    {
+      "from": "Invoices",
+      "to": "Ref_Payment_Methods",
+      "label": "payment_method_code -> payment_method_code"
+    },
+    {
+      "from": "Invoices",
+      "to": "Bookings",
+      "label": "Order_ID -> Booking_ID"
+    },
+    {
+      "from": "Invoices",
+      "to": "Customer_Orders",
+      "label": "Order_ID -> Order_ID"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Products",
+      "label": "Product_ID -> Product_ID"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Customer_Orders",
+      "label": "Order_ID -> Order_ID"
+    },
+    {
+      "from": "Performers",
+      "to": "Addresses",
+      "label": "Address_ID -> Address_ID"
+    },
+    {
+      "from": "Performers_in_Bookings",
+      "to": "Bookings",
+      "label": "Order_ID -> Booking_ID"
+    },
+    {
+      "from": "Performers_in_Bookings",
+      "to": "Performers",
+      "label": "Performer_ID -> Performer_ID"
+    },
+    {
+      "from": "Services",
+      "to": "Ref_Service_Types",
+      "label": "Service_Type_Code -> Service_Type_Code"
+    },
+    {
+      "from": "Services",
+      "to": "Drama_Workshop_Groups",
+      "label": "Workshop_Group_ID -> Workshop_Group_ID"
+    },
+    {
+      "from": "Stores",
+      "to": "Marketing_Regions",
+      "label": "Marketing_Region_Code -> Marketing_Region_Code"
+    },
+    {
+      "from": "Stores",
+      "to": "Addresses",
+      "label": "Address_ID -> Address_ID"
+    }
+  ]
+}

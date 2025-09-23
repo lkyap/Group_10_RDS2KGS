@@ -1,0 +1,38 @@
+{
+  "id": "game_1",
+  "nodes": [
+    {
+      "id": "Plays_Games",
+      "label": "Plays_Games\\nPK: (none)"
+    },
+    {
+      "id": "SportsInfo",
+      "label": "SportsInfo\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    },
+    {
+      "id": "Video_Games",
+      "label": "Video_Games\\nPK: GameID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Plays_Games",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    },
+    {
+      "from": "Plays_Games",
+      "to": "Video_Games",
+      "label": "GameID -> GameID"
+    },
+    {
+      "from": "SportsInfo",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "company_employee",
+  "nodes": [
+    {
+      "id": "company",
+      "label": "company\\nPK: Company_ID"
+    },
+    {
+      "id": "employment",
+      "label": "employment\\nPK: Company_ID, People_ID"
+    },
+    {
+      "id": "people",
+      "label": "people\\nPK: People_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "employment",
+      "to": "people",
+      "label": "People_ID -> People_ID"
+    },
+    {
+      "from": "employment",
+      "to": "company",
+      "label": "Company_ID -> Company_ID"
+    }
+  ]
+}
