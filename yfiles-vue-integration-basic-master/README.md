@@ -6,6 +6,12 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 
 **To run this project, a valid [yFiles for HTML](https://www.yfiles.com/the-yfiles-sdk/web/yfiles-for-html) version is required. You can evaluate yFiles 60 days free of charge on [my.yworks.com](https://my.yworks.com/signup?product=YFILES_HTML_EVAL).**
 
+## Prerequisites
+
+- Install [Node.js](https://nodejs.org/) (LTS version is recommended) before running any npm scripts.
+- Download a matching yFiles for HTML `.tgz` archive from your yFiles installation. In the evaluation package you will find it inside the `lib/` folder (for example `lib/yfiles-30.0.3+eval-dev.tgz`). Copy that file into the project root so that it sits next to `package.json`. The dependency declaration in `package.json` expects the file at `./yfiles-30.0.3+eval-dev.tgz` – adjust the name if you are using a different yFiles build.
+- Replace the placeholder `license.json` in the project root with the license file that belongs to your yFiles distribution. The post-install script copies it to `src/license.json`, so keeping it up to date here is enough.
+
 ## Version Information
 
 - create-vue v3.3
@@ -13,23 +19,22 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 
 ## Getting Started
 
-Just clone this repository with
+1. Clone this repository (or your fork):
+   ```
+   git clone https://github.com/<your-account>/project_rdmstokgs.git
+   cd project_rdmstokgs/yfiles-vue-integration-basic-master
+   ```
+2. Ensure the yFiles `.tgz` archive and your `license.json` are present as described above.
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Start the dev server on [http://localhost:5173/](http://localhost:5173/):
+   ```
+   npm run dev
+   ```
 
-```
-git clone https://github.com/yWorks/yfiles-vue-integration-basic
-```
-
-Then, extract a yFiles Evaluation package besides it and run
-
-```
-npm install
-```
-
-You can serve the application on [http://localhost:5173/](http://localhost:5173/) with
-
-```
-npm run dev
-```
+Run `npm run build` whenever you need a production build, and `npm run preview` to inspect that build locally.
 
 ## Under the Hood
 
