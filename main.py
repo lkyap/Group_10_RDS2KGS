@@ -23,12 +23,17 @@ from GraphCreation import GraphCreation
 from kgscreate import MetaGraphBuilder
 import DataMapping
 from pathlib import Path
+from dotenv import load_dotenv
+from schema_relationship_eval import Schema_Evaluation,Relationship_Evaluation
+import csv
+
 
 '''
 Section 1: Set up database directory / database file name
 
 Instructions:
 - Replace the "db_dataset" if the database folder is different
+- Rename the folder name if needed
 '''
 
 # Set database directory and get the list of database in the folder
@@ -44,8 +49,15 @@ rds_data_dir.mkdir(parents=True,exist_ok=True)
 
 # Set directory for Knowledge Graph schema return from LLM
 kgs_schema_dir = Path("kgs_schema_generated")
-
 kgs_schema_dir.mkdir(parents=True,exist_ok=True)
+
+# Set directory for Knowledge Graph data by mapping extracted
+kgs_data_dir = Path("kgs_data_generated")
+kgs_data_dir.mkdir(parents=True,exist_ok=True)
+
+# Set directory for the evaluation result for showing in 
+csv_eval_dir = Path("evaluation_summary")
+csv_eval_dir.mkdir(parents=True,exist_ok=True)
 
 '''
 Section 2: Relational database schema and data extraction
@@ -59,7 +71,15 @@ Descriptions:
 
 '''
 # Initialize agent and model
-LLMAgent = LLMKGAgent(model="gpt-5-mini")
+load_dotenv("cred.env")
+api_key = os.getenv("OPENAI_API_KEY")
+
+# Get the API key and set the model we wish to use from OpenAI
+LLMAgent = LLMKGAgent(api_key=api_key,model="gpt-5-mini")
+
+# Initialize variable for Evaluation Result
+
+all_db_eval_summary = []
 
 # Loop through the database in the folder
 for db in db_files_list:
@@ -75,7 +95,7 @@ for db in db_files_list:
         print(f"{db.name} schema extracted successfully.\n")
 
         # Extract the relational database data and store in JSON file
-        data = extractor.extract_data(str(db),limit=50)
+        data = extractor.extract_data(str(db))
         data_json = rds_data_dir / f"{db.stem}_data.json"
         with open(data_json,"w",encoding="utf-8") as f:
             json.dump(data,f,indent=2)
@@ -95,20 +115,78 @@ for db in db_files_list:
         # Get the LLM to generate the knowledge graph schema
         graph_json = LLMAgent.generate_kgs(schema)
 
+        # Create a JSON file and write in the schema generated
         kgs_schema_file = kgs_schema_dir / f"{db.stem}_kgs.json"
 
         with open(kgs_schema_file,"w",encoding="utf-8") as f:
             json.dump(graph_json,f,indent=2)
+        
+        print(f"KGS for {db.name} is created by LLM")
+
+        # Create nodes based on the KGS schema return by LLM
+        kgs_data = DataMapping.rds_kgs_data(rds_data=data,kgs_schema=graph_json)
+
+        # Create JSON file
+        kgs_data_file = kgs_data_dir / f"{db.stem}_kgs_data.json"
+
+        # Write in the JSON KGS data
+        with open(kgs_data_file,"w",encoding="utf-8") as f:
+            json.dump(kgs_data,f,indent=2)
+
+        print(f"KGS data of {db.name} created successfully")
+
+
+        """
+        Section 4: Evaluation - Schema Completeness and Relationship Completeness
+
+        Descriptions:
+
+        1. Schema Completeness - Measure the records in an entity with total nodes created in KGS
+        2. Relationship Completeness - Measure the records of an entity that has relationship with another entity 
+        
+        """
+
+        # Schema completeness
+        schema_eval = Schema_Evaluation(rds_data_file = data_json,kgs_data_file= kgs_data_file)
+        schema_eval_result = schema_eval.eval_schema_complete()
+
+        # Relationship completeness
+        rel_eval = Relationship_Evaluation(rds_schema_file=schema_json,rds_data_file=data_json,kgs_data_file=kgs_data_file)
+        rel_eval_result =  rel_eval.eval_relationship_complete()
+
+        # Summary result for a DB
+        db_eval_summary = {
+            "DB_Name":db.stem,
+            # Return empty dict and 0 if no result found
+            "Schema_Comp": schema_eval_result.get("Schema_Comp_DB",{}).get("SC",0),
+            "Relationship_Comp": rel_eval_result.get("RC_DB",{}).get("RC_DB",0)
+        }
+
+        print(f"Summary of evaluation on {db.stem}:\n{db_eval_summary}")
+
+        # Append each of the DB evaluation result into a list
+        all_db_eval_summary.append(db_eval_summary)
 
     # Return error
     except Exception as exp_error:
         print(f"Error in processing {db.name}:{exp_error}")
 
-    
+# Create a CSV file
+eval_csv_file = csv_eval_dir / f"evaluation_summary.csv"
+
+# Write the CSV file with the summary result
+with open(eval_csv_file,"w",newline="",encoding="utf-8") as f:
+    writer = csv.DictWriter(f,fieldnames = ["DB_Name","Schema_Comp","Relationship_Comp"])
+    writer.writeheader()
+    writer.writerows(all_db_eval_summary)
+
+print("\nEvaluation summary saved into {eval_csv_file}")
+
 
 '''
-The following is to build the metagraph
+The following is to build the metagraph on Neo4j. 
 
+Purpose: Compare the Neo4j and yFiles to see which is more user friendly
 '''
 
 
@@ -139,16 +217,17 @@ The following is the improvement plan for the future:
 
 """Uncomment the following if you wish to obtain the result for entity discovery and relationship"""
 
-# # Discover entities
-# entities = LLMAgent.discover_entities(schema)
+# Discover entities
 
-# print("Entities as below:/n")
-# print(json.dumps(entities,indent=2))
+entities = LLMAgent.discover_entities(graph_json)
 
-# # Discover relationship
-# relationship = LLMAgent.discover_relationship(schema,entities)
+print("Entities as below:/n")
+print(json.dumps(entities,indent=2))
 
-# print(f"Relationship as below:/n {json.dumps(relationship, indent=2)}")
+# Discover relationship
+relationship = LLMAgent.discover_relationship(graph_json,entities)
+
+print(f"Relationship as below:/n {json.dumps(relationship, indent=2)}")
 
 
 
