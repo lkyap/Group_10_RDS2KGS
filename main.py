@@ -27,7 +27,6 @@ from dotenv import load_dotenv
 from schema_relationship_eval import Schema_Evaluation,Relationship_Evaluation
 import csv
 
-
 '''
 Section 1: Set up database directory / database file name
 
@@ -157,6 +156,7 @@ for db in db_files_list:
         # Summary result for a DB
         db_eval_summary = {
             "DB_Name":db.stem,
+            "KGS": f"{db.stem}_kgs_data",
             # Return empty dict and 0 if no result found
             "Schema_Comp": schema_eval_result.get("Schema_Comp_DB",{}).get("SC",0),
             "Relationship_Comp": rel_eval_result.get("RC_DB",{}).get("RC_DB",0)
@@ -176,7 +176,7 @@ eval_csv_file = csv_eval_dir / f"evaluation_summary.csv"
 
 # Write the CSV file with the summary result
 with open(eval_csv_file,"w",newline="",encoding="utf-8") as f:
-    writer = csv.DictWriter(f,fieldnames = ["DB_Name","Schema_Comp","Relationship_Comp"])
+    writer = csv.DictWriter(f,fieldnames = ["DB_Name","KGS","Schema_Comp","Relationship_Comp"])
     writer.writeheader()
     writer.writerows(all_db_eval_summary)
 
@@ -187,22 +187,28 @@ print("\nEvaluation summary saved into {eval_csv_file}")
 The following is to build the metagraph on Neo4j. 
 
 Purpose: Compare the Neo4j and yFiles to see which is more user friendly
+
+Description: 
+1. Set your own URI, User and password in the cred.env file
+2. Populate one of the metagraph to see the outcome. 
 '''
 
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4J_USER")
+password = os.getenv("NEO4J_PASSWORD")
 
-# # Build metagraph
-# builder = MetaGraphBuilder("bolt://localhost:7687", "neo4j", "CapstoneProject@1234")
+# Build metagraph
+builder = MetaGraphBuilder(uri=NEO4J_URI,user=NEO4J_USER,password= password)
 
 # # Clean database before creating
-# builder.reset_database("neo4j")
+builder.reset_database("neo4j")
 
-# # Build the metagraph
-# builder.build_metagraph(graph_json)
-# builder.close()
+# Build the metagraph
+with open("kgs_schema_generated/bird_cars_kgs.json","r",encoding="utf-8") as f:
+    graph_json = json.load(f)
 
-# show_data = DataMapping.map_relational_data_to_graph_format(graph_json,data)
-# extractor.export_to_json(show_data,"swimming_data")
-# print(show_data)
+builder.build_metagraph(graph_json)
+builder.close()
 
 
 """
@@ -214,11 +220,7 @@ The following is the improvement plan for the future:
 3. From the schema discovered, create the entity and relationships in form of metagraph and load the data to create nodes and relationships between them.
 """
 
-
-"""Uncomment the following if you wish to obtain the result for entity discovery and relationship"""
-
 # Discover entities
-
 entities = LLMAgent.discover_entities(graph_json)
 
 print("Entities as below:/n")
@@ -228,6 +230,4 @@ print(json.dumps(entities,indent=2))
 relationship = LLMAgent.discover_relationship(graph_json,entities)
 
 print(f"Relationship as below:/n {json.dumps(relationship, indent=2)}")
-
-
 
