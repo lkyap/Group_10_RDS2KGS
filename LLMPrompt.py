@@ -8,7 +8,7 @@ Descriptions:
 
 """
 
-
+# This is part of the improvement plan that use to discover the entity
 entity_discovery_prompt = """
 You are expertise in knowledge graph schema design and relational database design.
 You have extensive experience in extracting entities and their properties from structured data to design efficient and meaningful knowledge graphs. 
@@ -58,7 +58,7 @@ Example:
 }
 
 """
-
+# This is part of the improvement plan to discover the relationship
 relationship_discovery_prompt = """
 You are an experience data modeller and specialize in both knowledge graph design and relational database design.
 You have experience across many industries and have domain knowledge about those industries. 
@@ -118,7 +118,7 @@ Example:
 
 """
 
- 
+# Given the extracted RDS schema, return the Knowledge Graph Schema by using LLM
 graph_entity_prompt = """
 You are an expert in knowledge graph design and relational database modeling. 
 You are provided with the schema of a relational database. 
@@ -137,7 +137,7 @@ Example as below:
 
 Instructions:
 1. Discover entities / nodes in graph:
-Your task is to identify meaningful entities such as Airport, Flight, Company from the given schema.
+Your task is to identify meaningful entities such as Airport, Flight, Company from the given schema. Do not rename the entity name when you convert from RDS
 For each identified entity, you will identify key property and list all relevant properties which you can extract from the columns name.
 You will NOT duplicate properties across multiple entities.
 Consider to merge properties if multiple tables states the same property or properties.
@@ -154,7 +154,7 @@ Output format required:
 Return a single JSON object that contains 2 keys:
 
 1. "Nodes": An array of entities. Each object must contain the following
-"id"(string): Entity Name (Example: Flight,Company, Employee, Employer, University)
+"id"(string): Entity Name (Example: Flight,Company, Employee, Employer, University).
 "Properties" (List of String): Usually is columns in relational database / property names
 "key" (String): Primary key of relational database
 Example of nodes:
