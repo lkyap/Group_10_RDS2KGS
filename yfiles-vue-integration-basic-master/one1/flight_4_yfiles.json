@@ -1,0 +1,34 @@
+{
+  "id": "flight_4",
+  "nodes": [
+    {
+      "id": "airlines",
+      "label": "airlines\\nPK: alid"
+    },
+    {
+      "id": "airports",
+      "label": "airports\\nPK: apid"
+    },
+    {
+      "id": "routes",
+      "label": "routes\\nPK: rid"
+    }
+  ],
+  "edges": [
+    {
+      "from": "routes",
+      "to": "airlines",
+      "label": "alid -> alid"
+    },
+    {
+      "from": "routes",
+      "to": "airports",
+      "label": "src_apid -> apid"
+    },
+    {
+      "from": "routes",
+      "to": "airports",
+      "label": "dst_apid -> apid"
+    }
+  ]
+}

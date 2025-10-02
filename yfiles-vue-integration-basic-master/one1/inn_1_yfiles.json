@@ -1,0 +1,20 @@
+{
+  "id": "inn_1",
+  "nodes": [
+    {
+      "id": "Reservations",
+      "label": "Reservations\\nPK: Code"
+    },
+    {
+      "id": "Rooms",
+      "label": "Rooms\\nPK: RoomId"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Reservations",
+      "to": "Rooms",
+      "label": "Room -> RoomId"
+    }
+  ]
+}

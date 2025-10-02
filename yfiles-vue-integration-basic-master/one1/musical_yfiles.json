@@ -1,0 +1,20 @@
+{
+  "id": "musical",
+  "nodes": [
+    {
+      "id": "actor",
+      "label": "actor\\nPK: Actor_ID"
+    },
+    {
+      "id": "musical",
+      "label": "musical\\nPK: Musical_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "actor",
+      "to": "actor",
+      "label": "Musical_ID -> Actor_ID"
+    }
+  ]
+}

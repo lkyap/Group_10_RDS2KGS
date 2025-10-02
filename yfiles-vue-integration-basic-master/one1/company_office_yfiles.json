@@ -1,0 +1,29 @@
+{
+  "id": "company_office",
+  "nodes": [
+    {
+      "id": "Companies",
+      "label": "Companies\\nPK: id"
+    },
+    {
+      "id": "Office_locations",
+      "label": "Office_locations\\nPK: building_id, company_id"
+    },
+    {
+      "id": "buildings",
+      "label": "buildings\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Office_locations",
+      "to": "Companies",
+      "label": "company_id -> id"
+    },
+    {
+      "from": "Office_locations",
+      "to": "buildings",
+      "label": "building_id -> id"
+    }
+  ]
+}

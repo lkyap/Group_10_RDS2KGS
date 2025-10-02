@@ -1,0 +1,29 @@
+{
+  "id": "flight_2",
+  "nodes": [
+    {
+      "id": "airlines",
+      "label": "airlines\\nPK: uid"
+    },
+    {
+      "id": "airports",
+      "label": "airports\\nPK: AirportCode"
+    },
+    {
+      "id": "flights",
+      "label": "flights\\nPK: Airline, FlightNo"
+    }
+  ],
+  "edges": [
+    {
+      "from": "flights",
+      "to": "airports",
+      "label": "DestAirport -> AirportCode"
+    },
+    {
+      "from": "flights",
+      "to": "airports",
+      "label": "SourceAirport -> AirportCode"
+    }
+  ]
+}

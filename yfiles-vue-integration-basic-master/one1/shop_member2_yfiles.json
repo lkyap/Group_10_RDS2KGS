@@ -1,0 +1,76 @@
+{
+    "nodes": [
+        {
+            "id": "Member",
+            "properties": [
+                "Member_ID",
+                "Card_Number",
+                "Name",
+                "Hometown",
+                "Level"
+            ],
+            "key": "Member_ID"
+        },
+        {
+            "id": "Branch",
+            "properties": [
+                "Branch_ID",
+                "Name",
+                "Open_year",
+                "Address_road",
+                "City",
+                "membership_amount"
+            ],
+            "key": "Branch_ID"
+        },
+        {
+            "id": "membership_register_branch",
+            "properties": [
+                "Member_ID",
+                "Branch_ID",
+                "Register_Year"
+            ],
+            "key": "Member_ID"
+        },
+        {
+            "id": "purchase",
+            "properties": [
+                "Member_ID",
+                "Branch_ID",
+                "Year",
+                "Total_pounds"
+            ],
+            "key": "Member_ID,Branch_ID,Year"
+        }
+    ],
+    "edges": [
+        {
+            "source": "membership_register_branch",
+            "target": "Branch",
+            "relationship": "REGISTERED_AT",
+            "source_column": "Branch_ID",
+            "target_column": "Branch_ID"
+        },
+        {
+            "source": "membership_register_branch",
+            "target": "Member",
+            "relationship": "REGISTERED_MEMBER",
+            "source_column": "Member_ID",
+            "target_column": "Member_ID"
+        },
+        {
+            "source": "purchase",
+            "target": "Branch",
+            "relationship": "PURCHASED_AT",
+            "source_column": "Branch_ID",
+            "target_column": "Branch_ID"
+        },
+        {
+            "source": "purchase",
+            "target": "Member",
+            "relationship": "PURCHASED_BY",
+            "source_column": "Member_ID",
+            "target_column": "Member_ID"
+        }
+    ]
+}

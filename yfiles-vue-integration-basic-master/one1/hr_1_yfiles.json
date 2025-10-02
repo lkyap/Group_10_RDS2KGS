@@ -1,0 +1,70 @@
+{
+  "id": "hr_1",
+  "nodes": [
+    {
+      "id": "countries",
+      "label": "countries\\nPK: COUNTRY_ID"
+    },
+    {
+      "id": "departments",
+      "label": "departments\\nPK: DEPARTMENT_ID"
+    },
+    {
+      "id": "employees",
+      "label": "employees\\nPK: EMPLOYEE_ID"
+    },
+    {
+      "id": "job_history",
+      "label": "job_history\\nPK: EMPLOYEE_ID, START_DATE"
+    },
+    {
+      "id": "jobs",
+      "label": "jobs\\nPK: JOB_ID"
+    },
+    {
+      "id": "locations",
+      "label": "locations\\nPK: LOCATION_ID"
+    },
+    {
+      "id": "regions",
+      "label": "regions\\nPK: REGION_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "countries",
+      "to": "regions",
+      "label": "REGION_ID -> REGION_ID"
+    },
+    {
+      "from": "employees",
+      "to": "jobs",
+      "label": "JOB_ID -> JOB_ID"
+    },
+    {
+      "from": "employees",
+      "to": "departments",
+      "label": "DEPARTMENT_ID -> DEPARTMENT_ID"
+    },
+    {
+      "from": "job_history",
+      "to": "jobs",
+      "label": "JOB_ID -> JOB_ID"
+    },
+    {
+      "from": "job_history",
+      "to": "departments",
+      "label": "DEPARTMENT_ID -> DEPARTMENT_ID"
+    },
+    {
+      "from": "job_history",
+      "to": "employees",
+      "label": "EMPLOYEE_ID -> EMPLOYEE_ID"
+    },
+    {
+      "from": "locations",
+      "to": "countries",
+      "label": "COUNTRY_ID -> COUNTRY_ID"
+    }
+  ]
+}

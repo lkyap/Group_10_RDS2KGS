@@ -1,0 +1,47 @@
+{
+  "id": "aircraft",
+  "nodes": [
+    {
+      "id": "aircraft",
+      "label": "aircraft\\nPK: Aircraft_ID"
+    },
+    {
+      "id": "airport",
+      "label": "airport\\nPK: Airport_ID"
+    },
+    {
+      "id": "airport_aircraft",
+      "label": "airport_aircraft\\nPK: Airport_ID, Aircraft_ID"
+    },
+    {
+      "id": "match",
+      "label": "match\\nPK: Round"
+    },
+    {
+      "id": "pilot",
+      "label": "pilot\\nPK: Pilot_Id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "airport_aircraft",
+      "to": "aircraft",
+      "label": "Aircraft_ID -> Aircraft_ID"
+    },
+    {
+      "from": "airport_aircraft",
+      "to": "airport",
+      "label": "Airport_ID -> Airport_ID"
+    },
+    {
+      "from": "match",
+      "to": "pilot",
+      "label": "Winning_Pilot -> Pilot_Id"
+    },
+    {
+      "from": "match",
+      "to": "aircraft",
+      "label": "Winning_Aircraft -> Aircraft_ID"
+    }
+  ]
+}

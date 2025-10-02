@@ -1,0 +1,29 @@
+{
+  "id": "culture_company",
+  "nodes": [
+    {
+      "id": "book_club",
+      "label": "book_club\\nPK: book_club_id"
+    },
+    {
+      "id": "culture_company",
+      "label": "culture_company\\nPK: Company_name"
+    },
+    {
+      "id": "movie",
+      "label": "movie\\nPK: movie_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "culture_company",
+      "to": "movie",
+      "label": "movie_id -> movie_id"
+    },
+    {
+      "from": "culture_company",
+      "to": "book_club",
+      "label": "book_club_id -> book_club_id"
+    }
+  ]
+}

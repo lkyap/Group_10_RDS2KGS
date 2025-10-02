@@ -1,0 +1,60 @@
+{
+  "id": "customers_and_products_contacts",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Contacts",
+      "label": "Contacts\\nPK: contact_id"
+    },
+    {
+      "id": "Customer_Address_History",
+      "label": "Customer_Address_History\\nPK: (none)"
+    },
+    {
+      "id": "Customer_Orders",
+      "label": "Customer_Orders\\nPK: order_id"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Order_Items",
+      "label": "Order_Items\\nPK: (none)"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: product_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Customer_Address_History",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    },
+    {
+      "from": "Customer_Address_History",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Customer_Orders",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Customer_Orders",
+      "label": "order_id -> order_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    }
+  ]
+}

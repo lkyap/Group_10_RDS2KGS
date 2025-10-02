@@ -1,0 +1,29 @@
+{
+  "id": "medicine_enzyme_interaction",
+  "nodes": [
+    {
+      "id": "enzyme",
+      "label": "enzyme\\nPK: id"
+    },
+    {
+      "id": "medicine",
+      "label": "medicine\\nPK: id"
+    },
+    {
+      "id": "medicine_enzyme_interaction",
+      "label": "medicine_enzyme_interaction\\nPK: enzyme_id, medicine_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "medicine_enzyme_interaction",
+      "to": "medicine",
+      "label": "medicine_id -> id"
+    },
+    {
+      "from": "medicine_enzyme_interaction",
+      "to": "enzyme",
+      "label": "enzyme_id -> id"
+    }
+  ]
+}

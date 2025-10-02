@@ -1,0 +1,38 @@
+{
+  "id": "employee_hire_evaluation",
+  "nodes": [
+    {
+      "id": "employee",
+      "label": "employee\\nPK: Employee_ID"
+    },
+    {
+      "id": "evaluation",
+      "label": "evaluation\\nPK: Employee_ID, Year_awarded"
+    },
+    {
+      "id": "hiring",
+      "label": "hiring\\nPK: Employee_ID"
+    },
+    {
+      "id": "shop",
+      "label": "shop\\nPK: Shop_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "evaluation",
+      "to": "employee",
+      "label": "Employee_ID -> Employee_ID"
+    },
+    {
+      "from": "hiring",
+      "to": "employee",
+      "label": "Employee_ID -> Employee_ID"
+    },
+    {
+      "from": "hiring",
+      "to": "shop",
+      "label": "Shop_ID -> Shop_ID"
+    }
+  ]
+}

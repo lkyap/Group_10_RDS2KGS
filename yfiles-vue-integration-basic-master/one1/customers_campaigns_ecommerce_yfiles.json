@@ -1,0 +1,74 @@
+{
+  "id": "customers_campaigns_ecommerce",
+  "nodes": [
+    {
+      "id": "Customer_Addresses",
+      "label": "Customer_Addresses\\nPK: (none)"
+    },
+    {
+      "id": "Customer_Orders",
+      "label": "Customer_Orders\\nPK: order_id"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Mailshot_Campaigns",
+      "label": "Mailshot_Campaigns\\nPK: mailshot_id"
+    },
+    {
+      "id": "Mailshot_Customers",
+      "label": "Mailshot_Customers\\nPK: (none)"
+    },
+    {
+      "id": "Order_Items",
+      "label": "Order_Items\\nPK: (none)"
+    },
+    {
+      "id": "Premises",
+      "label": "Premises\\nPK: premise_id"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: product_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Customer_Addresses",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Customer_Addresses",
+      "to": "Premises",
+      "label": "premise_id -> premise_id"
+    },
+    {
+      "from": "Customer_Orders",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Mailshot_Customers",
+      "to": "Mailshot_Campaigns",
+      "label": "mailshot_id -> mailshot_id"
+    },
+    {
+      "from": "Mailshot_Customers",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Customer_Orders",
+      "label": "order_id -> order_id"
+    },
+    {
+      "from": "Order_Items",
+      "to": "Products",
+      "label": "product_id -> product_id"
+    }
+  ]
+}

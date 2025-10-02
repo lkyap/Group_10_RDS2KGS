@@ -1,0 +1,47 @@
+{
+  "id": "activity_1",
+  "nodes": [
+    {
+      "id": "Activity",
+      "label": "Activity\\nPK: actid"
+    },
+    {
+      "id": "Faculty",
+      "label": "Faculty\\nPK: FacID"
+    },
+    {
+      "id": "Faculty_Participates_in",
+      "label": "Faculty_Participates_in\\nPK: (none)"
+    },
+    {
+      "id": "Participates_in",
+      "label": "Participates_in\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Faculty_Participates_in",
+      "to": "Activity",
+      "label": "actid -> actid"
+    },
+    {
+      "from": "Faculty_Participates_in",
+      "to": "Faculty",
+      "label": "FacID -> FacID"
+    },
+    {
+      "from": "Participates_in",
+      "to": "Activity",
+      "label": "actid -> actid"
+    },
+    {
+      "from": "Participates_in",
+      "to": "Student",
+      "label": "stuid -> StuID"
+    }
+  ]
+}

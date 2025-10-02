@@ -1,0 +1,38 @@
+{
+  "id": "match_season",
+  "nodes": [
+    {
+      "id": "country",
+      "label": "country\\nPK: Country_id"
+    },
+    {
+      "id": "match_season",
+      "label": "match_season\\nPK: Season"
+    },
+    {
+      "id": "player",
+      "label": "player\\nPK: Player_ID"
+    },
+    {
+      "id": "team",
+      "label": "team\\nPK: Team_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "match_season",
+      "to": "team",
+      "label": "Team -> Team_id"
+    },
+    {
+      "from": "match_season",
+      "to": "country",
+      "label": "Country -> Country_id"
+    },
+    {
+      "from": "player",
+      "to": "team",
+      "label": "Team -> Team_id"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "hospital_1",
+  "nodes": [
+    {
+      "id": "Affiliated_With",
+      "label": "Affiliated_With\\nPK: Physician, Department"
+    },
+    {
+      "id": "Appointment",
+      "label": "Appointment\\nPK: AppointmentID"
+    },
+    {
+      "id": "Block",
+      "label": "Block\\nPK: BlockFloor, BlockCode"
+    },
+    {
+      "id": "Department",
+      "label": "Department\\nPK: DepartmentID"
+    },
+    {
+      "id": "Medication",
+      "label": "Medication\\nPK: Code"
+    },
+    {
+      "id": "Nurse",
+      "label": "Nurse\\nPK: EmployeeID"
+    },
+    {
+      "id": "On_Call",
+      "label": "On_Call\\nPK: Nurse, BlockFloor, BlockCode, OnCallStart, OnCallEnd"
+    },
+    {
+      "id": "Patient",
+      "label": "Patient\\nPK: SSN"
+    },
+    {
+      "id": "Physician",
+      "label": "Physician\\nPK: EmployeeID"
+    },
+    {
+      "id": "Prescribes",
+      "label": "Prescribes\\nPK: Physician, Patient, Medication, Date"
+    },
+    {
+      "id": "Procedures",
+      "label": "Procedures\\nPK: Code"
+    },
+    {
+      "id": "Room",
+      "label": "Room\\nPK: RoomNumber"
+    },
+    {
+      "id": "Stay",
+      "label": "Stay\\nPK: StayID"
+    },
+    {
+      "id": "Trained_In",
+      "label": "Trained_In\\nPK: Physician, Treatment"
+    },
+    {
+      "id": "Undergoes",
+      "label": "Undergoes\\nPK: Patient, Procedures, Stay, DateUndergoes"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Affiliated_With",
+      "to": "Department",
+      "label": "Department -> DepartmentID"
+    },
+    {
+      "from": "Affiliated_With",
+      "to": "Physician",
+      "label": "Physician -> EmployeeID"
+    },
+    {
+      "from": "Appointment",
+      "to": "Physician",
+      "label": "Physician -> EmployeeID"
+    },
+    {
+      "from": "Appointment",
+      "to": "Nurse",
+      "label": "PrepNurse -> EmployeeID"
+    },
+    {
+      "from": "Appointment",
+      "to": "Patient",
+      "label": "Patient -> SSN"
+    },
+    {
+      "from": "Department",
+      "to": "Physician",
+      "label": "Head -> EmployeeID"
+    },
+    {
+      "from": "On_Call",
+      "to": "Block",
+      "label": "BlockFloor -> BlockFloor"
+    },
+    {
+      "from": "On_Call",
+      "to": "Block",
+      "label": "BlockCode -> BlockCode"
+    },
+    {
+      "from": "On_Call",
+      "to": "Nurse",
+      "label": "Nurse -> EmployeeID"
+    },
+    {
+      "from": "Patient",
+      "to": "Physician",
+      "label": "PCP -> EmployeeID"
+    },
+    {
+      "from": "Prescribes",
+      "to": "Appointment",
+      "label": "Appointment -> AppointmentID"
+    },
+    {
+      "from": "Prescribes",
+      "to": "Medication",
+      "label": "Medication -> Code"
+    },
+    {
+      "from": "Prescribes",
+      "to": "Patient",
+      "label": "Patient -> SSN"
+    },
+    {
+      "from": "Prescribes",
+      "to": "Physician",
+      "label": "Physician -> EmployeeID"
+    },
+    {
+      "from": "Room",
+      "to": "Block",
+      "label": "BlockFloor -> BlockFloor"
+    },
+    {
+      "from": "Room",
+      "to": "Block",
+      "label": "BlockCode -> BlockCode"
+    },
+    {
+      "from": "Stay",
+      "to": "Room",
+      "label": "Room -> RoomNumber"
+    },
+    {
+      "from": "Stay",
+      "to": "Patient",
+      "label": "Patient -> SSN"
+    },
+    {
+      "from": "Trained_In",
+      "to": "Procedures",
+      "label": "Treatment -> Code"
+    },
+    {
+      "from": "Trained_In",
+      "to": "Physician",
+      "label": "Physician -> EmployeeID"
+    },
+    {
+      "from": "Undergoes",
+      "to": "Nurse",
+      "label": "AssistingNurse -> EmployeeID"
+    },
+    {
+      "from": "Undergoes",
+      "to": "Physician",
+      "label": "Physician -> EmployeeID"
+    },
+    {
+      "from": "Undergoes",
+      "to": "Stay",
+      "label": "Stay -> StayID"
+    },
+    {
+      "from": "Undergoes",
+      "to": "Procedures",
+      "label": "Procedures -> Code"
+    },
+    {
+      "from": "Undergoes",
+      "to": "Patient",
+      "label": "Patient -> SSN"
+    }
+  ]
+}

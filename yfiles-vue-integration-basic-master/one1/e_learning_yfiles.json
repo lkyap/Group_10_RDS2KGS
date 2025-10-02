@@ -1,0 +1,56 @@
+{
+  "id": "e_learning",
+  "nodes": [
+    {
+      "id": "Course_Authors_and_Tutors",
+      "label": "Course_Authors_and_Tutors\\nPK: author_id"
+    },
+    {
+      "id": "Courses",
+      "label": "Courses\\nPK: course_id"
+    },
+    {
+      "id": "Student_Course_Enrolment",
+      "label": "Student_Course_Enrolment\\nPK: registration_id"
+    },
+    {
+      "id": "Student_Tests_Taken",
+      "label": "Student_Tests_Taken\\nPK: (none)"
+    },
+    {
+      "id": "Students",
+      "label": "Students\\nPK: student_id"
+    },
+    {
+      "id": "Subjects",
+      "label": "Subjects\\nPK: subject_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Courses",
+      "to": "Subjects",
+      "label": "subject_id -> subject_id"
+    },
+    {
+      "from": "Courses",
+      "to": "Course_Authors_and_Tutors",
+      "label": "author_id -> author_id"
+    },
+    {
+      "from": "Student_Course_Enrolment",
+      "to": "Students",
+      "label": "student_id -> student_id"
+    },
+    {
+      "from": "Student_Course_Enrolment",
+      "to": "Courses",
+      "label": "course_id -> course_id"
+    },
+    {
+      "from": "Student_Tests_Taken",
+      "to": "Student_Course_Enrolment",
+      "label": "registration_id -> registration_id"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "academic",
+  "nodes": [
+    {
+      "id": "author",
+      "label": "author\\nPK: aid"
+    },
+    {
+      "id": "cite",
+      "label": "cite\\nPK: (none)"
+    },
+    {
+      "id": "conference",
+      "label": "conference\\nPK: cid"
+    },
+    {
+      "id": "domain",
+      "label": "domain\\nPK: did"
+    },
+    {
+      "id": "domain_author",
+      "label": "domain_author\\nPK: aid, did"
+    },
+    {
+      "id": "domain_conference",
+      "label": "domain_conference\\nPK: cid, did"
+    },
+    {
+      "id": "domain_journal",
+      "label": "domain_journal\\nPK: did, jid"
+    },
+    {
+      "id": "domain_keyword",
+      "label": "domain_keyword\\nPK: did, kid"
+    },
+    {
+      "id": "domain_publication",
+      "label": "domain_publication\\nPK: did, pid"
+    },
+    {
+      "id": "journal",
+      "label": "journal\\nPK: jid"
+    },
+    {
+      "id": "keyword",
+      "label": "keyword\\nPK: kid"
+    },
+    {
+      "id": "organization",
+      "label": "organization\\nPK: oid"
+    },
+    {
+      "id": "publication",
+      "label": "publication\\nPK: pid"
+    },
+    {
+      "id": "publication_keyword",
+      "label": "publication_keyword\\nPK: pid, kid"
+    },
+    {
+      "id": "writes",
+      "label": "writes\\nPK: aid, pid"
+    }
+  ],
+  "edges": [
+    {
+      "from": "cite",
+      "to": "publication",
+      "label": "citing -> pid"
+    },
+    {
+      "from": "cite",
+      "to": "publication",
+      "label": "cited -> pid"
+    },
+    {
+      "from": "domain_author",
+      "to": "domain",
+      "label": "did -> did"
+    },
+    {
+      "from": "domain_author",
+      "to": "author",
+      "label": "aid -> aid"
+    },
+    {
+      "from": "domain_conference",
+      "to": "domain",
+      "label": "did -> did"
+    },
+    {
+      "from": "domain_conference",
+      "to": "conference",
+      "label": "cid -> cid"
+    },
+    {
+      "from": "domain_journal",
+      "to": "domain",
+      "label": "did -> did"
+    },
+    {
+      "from": "domain_journal",
+      "to": "journal",
+      "label": "jid -> jid"
+    },
+    {
+      "from": "domain_keyword",
+      "to": "domain",
+      "label": "did -> did"
+    },
+    {
+      "from": "domain_keyword",
+      "to": "keyword",
+      "label": "kid -> kid"
+    },
+    {
+      "from": "domain_publication",
+      "to": "domain",
+      "label": "did -> did"
+    },
+    {
+      "from": "domain_publication",
+      "to": "publication",
+      "label": "pid -> pid"
+    },
+    {
+      "from": "publication",
+      "to": "conference",
+      "label": "cid -> cid"
+    },
+    {
+      "from": "publication",
+      "to": "journal",
+      "label": "jid -> jid"
+    },
+    {
+      "from": "publication_keyword",
+      "to": "keyword",
+      "label": "kid -> kid"
+    },
+    {
+      "from": "publication_keyword",
+      "to": "publication",
+      "label": "pid -> pid"
+    },
+    {
+      "from": "writes",
+      "to": "author",
+      "label": "aid -> aid"
+    },
+    {
+      "from": "writes",
+      "to": "publication",
+      "label": "pid -> pid"
+    }
+  ]
+}

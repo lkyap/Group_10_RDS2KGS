@@ -1,0 +1,116 @@
+{
+  "id": "behavior_monitoring",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Assessment_Notes",
+      "label": "Assessment_Notes\\nPK: (none)"
+    },
+    {
+      "id": "Behavior_Incident",
+      "label": "Behavior_Incident\\nPK: incident_id"
+    },
+    {
+      "id": "Detention",
+      "label": "Detention\\nPK: detention_id"
+    },
+    {
+      "id": "Ref_Address_Types",
+      "label": "Ref_Address_Types\\nPK: address_type_code"
+    },
+    {
+      "id": "Ref_Detention_Type",
+      "label": "Ref_Detention_Type\\nPK: detention_type_code"
+    },
+    {
+      "id": "Ref_Incident_Type",
+      "label": "Ref_Incident_Type\\nPK: incident_type_code"
+    },
+    {
+      "id": "Student_Addresses",
+      "label": "Student_Addresses\\nPK: (none)"
+    },
+    {
+      "id": "Students",
+      "label": "Students\\nPK: student_id"
+    },
+    {
+      "id": "Students_in_Detention",
+      "label": "Students_in_Detention\\nPK: (none)"
+    },
+    {
+      "id": "Teachers",
+      "label": "Teachers\\nPK: teacher_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Assessment_Notes",
+      "to": "Teachers",
+      "label": "teacher_id -> teacher_id"
+    },
+    {
+      "from": "Assessment_Notes",
+      "to": "Students",
+      "label": "student_id -> student_id"
+    },
+    {
+      "from": "Behavior_Incident",
+      "to": "Students",
+      "label": "student_id -> student_id"
+    },
+    {
+      "from": "Behavior_Incident",
+      "to": "Ref_Incident_Type",
+      "label": "incident_type_code -> incident_type_code"
+    },
+    {
+      "from": "Detention",
+      "to": "Teachers",
+      "label": "teacher_id -> teacher_id"
+    },
+    {
+      "from": "Detention",
+      "to": "Ref_Detention_Type",
+      "label": "detention_type_code -> detention_type_code"
+    },
+    {
+      "from": "Student_Addresses",
+      "to": "Students",
+      "label": "student_id -> student_id"
+    },
+    {
+      "from": "Student_Addresses",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    },
+    {
+      "from": "Students",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    },
+    {
+      "from": "Students_in_Detention",
+      "to": "Students",
+      "label": "student_id -> student_id"
+    },
+    {
+      "from": "Students_in_Detention",
+      "to": "Detention",
+      "label": "detention_id -> detention_id"
+    },
+    {
+      "from": "Students_in_Detention",
+      "to": "Behavior_Incident",
+      "label": "incident_id -> incident_id"
+    },
+    {
+      "from": "Teachers",
+      "to": "Addresses",
+      "label": "address_id -> address_id"
+    }
+  ]
+}

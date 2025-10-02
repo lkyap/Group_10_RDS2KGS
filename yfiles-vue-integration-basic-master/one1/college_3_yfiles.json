@@ -1,0 +1,84 @@
+{
+  "id": "college_3",
+  "nodes": [
+    {
+      "id": "Course",
+      "label": "Course\\nPK: CID"
+    },
+    {
+      "id": "Department",
+      "label": "Department\\nPK: DNO"
+    },
+    {
+      "id": "Enrolled_in",
+      "label": "Enrolled_in\\nPK: (none)"
+    },
+    {
+      "id": "Faculty",
+      "label": "Faculty\\nPK: FacID"
+    },
+    {
+      "id": "Gradeconversion",
+      "label": "Gradeconversion\\nPK: lettergrade"
+    },
+    {
+      "id": "Member_of",
+      "label": "Member_of\\nPK: (none)"
+    },
+    {
+      "id": "Minor_in",
+      "label": "Minor_in\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Course",
+      "to": "Department",
+      "label": "DNO -> DNO"
+    },
+    {
+      "from": "Course",
+      "to": "Faculty",
+      "label": "Instructor -> FacID"
+    },
+    {
+      "from": "Enrolled_in",
+      "to": "Gradeconversion",
+      "label": "Grade -> lettergrade"
+    },
+    {
+      "from": "Enrolled_in",
+      "to": "Course",
+      "label": "CID -> CID"
+    },
+    {
+      "from": "Enrolled_in",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    },
+    {
+      "from": "Member_of",
+      "to": "Department",
+      "label": "DNO -> DNO"
+    },
+    {
+      "from": "Member_of",
+      "to": "Faculty",
+      "label": "FacID -> FacID"
+    },
+    {
+      "from": "Minor_in",
+      "to": "Department",
+      "label": "DNO -> DNO"
+    },
+    {
+      "from": "Minor_in",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    }
+  ]
+}

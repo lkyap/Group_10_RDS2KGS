@@ -1,0 +1,20 @@
+{
+  "id": "book_2",
+  "nodes": [
+    {
+      "id": "book",
+      "label": "book\\nPK: Book_ID"
+    },
+    {
+      "id": "publication",
+      "label": "publication\\nPK: Publication_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "publication",
+      "to": "book",
+      "label": "Book_ID -> Book_ID"
+    }
+  ]
+}

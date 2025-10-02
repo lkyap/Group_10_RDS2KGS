@@ -1,0 +1,29 @@
+{
+  "id": "gas_company",
+  "nodes": [
+    {
+      "id": "company",
+      "label": "company\\nPK: Company_ID"
+    },
+    {
+      "id": "gas_station",
+      "label": "gas_station\\nPK: Station_ID"
+    },
+    {
+      "id": "station_company",
+      "label": "station_company\\nPK: Station_ID, Company_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "station_company",
+      "to": "company",
+      "label": "Company_ID -> Company_ID"
+    },
+    {
+      "from": "station_company",
+      "to": "gas_station",
+      "label": "Station_ID -> Station_ID"
+    }
+  ]
+}

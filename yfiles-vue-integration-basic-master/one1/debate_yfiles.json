@@ -1,0 +1,34 @@
+{
+  "id": "debate",
+  "nodes": [
+    {
+      "id": "debate",
+      "label": "debate\\nPK: Debate_ID"
+    },
+    {
+      "id": "debate_people",
+      "label": "debate_people\\nPK: Debate_ID, Affirmative, Negative"
+    },
+    {
+      "id": "people",
+      "label": "people\\nPK: People_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "debate_people",
+      "to": "people",
+      "label": "Negative -> People_ID"
+    },
+    {
+      "from": "debate_people",
+      "to": "people",
+      "label": "Affirmative -> People_ID"
+    },
+    {
+      "from": "debate_people",
+      "to": "debate",
+      "label": "Debate_ID -> Debate_ID"
+    }
+  ]
+}

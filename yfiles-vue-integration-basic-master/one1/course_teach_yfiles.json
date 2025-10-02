@@ -1,0 +1,29 @@
+{
+  "id": "course_teach",
+  "nodes": [
+    {
+      "id": "course",
+      "label": "course\\nPK: Course_ID"
+    },
+    {
+      "id": "course_arrange",
+      "label": "course_arrange\\nPK: Course_ID, Teacher_ID, Grade"
+    },
+    {
+      "id": "teacher",
+      "label": "teacher\\nPK: Teacher_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "course_arrange",
+      "to": "teacher",
+      "label": "Teacher_ID -> Teacher_ID"
+    },
+    {
+      "from": "course_arrange",
+      "to": "course",
+      "label": "Course_ID -> Course_ID"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "film_rank",
+  "nodes": [
+    {
+      "id": "film",
+      "label": "film\\nPK: Film_ID"
+    },
+    {
+      "id": "film_market_estimation",
+      "label": "film_market_estimation\\nPK: Estimation_ID"
+    },
+    {
+      "id": "market",
+      "label": "market\\nPK: Market_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "film_market_estimation",
+      "to": "market",
+      "label": "Market_ID -> Market_ID"
+    },
+    {
+      "from": "film_market_estimation",
+      "to": "film",
+      "label": "Film_ID -> Film_ID"
+    }
+  ]
+}

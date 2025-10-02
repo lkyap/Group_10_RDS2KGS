@@ -1,0 +1,38 @@
+{
+  "id": "city_record",
+  "nodes": [
+    {
+      "id": "city",
+      "label": "city\\nPK: City_ID"
+    },
+    {
+      "id": "hosting_city",
+      "label": "hosting_city\\nPK: Year"
+    },
+    {
+      "id": "match",
+      "label": "match\\nPK: Match_ID"
+    },
+    {
+      "id": "temperature",
+      "label": "temperature\\nPK: City_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "hosting_city",
+      "to": "match",
+      "label": "Match_ID -> Match_ID"
+    },
+    {
+      "from": "hosting_city",
+      "to": "city",
+      "label": "Host_City -> City_ID"
+    },
+    {
+      "from": "temperature",
+      "to": "city",
+      "label": "City_ID -> City_ID"
+    }
+  ]
+}

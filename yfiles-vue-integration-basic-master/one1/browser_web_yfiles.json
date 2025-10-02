@@ -1,0 +1,29 @@
+{
+  "id": "browser_web",
+  "nodes": [
+    {
+      "id": "Web_client_accelerator",
+      "label": "Web_client_accelerator\\nPK: id"
+    },
+    {
+      "id": "accelerator_compatible_browser",
+      "label": "accelerator_compatible_browser\\nPK: accelerator_id, browser_id"
+    },
+    {
+      "id": "browser",
+      "label": "browser\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "accelerator_compatible_browser",
+      "to": "browser",
+      "label": "browser_id -> id"
+    },
+    {
+      "from": "accelerator_compatible_browser",
+      "to": "Web_client_accelerator",
+      "label": "accelerator_id -> id"
+    }
+  ]
+}

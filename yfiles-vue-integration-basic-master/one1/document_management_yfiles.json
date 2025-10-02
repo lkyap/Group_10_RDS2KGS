@@ -1,0 +1,78 @@
+{
+  "id": "document_management",
+  "nodes": [
+    {
+      "id": "Document_Functional_Areas",
+      "label": "Document_Functional_Areas\\nPK: (none)"
+    },
+    {
+      "id": "Document_Sections",
+      "label": "Document_Sections\\nPK: section_id"
+    },
+    {
+      "id": "Document_Sections_Images",
+      "label": "Document_Sections_Images\\nPK: section_id, image_id"
+    },
+    {
+      "id": "Document_Structures",
+      "label": "Document_Structures\\nPK: document_structure_code"
+    },
+    {
+      "id": "Documents",
+      "label": "Documents\\nPK: document_code"
+    },
+    {
+      "id": "Functional_Areas",
+      "label": "Functional_Areas\\nPK: functional_area_code"
+    },
+    {
+      "id": "Images",
+      "label": "Images\\nPK: image_id"
+    },
+    {
+      "id": "Roles",
+      "label": "Roles\\nPK: role_code"
+    },
+    {
+      "id": "Users",
+      "label": "Users\\nPK: user_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Document_Functional_Areas",
+      "to": "Functional_Areas",
+      "label": "functional_area_code -> functional_area_code"
+    },
+    {
+      "from": "Document_Functional_Areas",
+      "to": "Documents",
+      "label": "document_code -> document_code"
+    },
+    {
+      "from": "Document_Sections",
+      "to": "Documents",
+      "label": "document_code -> document_code"
+    },
+    {
+      "from": "Document_Sections_Images",
+      "to": "Images",
+      "label": "image_id -> image_id"
+    },
+    {
+      "from": "Document_Sections_Images",
+      "to": "Document_Sections",
+      "label": "section_id -> section_id"
+    },
+    {
+      "from": "Documents",
+      "to": "Document_Structures",
+      "label": "document_structure_code -> document_structure_code"
+    },
+    {
+      "from": "Users",
+      "to": "Roles",
+      "label": "role_code -> role_code"
+    }
+  ]
+}
