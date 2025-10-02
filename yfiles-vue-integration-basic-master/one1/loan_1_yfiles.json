@@ -1,0 +1,34 @@
+{
+  "id": "loan_1",
+  "nodes": [
+    {
+      "id": "bank",
+      "label": "bank\\nPK: branch_ID"
+    },
+    {
+      "id": "customer",
+      "label": "customer\\nPK: cust_ID"
+    },
+    {
+      "id": "loan",
+      "label": "loan\\nPK: loan_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "customer",
+      "to": "bank",
+      "label": "branch_ID -> branch_ID"
+    },
+    {
+      "from": "loan",
+      "to": "customer",
+      "label": "cust_ID -> Cust_ID"
+    },
+    {
+      "from": "loan",
+      "to": "bank",
+      "label": "branch_ID -> branch_ID"
+    }
+  ]
+}

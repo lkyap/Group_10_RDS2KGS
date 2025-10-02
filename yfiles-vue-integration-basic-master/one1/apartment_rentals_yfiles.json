@@ -1,0 +1,61 @@
+{
+  "id": "apartment_rentals",
+  "nodes": [
+    {
+      "id": "Apartment_Bookings",
+      "label": "Apartment_Bookings\\nPK: apt_booking_id"
+    },
+    {
+      "id": "Apartment_Buildings",
+      "label": "Apartment_Buildings\\nPK: building_id"
+    },
+    {
+      "id": "Apartment_Facilities",
+      "label": "Apartment_Facilities\\nPK: apt_id, facility_code"
+    },
+    {
+      "id": "Apartments",
+      "label": "Apartments\\nPK: apt_id"
+    },
+    {
+      "id": "Guests",
+      "label": "Guests\\nPK: guest_id"
+    },
+    {
+      "id": "View_Unit_Status",
+      "label": "View_Unit_Status\\nPK: status_date"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Apartment_Bookings",
+      "to": "Guests",
+      "label": "guest_id -> guest_id"
+    },
+    {
+      "from": "Apartment_Bookings",
+      "to": "Apartments",
+      "label": "apt_id -> apt_id"
+    },
+    {
+      "from": "Apartment_Facilities",
+      "to": "Apartments",
+      "label": "apt_id -> apt_id"
+    },
+    {
+      "from": "Apartments",
+      "to": "Apartment_Buildings",
+      "label": "building_id -> building_id"
+    },
+    {
+      "from": "View_Unit_Status",
+      "to": "Apartment_Bookings",
+      "label": "apt_booking_id -> apt_booking_id"
+    },
+    {
+      "from": "View_Unit_Status",
+      "to": "Apartments",
+      "label": "apt_id -> apt_id"
+    }
+  ]
+}

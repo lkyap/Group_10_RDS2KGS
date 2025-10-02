@@ -1,0 +1,141 @@
+{
+  "id": "cre_Theme_park",
+  "nodes": [
+    {
+      "id": "Features",
+      "label": "Features\\nPK: Feature_ID"
+    },
+    {
+      "id": "Hotels",
+      "label": "Hotels\\nPK: hotel_id"
+    },
+    {
+      "id": "Locations",
+      "label": "Locations\\nPK: Location_ID"
+    },
+    {
+      "id": "Museums",
+      "label": "Museums\\nPK: Museum_ID"
+    },
+    {
+      "id": "Photos",
+      "label": "Photos\\nPK: Photo_ID"
+    },
+    {
+      "id": "Ref_Attraction_Types",
+      "label": "Ref_Attraction_Types\\nPK: Attraction_Type_Code"
+    },
+    {
+      "id": "Ref_Hotel_Star_Ratings",
+      "label": "Ref_Hotel_Star_Ratings\\nPK: star_rating_code"
+    },
+    {
+      "id": "Royal_Family",
+      "label": "Royal_Family\\nPK: Royal_Family_ID"
+    },
+    {
+      "id": "Shops",
+      "label": "Shops\\nPK: Shop_ID"
+    },
+    {
+      "id": "Staff",
+      "label": "Staff\\nPK: Staff_ID"
+    },
+    {
+      "id": "Street_Markets",
+      "label": "Street_Markets\\nPK: Market_ID"
+    },
+    {
+      "id": "Theme_Parks",
+      "label": "Theme_Parks\\nPK: Theme_Park_ID"
+    },
+    {
+      "id": "Tourist_Attraction_Features",
+      "label": "Tourist_Attraction_Features\\nPK: Tourist_Attraction_ID, Feature_ID"
+    },
+    {
+      "id": "Tourist_Attractions",
+      "label": "Tourist_Attractions\\nPK: Tourist_Attraction_ID"
+    },
+    {
+      "id": "Visitors",
+      "label": "Visitors\\nPK: Tourist_ID"
+    },
+    {
+      "id": "Visits",
+      "label": "Visits\\nPK: Visit_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Hotels",
+      "to": "Ref_Hotel_Star_Ratings",
+      "label": "star_rating_code -> star_rating_code"
+    },
+    {
+      "from": "Museums",
+      "to": "Tourist_Attractions",
+      "label": "Museum_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Photos",
+      "to": "Tourist_Attractions",
+      "label": "Tourist_Attraction_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Royal_Family",
+      "to": "Tourist_Attractions",
+      "label": "Royal_Family_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Shops",
+      "to": "Tourist_Attractions",
+      "label": "Shop_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Staff",
+      "to": "Tourist_Attractions",
+      "label": "Tourist_Attraction_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Street_Markets",
+      "to": "Tourist_Attractions",
+      "label": "Market_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Theme_Parks",
+      "to": "Tourist_Attractions",
+      "label": "Theme_Park_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Tourist_Attraction_Features",
+      "to": "Features",
+      "label": "Feature_ID -> Feature_ID"
+    },
+    {
+      "from": "Tourist_Attraction_Features",
+      "to": "Tourist_Attractions",
+      "label": "Tourist_Attraction_ID -> Tourist_Attraction_ID"
+    },
+    {
+      "from": "Tourist_Attractions",
+      "to": "Ref_Attraction_Types",
+      "label": "Attraction_Type_Code -> Attraction_Type_Code"
+    },
+    {
+      "from": "Tourist_Attractions",
+      "to": "Locations",
+      "label": "Location_ID -> Location_ID"
+    },
+    {
+      "from": "Visits",
+      "to": "Visitors",
+      "label": "Tourist_ID -> Tourist_ID"
+    },
+    {
+      "from": "Visits",
+      "to": "Tourist_Attractions",
+      "label": "Tourist_Attraction_ID -> Tourist_Attraction_ID"
+    }
+  ]
+}

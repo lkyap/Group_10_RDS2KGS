@@ -1,0 +1,12 @@
+DB_Name,Schema_Comp,Relationship_Comp
+bird_cars_kgs_data,1,1
+bird_movie_kgs_data,1,1
+bird_restaurant_kgs_data,1,1
+bird_university_kgs_data,1,1
+spider_aircraft_kgs_data,1,1
+spider_apartment_rentals_kgs_data,1,1
+spider_cinema_kgs_data,1,1
+spider_flight_company_kgs_data,1,1
+spider_real_estate_rentals_kgs_data,1,1
+spider_storm_record_kgs_data,1,0
+spider_university_rank_kgs_data,1,1

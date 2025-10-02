@@ -1,0 +1,605 @@
+{
+  "generated_at": "2025-09-17T13:35:32+00:00",
+  "graphs": [
+    {
+      "id": "academic",
+      "file": "academic_yfiles.json",
+      "nodes": 15,
+      "edges": 18
+    },
+    {
+      "id": "activity_1",
+      "file": "activity_1_yfiles.json",
+      "nodes": 5,
+      "edges": 4
+    },
+    {
+      "id": "aircraft",
+      "file": "aircraft_yfiles.json",
+      "nodes": 5,
+      "edges": 4
+    },
+    {
+      "id": "allergy_1",
+      "file": "allergy_1_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "apartment_rentals",
+      "file": "apartment_rentals_yfiles.json",
+      "nodes": 6,
+      "edges": 6
+    },
+    {
+      "id": "architecture",
+      "file": "architecture_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "assets_maintenance",
+      "file": "assets_maintenance_yfiles.json",
+      "nodes": 14,
+      "edges": 18
+    },
+    {
+      "id": "baseball_1",
+      "file": "baseball_1_yfiles.json",
+      "nodes": 26,
+      "edges": 20
+    },
+    {
+      "id": "battle_death",
+      "file": "battle_death_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "behavior_monitoring",
+      "file": "behavior_monitoring_yfiles.json",
+      "nodes": 11,
+      "edges": 13
+    },
+    {
+      "id": "bike_1",
+      "file": "bike_1_yfiles.json",
+      "nodes": 4,
+      "edges": 1
+    },
+    {
+      "id": "body_builder",
+      "file": "body_builder_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "book_2",
+      "file": "book_2_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "browser_web",
+      "file": "browser_web_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "candidate_poll",
+      "file": "candidate_poll_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "car_1",
+      "file": "car_1_yfiles.json",
+      "nodes": 6,
+      "edges": 5
+    },
+    {
+      "id": "chinook_1",
+      "file": "chinook_1_yfiles.json",
+      "nodes": 11,
+      "edges": 11
+    },
+    {
+      "id": "cinema",
+      "file": "cinema_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "city_record",
+      "file": "city_record_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "climbing",
+      "file": "climbing_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "club_1",
+      "file": "club_1_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "coffee_shop",
+      "file": "coffee_shop_yfiles.json",
+      "nodes": 4,
+      "edges": 2
+    },
+    {
+      "id": "college_1",
+      "file": "college_1_yfiles.json",
+      "nodes": 7,
+      "edges": 9
+    },
+    {
+      "id": "college_2",
+      "file": "college_2_yfiles.json",
+      "nodes": 11,
+      "edges": 20
+    },
+    {
+      "id": "college_3",
+      "file": "college_3_yfiles.json",
+      "nodes": 8,
+      "edges": 9
+    },
+    {
+      "id": "company_1",
+      "file": "company_1_yfiles.json",
+      "nodes": 6,
+      "edges": 0
+    },
+    {
+      "id": "company_employee",
+      "file": "company_employee_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "company_office",
+      "file": "company_office_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "concert_singer",
+      "file": "concert_singer_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "county_public_safety",
+      "file": "county_public_safety_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "course_teach",
+      "file": "course_teach_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "cre_Doc_Control_Systems",
+      "file": "cre_Doc_Control_Systems_yfiles.json",
+      "nodes": 11,
+      "edges": 13
+    },
+    {
+      "id": "cre_Doc_Template_Mgt",
+      "file": "cre_Doc_Template_Mgt_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "cre_Doc_Tracking_DB",
+      "file": "cre_Doc_Tracking_DB_yfiles.json",
+      "nodes": 8,
+      "edges": 12
+    },
+    {
+      "id": "cre_Docs_and_Epenses",
+      "file": "cre_Docs_and_Epenses_yfiles.json",
+      "nodes": 7,
+      "edges": 6
+    },
+    {
+      "id": "cre_Drama_Workshop_Groups",
+      "file": "cre_Drama_Workshop_Groups_yfiles.json",
+      "nodes": 18,
+      "edges": 25
+    },
+    {
+      "id": "cre_Theme_park",
+      "file": "cre_Theme_park_yfiles.json",
+      "nodes": 16,
+      "edges": 14
+    },
+    {
+      "id": "csu_1",
+      "file": "csu_1_yfiles.json",
+      "nodes": 6,
+      "edges": 5
+    },
+    {
+      "id": "culture_company",
+      "file": "culture_company_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "customer_complaints",
+      "file": "customer_complaints_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "customer_deliveries",
+      "file": "customer_deliveries_yfiles.json",
+      "nodes": 13,
+      "edges": 15
+    },
+    {
+      "id": "customers_and_addresses",
+      "file": "customers_and_addresses_yfiles.json",
+      "nodes": 7,
+      "edges": 6
+    },
+    {
+      "id": "customers_and_invoices",
+      "file": "customers_and_invoices_yfiles.json",
+      "nodes": 9,
+      "edges": 11
+    },
+    {
+      "id": "customers_and_products_contacts",
+      "file": "customers_and_products_contacts_yfiles.json",
+      "nodes": 7,
+      "edges": 5
+    },
+    {
+      "id": "customers_campaigns_ecommerce",
+      "file": "customers_campaigns_ecommerce_yfiles.json",
+      "nodes": 8,
+      "edges": 7
+    },
+    {
+      "id": "customers_card_transactions",
+      "file": "customers_card_transactions_yfiles.json",
+      "nodes": 4,
+      "edges": 2
+    },
+    {
+      "id": "debate",
+      "file": "debate_yfiles.json",
+      "nodes": 3,
+      "edges": 3
+    },
+    {
+      "id": "decoration_competition",
+      "file": "decoration_competition_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "department_management",
+      "file": "department_management_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "department_store",
+      "file": "department_store_yfiles.json",
+      "nodes": 14,
+      "edges": 13
+    },
+    {
+      "id": "device",
+      "file": "device_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "document_management",
+      "file": "document_management_yfiles.json",
+      "nodes": 9,
+      "edges": 7
+    },
+    {
+      "id": "dog_kennels",
+      "file": "dog_kennels_yfiles.json",
+      "nodes": 8,
+      "edges": 7
+    },
+    {
+      "id": "dorm_1",
+      "file": "dorm_1_yfiles.json",
+      "nodes": 5,
+      "edges": 4
+    },
+    {
+      "id": "driving_school",
+      "file": "driving_school_yfiles.json",
+      "nodes": 6,
+      "edges": 6
+    },
+    {
+      "id": "e_government",
+      "file": "e_government_yfiles.json",
+      "nodes": 10,
+      "edges": 9
+    },
+    {
+      "id": "e_learning",
+      "file": "e_learning_yfiles.json",
+      "nodes": 6,
+      "edges": 5
+    },
+    {
+      "id": "election_representative",
+      "file": "election_representative_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "election",
+      "file": "election_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "employee_hire_evaluation",
+      "file": "employee_hire_evaluation_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "entertainment_awards",
+      "file": "entertainment_awards_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "entrepreneur",
+      "file": "entrepreneur_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "epinions_1",
+      "file": "epinions_1_yfiles.json",
+      "nodes": 4,
+      "edges": 4
+    },
+    {
+      "id": "farm",
+      "file": "farm_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "film_rank",
+      "file": "film_rank_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "flight_1",
+      "file": "flight_1_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "flight_2",
+      "file": "flight_2_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "flight_4",
+      "file": "flight_4_yfiles.json",
+      "nodes": 3,
+      "edges": 3
+    },
+    {
+      "id": "flight_company",
+      "file": "flight_company_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "formula_1",
+      "file": "formula_1_yfiles.json",
+      "nodes": 13,
+      "edges": 17
+    },
+    {
+      "id": "game_1",
+      "file": "game_1_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "game_injury",
+      "file": "game_injury_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "gas_company",
+      "file": "gas_company_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "geo",
+      "file": "geo_yfiles.json",
+      "nodes": 7,
+      "edges": 6
+    },
+    {
+      "id": "gymnast",
+      "file": "gymnast_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "hospital_1",
+      "file": "hospital_1_yfiles.json",
+      "nodes": 15,
+      "edges": 25
+    },
+    {
+      "id": "hr_1",
+      "file": "hr_1_yfiles.json",
+      "nodes": 7,
+      "edges": 7
+    },
+    {
+      "id": "icfp_1",
+      "file": "icfp_1_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "imdb",
+      "file": "imdb_yfiles.json",
+      "nodes": 16,
+      "edges": 12
+    },
+    {
+      "id": "inn_1",
+      "file": "inn_1_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "insurance_and_eClaims",
+      "file": "insurance_and_eClaims_yfiles.json",
+      "nodes": 7,
+      "edges": 6
+    },
+    {
+      "id": "insurance_fnol",
+      "file": "insurance_fnol_yfiles.json",
+      "nodes": 7,
+      "edges": 7
+    },
+    {
+      "id": "insurance_policies",
+      "file": "insurance_policies_yfiles.json",
+      "nodes": 5,
+      "edges": 4
+    },
+    {
+      "id": "journal_committee",
+      "file": "journal_committee_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "loan_1",
+      "file": "loan_1_yfiles.json",
+      "nodes": 3,
+      "edges": 3
+    },
+    {
+      "id": "local_govt_and_lot",
+      "file": "local_govt_and_lot_yfiles.json",
+      "nodes": 11,
+      "edges": 15
+    },
+    {
+      "id": "local_govt_in_alabama",
+      "file": "local_govt_in_alabama_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "local_govt_mdm",
+      "file": "local_govt_mdm_yfiles.json",
+      "nodes": 8,
+      "edges": 7
+    },
+    {
+      "id": "machine_repair",
+      "file": "machine_repair_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "manufactory_1",
+      "file": "manufactory_1_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    },
+    {
+      "id": "manufacturer",
+      "file": "manufacturer_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "match_season",
+      "file": "match_season_yfiles.json",
+      "nodes": 4,
+      "edges": 3
+    },
+    {
+      "id": "medicine_enzyme_interaction",
+      "file": "medicine_enzyme_interaction_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "mountain_photos",
+      "file": "mountain_photos_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "movie_1",
+      "file": "movie_1_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "museum_visit",
+      "file": "museum_visit_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "music_1",
+      "file": "music_1_yfiles.json",
+      "nodes": 4,
+      "edges": 5
+    },
+    {
+      "id": "music_2",
+      "file": "music_2_yfiles.json",
+      "nodes": 7,
+      "edges": 8
+    },
+    {
+      "id": "music_4",
+      "file": "music_4_yfiles.json",
+      "nodes": 3,
+      "edges": 2
+    },
+    {
+      "id": "musical",
+      "file": "musical_yfiles.json",
+      "nodes": 2,
+      "edges": 1
+    }
+  ]
+}

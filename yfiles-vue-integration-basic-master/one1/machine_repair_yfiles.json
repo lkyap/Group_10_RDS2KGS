@@ -1,0 +1,38 @@
+{
+  "id": "machine_repair",
+  "nodes": [
+    {
+      "id": "machine",
+      "label": "machine\\nPK: Machine_ID"
+    },
+    {
+      "id": "repair",
+      "label": "repair\\nPK: repair_ID"
+    },
+    {
+      "id": "repair_assignment",
+      "label": "repair_assignment\\nPK: technician_id, repair_ID, Machine_ID"
+    },
+    {
+      "id": "technician",
+      "label": "technician\\nPK: technician_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "repair_assignment",
+      "to": "machine",
+      "label": "Machine_ID -> Machine_ID"
+    },
+    {
+      "from": "repair_assignment",
+      "to": "repair",
+      "label": "repair_ID -> repair_ID"
+    },
+    {
+      "from": "repair_assignment",
+      "to": "technician",
+      "label": "technician_id -> technician_id"
+    }
+  ]
+}

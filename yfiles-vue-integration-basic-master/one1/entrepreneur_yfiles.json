@@ -1,0 +1,20 @@
+{
+  "id": "entrepreneur",
+  "nodes": [
+    {
+      "id": "entrepreneur",
+      "label": "entrepreneur\\nPK: Entrepreneur_ID"
+    },
+    {
+      "id": "people",
+      "label": "people\\nPK: People_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "entrepreneur",
+      "to": "people",
+      "label": "People_ID -> People_ID"
+    }
+  ]
+}

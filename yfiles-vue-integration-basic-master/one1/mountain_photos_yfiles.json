@@ -1,0 +1,29 @@
+{
+  "id": "mountain_photos",
+  "nodes": [
+    {
+      "id": "camera_lens",
+      "label": "camera_lens\\nPK: id"
+    },
+    {
+      "id": "mountain",
+      "label": "mountain\\nPK: id"
+    },
+    {
+      "id": "photos",
+      "label": "photos\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "photos",
+      "to": "mountain",
+      "label": "mountain_id -> id"
+    },
+    {
+      "from": "photos",
+      "to": "camera_lens",
+      "label": "camera_lens_id -> id"
+    }
+  ]
+}

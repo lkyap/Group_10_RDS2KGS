@@ -1,0 +1,211 @@
+{
+  "id": "baseball_1",
+  "nodes": [
+    {
+      "id": "all_star",
+      "label": "all_star\\nPK: (none)"
+    },
+    {
+      "id": "appearances",
+      "label": "appearances\\nPK: (none)"
+    },
+    {
+      "id": "batting",
+      "label": "batting\\nPK: (none)"
+    },
+    {
+      "id": "batting_postseason",
+      "label": "batting_postseason\\nPK: (none)"
+    },
+    {
+      "id": "college",
+      "label": "college\\nPK: (none)"
+    },
+    {
+      "id": "fielding",
+      "label": "fielding\\nPK: (none)"
+    },
+    {
+      "id": "fielding_outfield",
+      "label": "fielding_outfield\\nPK: (none)"
+    },
+    {
+      "id": "fielding_postseason",
+      "label": "fielding_postseason\\nPK: (none)"
+    },
+    {
+      "id": "hall_of_fame",
+      "label": "hall_of_fame\\nPK: (none)"
+    },
+    {
+      "id": "home_game",
+      "label": "home_game\\nPK: (none)"
+    },
+    {
+      "id": "manager",
+      "label": "manager\\nPK: (none)"
+    },
+    {
+      "id": "manager_award",
+      "label": "manager_award\\nPK: (none)"
+    },
+    {
+      "id": "manager_award_vote",
+      "label": "manager_award_vote\\nPK: (none)"
+    },
+    {
+      "id": "manager_half",
+      "label": "manager_half\\nPK: (none)"
+    },
+    {
+      "id": "park",
+      "label": "park\\nPK: (none)"
+    },
+    {
+      "id": "pitching",
+      "label": "pitching\\nPK: (none)"
+    },
+    {
+      "id": "pitching_postseason",
+      "label": "pitching_postseason\\nPK: (none)"
+    },
+    {
+      "id": "player",
+      "label": "player\\nPK: (none)"
+    },
+    {
+      "id": "player_award",
+      "label": "player_award\\nPK: (none)"
+    },
+    {
+      "id": "player_award_vote",
+      "label": "player_award_vote\\nPK: (none)"
+    },
+    {
+      "id": "player_college",
+      "label": "player_college\\nPK: (none)"
+    },
+    {
+      "id": "postseason",
+      "label": "postseason\\nPK: (none)"
+    },
+    {
+      "id": "salary",
+      "label": "salary\\nPK: (none)"
+    },
+    {
+      "id": "team",
+      "label": "team\\nPK: (none)"
+    },
+    {
+      "id": "team_franchise",
+      "label": "team_franchise\\nPK: (none)"
+    },
+    {
+      "id": "team_half",
+      "label": "team_half\\nPK: (none)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "all_star",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "appearances",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "appearances",
+      "to": "team",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "batting",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "batting_postseason",
+      "to": "team",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "batting_postseason",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "fielding",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "fielding_outfield",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "fielding_postseason",
+      "to": "player",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "fielding_postseason",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "hall_of_fame",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "home_game",
+      "to": "park",
+      "label": "park_id -> park_id"
+    },
+    {
+      "from": "home_game",
+      "to": "team",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "manager",
+      "to": "team",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "manager_award",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "manager_half",
+      "to": "team",
+      "label": "team_id -> team_id"
+    },
+    {
+      "from": "player_award",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "player_award_vote",
+      "to": "player",
+      "label": "player_id -> player_id"
+    },
+    {
+      "from": "player_college",
+      "to": "college",
+      "label": "college_id -> college_id"
+    },
+    {
+      "from": "player_college",
+      "to": "player",
+      "label": "player_id -> player_id"
+    }
+  ]
+}

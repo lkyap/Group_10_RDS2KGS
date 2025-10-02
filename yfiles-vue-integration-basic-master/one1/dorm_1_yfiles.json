@@ -1,0 +1,47 @@
+{
+  "id": "dorm_1",
+  "nodes": [
+    {
+      "id": "Dorm",
+      "label": "Dorm\\nPK: (none)"
+    },
+    {
+      "id": "Dorm_amenity",
+      "label": "Dorm_amenity\\nPK: (none)"
+    },
+    {
+      "id": "Has_amenity",
+      "label": "Has_amenity\\nPK: (none)"
+    },
+    {
+      "id": "Lives_in",
+      "label": "Lives_in\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Has_amenity",
+      "to": "Dorm_amenity",
+      "label": "amenid -> amenid"
+    },
+    {
+      "from": "Has_amenity",
+      "to": "Dorm",
+      "label": "dormid -> dormid"
+    },
+    {
+      "from": "Lives_in",
+      "to": "Dorm",
+      "label": "dormid -> dormid"
+    },
+    {
+      "from": "Lives_in",
+      "to": "Student",
+      "label": "stuid -> StuID"
+    }
+  ]
+}

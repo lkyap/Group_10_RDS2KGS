@@ -1,0 +1,43 @@
+{
+  "id": "epinions_1",
+  "nodes": [
+    {
+      "id": "item",
+      "label": "item\\nPK: i_id"
+    },
+    {
+      "id": "review",
+      "label": "review\\nPK: a_id"
+    },
+    {
+      "id": "trust",
+      "label": "trust\\nPK: (none)"
+    },
+    {
+      "id": "useracct",
+      "label": "useracct\\nPK: u_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "review",
+      "to": "item",
+      "label": "i_id -> i_id"
+    },
+    {
+      "from": "review",
+      "to": "useracct",
+      "label": "u_id -> u_id"
+    },
+    {
+      "from": "trust",
+      "to": "useracct",
+      "label": "target_u_id -> u_id"
+    },
+    {
+      "from": "trust",
+      "to": "useracct",
+      "label": "source_u_id -> u_id"
+    }
+  ]
+}

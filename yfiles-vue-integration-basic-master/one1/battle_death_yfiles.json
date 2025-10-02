@@ -1,0 +1,29 @@
+{
+  "id": "battle_death",
+  "nodes": [
+    {
+      "id": "battle",
+      "label": "battle\\nPK: id"
+    },
+    {
+      "id": "death",
+      "label": "death\\nPK: id"
+    },
+    {
+      "id": "ship",
+      "label": "ship\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "death",
+      "to": "ship",
+      "label": "caused_by_ship_id -> id"
+    },
+    {
+      "from": "ship",
+      "to": "battle",
+      "label": "lost_in_battle -> id"
+    }
+  ]
+}

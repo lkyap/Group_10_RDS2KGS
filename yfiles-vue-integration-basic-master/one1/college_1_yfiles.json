@@ -1,0 +1,80 @@
+{
+  "id": "college_1",
+  "nodes": [
+    {
+      "id": "CLASS",
+      "label": "CLASS\\nPK: CLASS_CODE"
+    },
+    {
+      "id": "COURSE",
+      "label": "COURSE\\nPK: CRS_CODE"
+    },
+    {
+      "id": "DEPARTMENT",
+      "label": "DEPARTMENT\\nPK: DEPT_CODE"
+    },
+    {
+      "id": "EMPLOYEE",
+      "label": "EMPLOYEE\\nPK: EMP_NUM"
+    },
+    {
+      "id": "ENROLL",
+      "label": "ENROLL\\nPK: (none)"
+    },
+    {
+      "id": "PROFESSOR",
+      "label": "PROFESSOR\\nPK: (none)"
+    },
+    {
+      "id": "STUDENT",
+      "label": "STUDENT\\nPK: STU_NUM"
+    }
+  ],
+  "edges": [
+    {
+      "from": "CLASS",
+      "to": "EMPLOYEE",
+      "label": "PROF_NUM -> EMP_NUM"
+    },
+    {
+      "from": "CLASS",
+      "to": "COURSE",
+      "label": "CRS_CODE -> CRS_CODE"
+    },
+    {
+      "from": "COURSE",
+      "to": "DEPARTMENT",
+      "label": "DEPT_CODE -> DEPT_CODE"
+    },
+    {
+      "from": "DEPARTMENT",
+      "to": "EMPLOYEE",
+      "label": "EMP_NUM -> EMP_NUM"
+    },
+    {
+      "from": "ENROLL",
+      "to": "STUDENT",
+      "label": "STU_NUM -> STU_NUM"
+    },
+    {
+      "from": "ENROLL",
+      "to": "CLASS",
+      "label": "CLASS_CODE -> CLASS_CODE"
+    },
+    {
+      "from": "PROFESSOR",
+      "to": "DEPARTMENT",
+      "label": "DEPT_CODE -> DEPT_CODE"
+    },
+    {
+      "from": "PROFESSOR",
+      "to": "EMPLOYEE",
+      "label": "EMP_NUM -> EMP_NUM"
+    },
+    {
+      "from": "STUDENT",
+      "to": "DEPARTMENT",
+      "label": "DEPT_CODE -> DEPT_CODE"
+    }
+  ]
+}

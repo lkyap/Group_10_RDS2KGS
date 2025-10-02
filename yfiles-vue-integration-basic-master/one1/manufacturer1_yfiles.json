@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        {
+            "id": "manufacturer",
+            "properties": [
+                "Manufacturer_ID",
+                "Open_Year",
+                "Name",
+                "Num_of_Factories",
+                "Num_of_Shops"
+            ],
+            "key": "Manufacturer_ID"
+        },
+        {
+            "id": "furniture",
+            "properties": [
+                "Furniture_ID",
+                "Name",
+                "Num_of_Component",
+                "Market_Rate"
+            ],
+            "key": "Furniture_ID"
+        },
+        {
+            "id": "furniture_manufacte",
+            "properties": [
+                "Manufacturer_ID",
+                "Furniture_ID",
+                "Price_in_Dollar"
+            ],
+            "key": "Manufacturer_ID,Furniture_ID"
+        }
+    ],
+    "edges": [
+        {
+            "source": "furniture_manufacte",
+            "target": "manufacturer",
+            "relationship": "MADE_BY",
+            "source_column": "Manufacturer_ID",
+            "target_column": "Manufacturer_ID"
+        },
+        {
+            "source": "furniture_manufacte",
+            "target": "furniture",
+            "relationship": "FOR_FURNITURE",
+            "source_column": "Furniture_ID",
+            "target_column": "Furniture_ID"
+        },
+        {
+            "source": "manufacturer",
+            "target": "furniture",
+            "relationship": "MANUFACTURES",
+            "source_column": "Manufacturer_ID",
+            "target_column": "Furniture_ID"
+        }
+    ]
+}

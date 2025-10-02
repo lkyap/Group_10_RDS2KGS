@@ -1,0 +1,2967 @@
+{
+  "nodes": [
+    {
+      "id": "country_1",
+      "label": "country",
+      "properties": {
+        "id": 1,
+        "country_name": "Argentina"
+      }
+    },
+    {
+      "id": "country_2",
+      "label": "country",
+      "properties": {
+        "id": 2,
+        "country_name": "Australia"
+      }
+    },
+    {
+      "id": "country_3",
+      "label": "country",
+      "properties": {
+        "id": 3,
+        "country_name": "Austria"
+      }
+    },
+    {
+      "id": "country_4",
+      "label": "country",
+      "properties": {
+        "id": 4,
+        "country_name": "Bangladesh"
+      }
+    },
+    {
+      "id": "country_5",
+      "label": "country",
+      "properties": {
+        "id": 5,
+        "country_name": "Belarus"
+      }
+    },
+    {
+      "id": "country_6",
+      "label": "country",
+      "properties": {
+        "id": 6,
+        "country_name": "Belgium"
+      }
+    },
+    {
+      "id": "country_7",
+      "label": "country",
+      "properties": {
+        "id": 7,
+        "country_name": "Brazil"
+      }
+    },
+    {
+      "id": "country_8",
+      "label": "country",
+      "properties": {
+        "id": 8,
+        "country_name": "Bulgaria"
+      }
+    },
+    {
+      "id": "country_9",
+      "label": "country",
+      "properties": {
+        "id": 9,
+        "country_name": "Canada"
+      }
+    },
+    {
+      "id": "country_10",
+      "label": "country",
+      "properties": {
+        "id": 10,
+        "country_name": "Chile"
+      }
+    },
+    {
+      "id": "country_11",
+      "label": "country",
+      "properties": {
+        "id": 11,
+        "country_name": "China"
+      }
+    },
+    {
+      "id": "country_12",
+      "label": "country",
+      "properties": {
+        "id": 12,
+        "country_name": "Colombia"
+      }
+    },
+    {
+      "id": "country_13",
+      "label": "country",
+      "properties": {
+        "id": 13,
+        "country_name": "Croatia"
+      }
+    },
+    {
+      "id": "country_14",
+      "label": "country",
+      "properties": {
+        "id": 14,
+        "country_name": "Cyprus"
+      }
+    },
+    {
+      "id": "country_15",
+      "label": "country",
+      "properties": {
+        "id": 15,
+        "country_name": "Czech Republic"
+      }
+    },
+    {
+      "id": "country_16",
+      "label": "country",
+      "properties": {
+        "id": 16,
+        "country_name": "Denmark"
+      }
+    },
+    {
+      "id": "country_17",
+      "label": "country",
+      "properties": {
+        "id": 17,
+        "country_name": "Egypt"
+      }
+    },
+    {
+      "id": "country_18",
+      "label": "country",
+      "properties": {
+        "id": 18,
+        "country_name": "Estonia"
+      }
+    },
+    {
+      "id": "country_19",
+      "label": "country",
+      "properties": {
+        "id": 19,
+        "country_name": "Finland"
+      }
+    },
+    {
+      "id": "country_20",
+      "label": "country",
+      "properties": {
+        "id": 20,
+        "country_name": "France"
+      }
+    },
+    {
+      "id": "country_21",
+      "label": "country",
+      "properties": {
+        "id": 21,
+        "country_name": "Germany"
+      }
+    },
+    {
+      "id": "country_22",
+      "label": "country",
+      "properties": {
+        "id": 22,
+        "country_name": "Ghana"
+      }
+    },
+    {
+      "id": "country_23",
+      "label": "country",
+      "properties": {
+        "id": 23,
+        "country_name": "Greece"
+      }
+    },
+    {
+      "id": "country_24",
+      "label": "country",
+      "properties": {
+        "id": 24,
+        "country_name": "Hong Kong"
+      }
+    },
+    {
+      "id": "country_25",
+      "label": "country",
+      "properties": {
+        "id": 25,
+        "country_name": "Hungary"
+      }
+    },
+    {
+      "id": "country_26",
+      "label": "country",
+      "properties": {
+        "id": 26,
+        "country_name": "Iceland"
+      }
+    },
+    {
+      "id": "country_27",
+      "label": "country",
+      "properties": {
+        "id": 27,
+        "country_name": "India"
+      }
+    },
+    {
+      "id": "country_28",
+      "label": "country",
+      "properties": {
+        "id": 28,
+        "country_name": "Indonesia"
+      }
+    },
+    {
+      "id": "country_29",
+      "label": "country",
+      "properties": {
+        "id": 29,
+        "country_name": "Iran"
+      }
+    },
+    {
+      "id": "country_30",
+      "label": "country",
+      "properties": {
+        "id": 30,
+        "country_name": "Ireland"
+      }
+    },
+    {
+      "id": "country_31",
+      "label": "country",
+      "properties": {
+        "id": 31,
+        "country_name": "Israel"
+      }
+    },
+    {
+      "id": "country_32",
+      "label": "country",
+      "properties": {
+        "id": 32,
+        "country_name": "Italy"
+      }
+    },
+    {
+      "id": "country_33",
+      "label": "country",
+      "properties": {
+        "id": 33,
+        "country_name": "Japan"
+      }
+    },
+    {
+      "id": "country_34",
+      "label": "country",
+      "properties": {
+        "id": 34,
+        "country_name": "Jordan"
+      }
+    },
+    {
+      "id": "country_35",
+      "label": "country",
+      "properties": {
+        "id": 35,
+        "country_name": "Kenya"
+      }
+    },
+    {
+      "id": "country_36",
+      "label": "country",
+      "properties": {
+        "id": 36,
+        "country_name": "Latvia"
+      }
+    },
+    {
+      "id": "country_37",
+      "label": "country",
+      "properties": {
+        "id": 37,
+        "country_name": "Lebanon"
+      }
+    },
+    {
+      "id": "country_38",
+      "label": "country",
+      "properties": {
+        "id": 38,
+        "country_name": "Lithuania"
+      }
+    },
+    {
+      "id": "country_39",
+      "label": "country",
+      "properties": {
+        "id": 39,
+        "country_name": "Luxembourg"
+      }
+    },
+    {
+      "id": "country_40",
+      "label": "country",
+      "properties": {
+        "id": 40,
+        "country_name": "Macau"
+      }
+    },
+    {
+      "id": "country_41",
+      "label": "country",
+      "properties": {
+        "id": 41,
+        "country_name": "Malaysia"
+      }
+    },
+    {
+      "id": "country_42",
+      "label": "country",
+      "properties": {
+        "id": 42,
+        "country_name": "Mexico"
+      }
+    },
+    {
+      "id": "country_43",
+      "label": "country",
+      "properties": {
+        "id": 43,
+        "country_name": "Morocco"
+      }
+    },
+    {
+      "id": "country_44",
+      "label": "country",
+      "properties": {
+        "id": 44,
+        "country_name": "Netherlands"
+      }
+    },
+    {
+      "id": "country_45",
+      "label": "country",
+      "properties": {
+        "id": 45,
+        "country_name": "New Zealand"
+      }
+    },
+    {
+      "id": "country_46",
+      "label": "country",
+      "properties": {
+        "id": 46,
+        "country_name": "Nigeria"
+      }
+    },
+    {
+      "id": "country_47",
+      "label": "country",
+      "properties": {
+        "id": 47,
+        "country_name": "Norway"
+      }
+    },
+    {
+      "id": "country_48",
+      "label": "country",
+      "properties": {
+        "id": 48,
+        "country_name": "Oman"
+      }
+    },
+    {
+      "id": "country_49",
+      "label": "country",
+      "properties": {
+        "id": 49,
+        "country_name": "Pakistan"
+      }
+    },
+    {
+      "id": "country_50",
+      "label": "country",
+      "properties": {
+        "id": 50,
+        "country_name": "Poland"
+      }
+    },
+    {
+      "id": "ranking_system_1",
+      "label": "ranking_system",
+      "properties": {
+        "id": 1,
+        "system_name": "Times Higher Education World University Ranking"
+      }
+    },
+    {
+      "id": "ranking_system_2",
+      "label": "ranking_system",
+      "properties": {
+        "id": 2,
+        "system_name": "Shanghai Ranking"
+      }
+    },
+    {
+      "id": "ranking_system_3",
+      "label": "ranking_system",
+      "properties": {
+        "id": 3,
+        "system_name": "Center for World University Rankings"
+      }
+    },
+    {
+      "id": "ranking_criteria_1",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 1,
+        "ranking_system_id": 1,
+        "criteria_name": "Teaching"
+      }
+    },
+    {
+      "id": "ranking_criteria_2",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 2,
+        "ranking_system_id": 1,
+        "criteria_name": "International"
+      }
+    },
+    {
+      "id": "ranking_criteria_3",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 3,
+        "ranking_system_id": 1,
+        "criteria_name": "Research"
+      }
+    },
+    {
+      "id": "ranking_criteria_4",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 4,
+        "ranking_system_id": 1,
+        "criteria_name": "Citations"
+      }
+    },
+    {
+      "id": "ranking_criteria_5",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 5,
+        "ranking_system_id": 1,
+        "criteria_name": "Income"
+      }
+    },
+    {
+      "id": "ranking_criteria_6",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 6,
+        "ranking_system_id": 1,
+        "criteria_name": "Total Times"
+      }
+    },
+    {
+      "id": "ranking_criteria_7",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 7,
+        "ranking_system_id": 2,
+        "criteria_name": "Alumni"
+      }
+    },
+    {
+      "id": "ranking_criteria_8",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 8,
+        "ranking_system_id": 2,
+        "criteria_name": "Award"
+      }
+    },
+    {
+      "id": "ranking_criteria_9",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 9,
+        "ranking_system_id": 2,
+        "criteria_name": "HiCi"
+      }
+    },
+    {
+      "id": "ranking_criteria_10",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 10,
+        "ranking_system_id": 2,
+        "criteria_name": "N and S"
+      }
+    },
+    {
+      "id": "ranking_criteria_11",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 11,
+        "ranking_system_id": 2,
+        "criteria_name": "Pub"
+      }
+    },
+    {
+      "id": "ranking_criteria_12",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 12,
+        "ranking_system_id": 2,
+        "criteria_name": "PCP"
+      }
+    },
+    {
+      "id": "ranking_criteria_13",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 13,
+        "ranking_system_id": 2,
+        "criteria_name": "Total Shanghai"
+      }
+    },
+    {
+      "id": "ranking_criteria_14",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 14,
+        "ranking_system_id": 3,
+        "criteria_name": "Quality of Education Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_15",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 15,
+        "ranking_system_id": 3,
+        "criteria_name": "Alumni Employment Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_16",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 16,
+        "ranking_system_id": 3,
+        "criteria_name": "Quality of Faculty Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_17",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 17,
+        "ranking_system_id": 3,
+        "criteria_name": "Publications Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_18",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 18,
+        "ranking_system_id": 3,
+        "criteria_name": "Influence Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_19",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 19,
+        "ranking_system_id": 3,
+        "criteria_name": "Citations Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_20",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 20,
+        "ranking_system_id": 3,
+        "criteria_name": "Patents Rank"
+      }
+    },
+    {
+      "id": "ranking_criteria_21",
+      "label": "ranking_criteria",
+      "properties": {
+        "id": 21,
+        "ranking_system_id": 3,
+        "criteria_name": "Total CWUR"
+      }
+    },
+    {
+      "id": "university_1",
+      "label": "university",
+      "properties": {
+        "id": 1,
+        "country_id": 73,
+        "university_name": "Harvard University"
+      }
+    },
+    {
+      "id": "university_2",
+      "label": "university",
+      "properties": {
+        "id": 2,
+        "country_id": 73,
+        "university_name": "Massachusetts Institute of Technology"
+      }
+    },
+    {
+      "id": "university_3",
+      "label": "university",
+      "properties": {
+        "id": 3,
+        "country_id": 73,
+        "university_name": "Stanford University"
+      }
+    },
+    {
+      "id": "university_4",
+      "label": "university",
+      "properties": {
+        "id": 4,
+        "country_id": 72,
+        "university_name": "University of Cambridge"
+      }
+    },
+    {
+      "id": "university_5",
+      "label": "university",
+      "properties": {
+        "id": 5,
+        "country_id": 73,
+        "university_name": "California Institute of Technology"
+      }
+    },
+    {
+      "id": "university_6",
+      "label": "university",
+      "properties": {
+        "id": 6,
+        "country_id": 73,
+        "university_name": "Princeton University"
+      }
+    },
+    {
+      "id": "university_7",
+      "label": "university",
+      "properties": {
+        "id": 7,
+        "country_id": 72,
+        "university_name": "University of Oxford"
+      }
+    },
+    {
+      "id": "university_8",
+      "label": "university",
+      "properties": {
+        "id": 8,
+        "country_id": 73,
+        "university_name": "Yale University"
+      }
+    },
+    {
+      "id": "university_9",
+      "label": "university",
+      "properties": {
+        "id": 9,
+        "country_id": 73,
+        "university_name": "Columbia University"
+      }
+    },
+    {
+      "id": "university_10",
+      "label": "university",
+      "properties": {
+        "id": 10,
+        "country_id": 73,
+        "university_name": "University of California, Berkeley"
+      }
+    },
+    {
+      "id": "university_11",
+      "label": "university",
+      "properties": {
+        "id": 11,
+        "country_id": 73,
+        "university_name": "University of Chicago"
+      }
+    },
+    {
+      "id": "university_12",
+      "label": "university",
+      "properties": {
+        "id": 12,
+        "country_id": 73,
+        "university_name": "Cornell University"
+      }
+    },
+    {
+      "id": "university_13",
+      "label": "university",
+      "properties": {
+        "id": 13,
+        "country_id": 73,
+        "university_name": "University of Pennsylvania"
+      }
+    },
+    {
+      "id": "university_14",
+      "label": "university",
+      "properties": {
+        "id": 14,
+        "country_id": 33,
+        "university_name": "University of Tokyo"
+      }
+    },
+    {
+      "id": "university_15",
+      "label": "university",
+      "properties": {
+        "id": 15,
+        "country_id": 73,
+        "university_name": "Johns Hopkins University"
+      }
+    },
+    {
+      "id": "university_16",
+      "label": "university",
+      "properties": {
+        "id": 16,
+        "country_id": 65,
+        "university_name": "Swiss Federal Institute of Technology in Zurich"
+      }
+    },
+    {
+      "id": "university_17",
+      "label": "university",
+      "properties": {
+        "id": 17,
+        "country_id": 33,
+        "university_name": "Kyoto University"
+      }
+    },
+    {
+      "id": "university_18",
+      "label": "university",
+      "properties": {
+        "id": 18,
+        "country_id": 31,
+        "university_name": "Weizmann Institute of Science"
+      }
+    },
+    {
+      "id": "university_19",
+      "label": "university",
+      "properties": {
+        "id": 19,
+        "country_id": 73,
+        "university_name": "University of California, Los Angeles"
+      }
+    },
+    {
+      "id": "university_20",
+      "label": "university",
+      "properties": {
+        "id": 20,
+        "country_id": 73,
+        "university_name": "University of California, San Diego"
+      }
+    },
+    {
+      "id": "university_21",
+      "label": "university",
+      "properties": {
+        "id": 21,
+        "country_id": 73,
+        "university_name": "Rockefeller University"
+      }
+    },
+    {
+      "id": "university_22",
+      "label": "university",
+      "properties": {
+        "id": 22,
+        "country_id": 31,
+        "university_name": "Hebrew University of Jerusalem"
+      }
+    },
+    {
+      "id": "university_23",
+      "label": "university",
+      "properties": {
+        "id": 23,
+        "country_id": 73,
+        "university_name": "New York University"
+      }
+    },
+    {
+      "id": "university_24",
+      "label": "university",
+      "properties": {
+        "id": 24,
+        "country_id": 73,
+        "university_name": "University of California, San Francisco"
+      }
+    },
+    {
+      "id": "university_25",
+      "label": "university",
+      "properties": {
+        "id": 25,
+        "country_id": 73,
+        "university_name": "University of Wisconsin\u2013Madison"
+      }
+    },
+    {
+      "id": "university_26",
+      "label": "university",
+      "properties": {
+        "id": 26,
+        "country_id": 73,
+        "university_name": "University of Illinois at Urbana\u2013Champaign"
+      }
+    },
+    {
+      "id": "university_27",
+      "label": "university",
+      "properties": {
+        "id": 27,
+        "country_id": 73,
+        "university_name": "Duke University"
+      }
+    },
+    {
+      "id": "university_28",
+      "label": "university",
+      "properties": {
+        "id": 28,
+        "country_id": 72,
+        "university_name": "Imperial College London"
+      }
+    },
+    {
+      "id": "university_29",
+      "label": "university",
+      "properties": {
+        "id": 29,
+        "country_id": 73,
+        "university_name": "University of Texas Southwestern Medical Center"
+      }
+    },
+    {
+      "id": "university_30",
+      "label": "university",
+      "properties": {
+        "id": 30,
+        "country_id": 73,
+        "university_name": "University of Texas at Austin"
+      }
+    },
+    {
+      "id": "university_31",
+      "label": "university",
+      "properties": {
+        "id": 31,
+        "country_id": 72,
+        "university_name": "University College London"
+      }
+    },
+    {
+      "id": "university_32",
+      "label": "university",
+      "properties": {
+        "id": 32,
+        "country_id": 33,
+        "university_name": "Osaka University"
+      }
+    },
+    {
+      "id": "university_33",
+      "label": "university",
+      "properties": {
+        "id": 33,
+        "country_id": 73,
+        "university_name": "Northwestern University"
+      }
+    },
+    {
+      "id": "university_34",
+      "label": "university",
+      "properties": {
+        "id": 34,
+        "country_id": 73,
+        "university_name": "University of Michigan, Ann Arbor"
+      }
+    },
+    {
+      "id": "university_35",
+      "label": "university",
+      "properties": {
+        "id": 35,
+        "country_id": 9,
+        "university_name": "University of Toronto"
+      }
+    },
+    {
+      "id": "university_36",
+      "label": "university",
+      "properties": {
+        "id": 36,
+        "country_id": 73,
+        "university_name": "University of North Carolina at Chapel Hill"
+      }
+    },
+    {
+      "id": "university_37",
+      "label": "university",
+      "properties": {
+        "id": 37,
+        "country_id": 73,
+        "university_name": "Washington University in St. Louis"
+      }
+    },
+    {
+      "id": "university_38",
+      "label": "university",
+      "properties": {
+        "id": 38,
+        "country_id": 73,
+        "university_name": "University of Utah"
+      }
+    },
+    {
+      "id": "university_39",
+      "label": "university",
+      "properties": {
+        "id": 39,
+        "country_id": 73,
+        "university_name": "University of Washington - Seattle"
+      }
+    },
+    {
+      "id": "university_40",
+      "label": "university",
+      "properties": {
+        "id": 40,
+        "country_id": 73,
+        "university_name": "University of California, Santa Barbara"
+      }
+    },
+    {
+      "id": "university_41",
+      "label": "university",
+      "properties": {
+        "id": 41,
+        "country_id": 9,
+        "university_name": "McGill University"
+      }
+    },
+    {
+      "id": "university_42",
+      "label": "university",
+      "properties": {
+        "id": 42,
+        "country_id": 73,
+        "university_name": "Purdue University, West Lafayette"
+      }
+    },
+    {
+      "id": "university_43",
+      "label": "university",
+      "properties": {
+        "id": 43,
+        "country_id": 73,
+        "university_name": "Carnegie Mellon University"
+      }
+    },
+    {
+      "id": "university_44",
+      "label": "university",
+      "properties": {
+        "id": 44,
+        "country_id": 73,
+        "university_name": "University of Southern California"
+      }
+    },
+    {
+      "id": "university_45",
+      "label": "university",
+      "properties": {
+        "id": 45,
+        "country_id": 73,
+        "university_name": "University of California, Davis"
+      }
+    },
+    {
+      "id": "university_46",
+      "label": "university",
+      "properties": {
+        "id": 46,
+        "country_id": 73,
+        "university_name": "University of Colorado Boulder"
+      }
+    },
+    {
+      "id": "university_47",
+      "label": "university",
+      "properties": {
+        "id": 47,
+        "country_id": 73,
+        "university_name": "University of California, Irvine"
+      }
+    },
+    {
+      "id": "university_48",
+      "label": "university",
+      "properties": {
+        "id": 48,
+        "country_id": 20,
+        "university_name": "University of Paris-Sud"
+      }
+    },
+    {
+      "id": "university_49",
+      "label": "university",
+      "properties": {
+        "id": 49,
+        "country_id": 73,
+        "university_name": "University of Minnesota, Twin Cities"
+      }
+    },
+    {
+      "id": "university_50",
+      "label": "university",
+      "properties": {
+        "id": 50,
+        "country_id": 73,
+        "university_name": "University of Arizona"
+      }
+    },
+    {
+      "id": "university_ranking_year_1_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 100
+      }
+    },
+    {
+      "id": "university_ranking_year_5_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 5,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 98
+      }
+    },
+    {
+      "id": "university_ranking_year_2_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 2,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 98
+      }
+    },
+    {
+      "id": "university_ranking_year_3_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 3,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 98
+      }
+    },
+    {
+      "id": "university_ranking_year_6_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 6,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 91
+      }
+    },
+    {
+      "id": "university_ranking_year_4_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 4,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 90
+      }
+    },
+    {
+      "id": "university_ranking_year_7_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 7,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 88
+      }
+    },
+    {
+      "id": "university_ranking_year_10_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 10,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 84
+      }
+    },
+    {
+      "id": "university_ranking_year_28_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 28,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 89
+      }
+    },
+    {
+      "id": "university_ranking_year_8_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 8,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 92
+      }
+    },
+    {
+      "id": "university_ranking_year_19_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 19,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 83
+      }
+    },
+    {
+      "id": "university_ranking_year_11_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 11,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 79
+      }
+    },
+    {
+      "id": "university_ranking_year_15_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 15,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 81
+      }
+    },
+    {
+      "id": "university_ranking_year_12_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 12,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 82
+      }
+    },
+    {
+      "id": "university_ranking_year_1025_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1025,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 78
+      }
+    },
+    {
+      "id": "university_ranking_year_1026_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1026,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 84
+      }
+    },
+    {
+      "id": "university_ranking_year_9_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 9,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 74
+      }
+    },
+    {
+      "id": "university_ranking_year_13_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 13,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 72
+      }
+    },
+    {
+      "id": "university_ranking_year_43_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 43,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 70
+      }
+    },
+    {
+      "id": "university_ranking_year_158_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 158,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 68
+      }
+    },
+    {
+      "id": "university_ranking_year_31_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 31,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 74
+      }
+    },
+    {
+      "id": "university_ranking_year_1027_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1027,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 68
+      }
+    },
+    {
+      "id": "university_ranking_year_27_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 27,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 67
+      }
+    },
+    {
+      "id": "university_ranking_year_33_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 33,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 64
+      }
+    },
+    {
+      "id": "university_ranking_year_14_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 14,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 88
+      }
+    },
+    {
+      "id": "university_ranking_year_87_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 87,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 68
+      }
+    },
+    {
+      "id": "university_ranking_year_187_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 187,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 70
+      }
+    },
+    {
+      "id": "university_ranking_year_40_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 40,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 57
+      }
+    },
+    {
+      "id": "university_ranking_year_67_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 67,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 65
+      }
+    },
+    {
+      "id": "university_ranking_year_36_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 36,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 71
+      }
+    },
+    {
+      "id": "university_ranking_year_20_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 20,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 60
+      }
+    },
+    {
+      "id": "university_ranking_year_1028_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1028,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 68
+      }
+    },
+    {
+      "id": "university_ranking_year_104_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 104,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 66
+      }
+    },
+    {
+      "id": "university_ranking_year_41_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 41,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 69
+      }
+    },
+    {
+      "id": "university_ranking_year_118_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 118,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 59
+      }
+    },
+    {
+      "id": "university_ranking_year_111_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 111,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 76
+      }
+    },
+    {
+      "id": "university_ranking_year_1029_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1029,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 59
+      }
+    },
+    {
+      "id": "university_ranking_year_61_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 61,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 58
+      }
+    },
+    {
+      "id": "university_ranking_year_60_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 60,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 60
+      }
+    },
+    {
+      "id": "university_ranking_year_292_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 292,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 50
+      }
+    },
+    {
+      "id": "university_ranking_year_1030_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1030,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 67
+      }
+    },
+    {
+      "id": "university_ranking_year_107_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 107,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 52
+      }
+    },
+    {
+      "id": "university_ranking_year_170_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 170,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 57
+      }
+    },
+    {
+      "id": "university_ranking_year_57_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 57,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 57
+      }
+    },
+    {
+      "id": "university_ranking_year_1032_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1032,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 55
+      }
+    },
+    {
+      "id": "university_ranking_year_47_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 47,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 49
+      }
+    },
+    {
+      "id": "university_ranking_year_59_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 59,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 65
+      }
+    },
+    {
+      "id": "university_ranking_year_1033_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 1033,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 58
+      }
+    },
+    {
+      "id": "university_ranking_year_86_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 86,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 64
+      }
+    },
+    {
+      "id": "university_ranking_year_45_1_2011",
+      "label": "university_ranking_year",
+      "properties": {
+        "university_id": 45,
+        "ranking_criteria_id": 1,
+        "year": 2011,
+        "score": 57
+      }
+    },
+    {
+      "id": "university_year_1_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1,
+        "year": 2011,
+        "num_students": 20152,
+        "student_staff_ratio": 8.9,
+        "pct_international_students": 25,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_5_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 5,
+        "year": 2011,
+        "num_students": 2243,
+        "student_staff_ratio": 6.9,
+        "pct_international_students": 27,
+        "pct_female_students": 33
+      }
+    },
+    {
+      "id": "university_year_2_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 2,
+        "year": 2011,
+        "num_students": 11074,
+        "student_staff_ratio": 9.0,
+        "pct_international_students": 33,
+        "pct_female_students": 37
+      }
+    },
+    {
+      "id": "university_year_3_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 3,
+        "year": 2011,
+        "num_students": 15596,
+        "student_staff_ratio": 7.8,
+        "pct_international_students": 22,
+        "pct_female_students": 42
+      }
+    },
+    {
+      "id": "university_year_6_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 6,
+        "year": 2011,
+        "num_students": 7929,
+        "student_staff_ratio": 8.4,
+        "pct_international_students": 27,
+        "pct_female_students": 45
+      }
+    },
+    {
+      "id": "university_year_4_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 4,
+        "year": 2011,
+        "num_students": 18812,
+        "student_staff_ratio": 11.8,
+        "pct_international_students": 34,
+        "pct_female_students": 46
+      }
+    },
+    {
+      "id": "university_year_7_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 7,
+        "year": 2011,
+        "num_students": 19919,
+        "student_staff_ratio": 11.6,
+        "pct_international_students": 34,
+        "pct_female_students": 46
+      }
+    },
+    {
+      "id": "university_year_10_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 10,
+        "year": 2011,
+        "num_students": 36186,
+        "student_staff_ratio": 16.4,
+        "pct_international_students": 15,
+        "pct_female_students": 50
+      }
+    },
+    {
+      "id": "university_year_28_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 28,
+        "year": 2011,
+        "num_students": 15060,
+        "student_staff_ratio": 11.7,
+        "pct_international_students": 51,
+        "pct_female_students": 37
+      }
+    },
+    {
+      "id": "university_year_8_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 8,
+        "year": 2011,
+        "num_students": 11751,
+        "student_staff_ratio": 4.4,
+        "pct_international_students": 20,
+        "pct_female_students": 50
+      }
+    },
+    {
+      "id": "university_year_19_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 19,
+        "year": 2011,
+        "num_students": 38206,
+        "student_staff_ratio": 10.3,
+        "pct_international_students": 15,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_11_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 11,
+        "year": 2011,
+        "num_students": 14221,
+        "student_staff_ratio": 6.9,
+        "pct_international_students": 21,
+        "pct_female_students": 42
+      }
+    },
+    {
+      "id": "university_year_15_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 15,
+        "year": 2011,
+        "num_students": 15128,
+        "student_staff_ratio": 3.6,
+        "pct_international_students": 23,
+        "pct_female_students": 50
+      }
+    },
+    {
+      "id": "university_year_12_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 12,
+        "year": 2011,
+        "num_students": 21424,
+        "student_staff_ratio": 10.2,
+        "pct_international_students": 19,
+        "pct_female_students": 48
+      }
+    },
+    {
+      "id": "university_year_1025_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1025,
+        "year": 2011,
+        "num_students": 18178,
+        "student_staff_ratio": 14.7,
+        "pct_international_students": 37,
+        "pct_female_students": 31
+      }
+    },
+    {
+      "id": "university_year_1026_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1026,
+        "year": 2011,
+        "num_students": 41786,
+        "student_staff_ratio": 9.0,
+        "pct_international_students": 16,
+        "pct_female_students": 48
+      }
+    },
+    {
+      "id": "university_year_9_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 9,
+        "year": 2011,
+        "num_students": 25055,
+        "student_staff_ratio": 5.9,
+        "pct_international_students": 28,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_13_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 13,
+        "year": 2011,
+        "num_students": 20376,
+        "student_staff_ratio": 6.5,
+        "pct_international_students": 20,
+        "pct_female_students": 51
+      }
+    },
+    {
+      "id": "university_year_43_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 43,
+        "year": 2011,
+        "num_students": 11885,
+        "student_staff_ratio": 13.1,
+        "pct_international_students": 35,
+        "pct_female_students": 39
+      }
+    },
+    {
+      "id": "university_year_158_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 158,
+        "year": 2011,
+        "num_students": 19835,
+        "student_staff_ratio": 17.6,
+        "pct_international_students": 38,
+        "pct_female_students": 53
+      }
+    },
+    {
+      "id": "university_year_31_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 31,
+        "year": 2011,
+        "num_students": 26607,
+        "student_staff_ratio": 10.7,
+        "pct_international_students": 46,
+        "pct_female_students": 56
+      }
+    },
+    {
+      "id": "university_year_1027_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1027,
+        "year": 2011,
+        "num_students": 44020,
+        "student_staff_ratio": 11.8,
+        "pct_international_students": 13,
+        "pct_female_students": 53
+      }
+    },
+    {
+      "id": "university_year_27_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 27,
+        "year": 2011,
+        "num_students": 15172,
+        "student_staff_ratio": 4.8,
+        "pct_international_students": 17,
+        "pct_female_students": 49
+      }
+    },
+    {
+      "id": "university_year_33_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 33,
+        "year": 2011,
+        "num_students": 18334,
+        "student_staff_ratio": 13.8,
+        "pct_international_students": 15,
+        "pct_female_students": 48
+      }
+    },
+    {
+      "id": "university_year_14_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 14,
+        "year": 2011,
+        "num_students": 26199,
+        "student_staff_ratio": 5.7,
+        "pct_international_students": 10,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_87_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 87,
+        "year": 2011,
+        "num_students": 19967,
+        "student_staff_ratio": 20.1,
+        "pct_international_students": 26,
+        "pct_female_students": 31
+      }
+    },
+    {
+      "id": "university_year_187_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 187,
+        "year": 2011,
+        "num_students": 3055,
+        "student_staff_ratio": 10.1,
+        "pct_international_students": 4,
+        "pct_female_students": 20
+      }
+    },
+    {
+      "id": "university_year_40_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 40,
+        "year": 2011,
+        "num_students": 22020,
+        "student_staff_ratio": 27.3,
+        "pct_international_students": 11,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_67_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 67,
+        "year": 2011,
+        "num_students": 50152,
+        "student_staff_ratio": 17.6,
+        "pct_international_students": 25,
+        "pct_female_students": 54
+      }
+    },
+    {
+      "id": "university_year_36_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 36,
+        "year": 2011,
+        "num_students": 26518,
+        "student_staff_ratio": 7.3,
+        "pct_international_students": 8,
+        "pct_female_students": 58
+      }
+    },
+    {
+      "id": "university_year_20_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 20,
+        "year": 2011,
+        "num_students": 27233,
+        "student_staff_ratio": 6.5,
+        "pct_international_students": 11,
+        "pct_female_students": 48
+      }
+    },
+    {
+      "id": "university_year_1028_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1028,
+        "year": 2011,
+        "num_students": 42727,
+        "student_staff_ratio": 18.7,
+        "pct_international_students": 20,
+        "pct_female_students": 47
+      }
+    },
+    {
+      "id": "university_year_104_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 104,
+        "year": 2011,
+        "num_students": 31592,
+        "student_staff_ratio": 15.5,
+        "pct_international_students": 34,
+        "pct_female_students": 49
+      }
+    },
+    {
+      "id": "university_year_41_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 41,
+        "year": 2011,
+        "num_students": 31326,
+        "student_staff_ratio": 13.7,
+        "pct_international_students": 23,
+        "pct_female_students": 56
+      }
+    },
+    {
+      "id": "university_year_118_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 118,
+        "year": 2011,
+        "num_students": 40128,
+        "student_staff_ratio": 23.7,
+        "pct_international_students": 35,
+        "pct_female_students": 55
+      }
+    },
+    {
+      "id": "university_year_111_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 111,
+        "year": 2011,
+        "num_students": 40148,
+        "student_staff_ratio": 8.3,
+        "pct_international_students": 14,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_1029_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1029,
+        "year": 2011,
+        "num_students": 12528,
+        "student_staff_ratio": 5.7,
+        "pct_international_students": 17,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_61_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 61,
+        "year": 2011,
+        "num_students": 2429,
+        "student_staff_ratio": 4.8,
+        "pct_international_students": 30,
+        "pct_female_students": 18
+      }
+    },
+    {
+      "id": "university_year_60_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 60,
+        "year": 2011,
+        "num_students": 25774,
+        "student_staff_ratio": 14.1,
+        "pct_international_students": 36,
+        "pct_female_students": 58
+      }
+    },
+    {
+      "id": "university_year_292_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 292,
+        "year": 2011,
+        "num_students": 11385,
+        "student_staff_ratio": 23.8,
+        "pct_international_students": 36,
+        "pct_female_students": null
+      }
+    },
+    {
+      "id": "university_year_1030_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1030,
+        "year": 2011,
+        "num_students": 2400,
+        "student_staff_ratio": 7.9,
+        "pct_international_students": 20,
+        "pct_female_students": 46
+      }
+    },
+    {
+      "id": "university_year_107_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 107,
+        "year": 2011,
+        "num_students": 14604,
+        "student_staff_ratio": 19.2,
+        "pct_international_students": 35,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_170_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 170,
+        "year": 2011,
+        "num_students": 25581,
+        "student_staff_ratio": 25.6,
+        "pct_international_students": 12,
+        "pct_female_students": 51
+      }
+    },
+    {
+      "id": "university_year_57_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 57,
+        "year": 2011,
+        "num_students": 6333,
+        "student_staff_ratio": 9.0,
+        "pct_international_students": 26,
+        "pct_female_students": 44
+      }
+    },
+    {
+      "id": "university_year_1032_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1032,
+        "year": 2011,
+        "num_students": 9666,
+        "student_staff_ratio": 10.5,
+        "pct_international_students": 54,
+        "pct_female_students": 27
+      }
+    },
+    {
+      "id": "university_year_47_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 47,
+        "year": 2011,
+        "num_students": 26614,
+        "student_staff_ratio": 16.1,
+        "pct_international_students": 16,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_59_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 59,
+        "year": 2011,
+        "num_students": 12161,
+        "student_staff_ratio": 3.6,
+        "pct_international_students": 10,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_1033_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 1033,
+        "year": 2011,
+        "num_students": 46825,
+        "student_staff_ratio": 18.0,
+        "pct_international_students": 13,
+        "pct_female_students": 52
+      }
+    },
+    {
+      "id": "university_year_86_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 86,
+        "year": 2011,
+        "num_students": 10410,
+        "student_staff_ratio": 10.0,
+        "pct_international_students": 14,
+        "pct_female_students": 54
+      }
+    },
+    {
+      "id": "university_year_45_2011",
+      "label": "university_year",
+      "properties": {
+        "university_id": 45,
+        "year": 2011,
+        "num_students": 35364,
+        "student_staff_ratio": 13.9,
+        "pct_international_students": 13,
+        "pct_female_students": 54
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_1",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_2",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_3",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_4",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_5",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_6",
+      "target": "ranking_system_1",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_7",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_8",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_9",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_10",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_11",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_12",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_13",
+      "target": "ranking_system_2",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_14",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_15",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_16",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_17",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_18",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_19",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_20",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "BELONGS_TO",
+      "source": "ranking_criteria_21",
+      "target": "ranking_system_3",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_14",
+      "target": "country_33",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_17",
+      "target": "country_33",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_18",
+      "target": "country_31",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_22",
+      "target": "country_31",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_32",
+      "target": "country_33",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_35",
+      "target": "country_9",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_41",
+      "target": "country_9",
+      "properties": {}
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": "university_48",
+      "target": "country_20",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_1_1_2011",
+      "target": "university_1",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_5_1_2011",
+      "target": "university_5",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_2_1_2011",
+      "target": "university_2",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_3_1_2011",
+      "target": "university_3",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_6_1_2011",
+      "target": "university_6",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_4_1_2011",
+      "target": "university_4",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_7_1_2011",
+      "target": "university_7",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_10_1_2011",
+      "target": "university_10",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_28_1_2011",
+      "target": "university_28",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_8_1_2011",
+      "target": "university_8",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_19_1_2011",
+      "target": "university_19",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_11_1_2011",
+      "target": "university_11",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_15_1_2011",
+      "target": "university_15",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_12_1_2011",
+      "target": "university_12",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_9_1_2011",
+      "target": "university_9",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_13_1_2011",
+      "target": "university_13",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_43_1_2011",
+      "target": "university_43",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_31_1_2011",
+      "target": "university_31",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_27_1_2011",
+      "target": "university_27",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_33_1_2011",
+      "target": "university_33",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_14_1_2011",
+      "target": "university_14",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_40_1_2011",
+      "target": "university_40",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_36_1_2011",
+      "target": "university_36",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_20_1_2011",
+      "target": "university_20",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_41_1_2011",
+      "target": "university_41",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_47_1_2011",
+      "target": "university_47",
+      "properties": {}
+    },
+    {
+      "type": "HAS_RANKING",
+      "source": "university_ranking_year_45_1_2011",
+      "target": "university_45",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_5_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_2_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_3_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_6_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_4_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_7_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_10_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_28_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_8_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_19_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_11_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_15_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_12_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1025_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1026_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_9_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_13_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_43_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_158_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_31_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1027_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_27_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_33_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_14_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_87_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_187_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_40_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_67_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_36_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_20_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1028_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_104_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_41_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_118_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_111_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1029_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_61_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_60_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_292_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1030_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_107_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_170_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_57_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1032_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_47_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_59_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_1033_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_86_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "RANKING_MEASURED_BY",
+      "source": "university_ranking_year_45_1_2011",
+      "target": "ranking_criteria_1",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_1_2011",
+      "target": "university_1",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_5_2011",
+      "target": "university_5",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_2_2011",
+      "target": "university_2",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_3_2011",
+      "target": "university_3",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_6_2011",
+      "target": "university_6",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_4_2011",
+      "target": "university_4",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_7_2011",
+      "target": "university_7",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_10_2011",
+      "target": "university_10",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_28_2011",
+      "target": "university_28",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_8_2011",
+      "target": "university_8",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_19_2011",
+      "target": "university_19",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_11_2011",
+      "target": "university_11",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_15_2011",
+      "target": "university_15",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_12_2011",
+      "target": "university_12",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_9_2011",
+      "target": "university_9",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_13_2011",
+      "target": "university_13",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_43_2011",
+      "target": "university_43",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_31_2011",
+      "target": "university_31",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_27_2011",
+      "target": "university_27",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_33_2011",
+      "target": "university_33",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_14_2011",
+      "target": "university_14",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_40_2011",
+      "target": "university_40",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_36_2011",
+      "target": "university_36",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_20_2011",
+      "target": "university_20",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_41_2011",
+      "target": "university_41",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_47_2011",
+      "target": "university_47",
+      "properties": {}
+    },
+    {
+      "type": "STATS_FOR",
+      "source": "university_year_45_2011",
+      "target": "university_45",
+      "properties": {}
+    }
+  ]
+}

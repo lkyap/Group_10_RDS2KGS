@@ -1,0 +1,106 @@
+{
+  "id": "chinook_1",
+  "nodes": [
+    {
+      "id": "Album",
+      "label": "Album\\nPK: AlbumId"
+    },
+    {
+      "id": "Artist",
+      "label": "Artist\\nPK: ArtistId"
+    },
+    {
+      "id": "Customer",
+      "label": "Customer\\nPK: CustomerId"
+    },
+    {
+      "id": "Employee",
+      "label": "Employee\\nPK: EmployeeId"
+    },
+    {
+      "id": "Genre",
+      "label": "Genre\\nPK: GenreId"
+    },
+    {
+      "id": "Invoice",
+      "label": "Invoice\\nPK: InvoiceId"
+    },
+    {
+      "id": "InvoiceLine",
+      "label": "InvoiceLine\\nPK: InvoiceLineId"
+    },
+    {
+      "id": "MediaType",
+      "label": "MediaType\\nPK: MediaTypeId"
+    },
+    {
+      "id": "Playlist",
+      "label": "Playlist\\nPK: PlaylistId"
+    },
+    {
+      "id": "PlaylistTrack",
+      "label": "PlaylistTrack\\nPK: PlaylistId, TrackId"
+    },
+    {
+      "id": "Track",
+      "label": "Track\\nPK: TrackId"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Album",
+      "to": "Artist",
+      "label": "ArtistId -> ArtistId"
+    },
+    {
+      "from": "Customer",
+      "to": "Employee",
+      "label": "SupportRepId -> EmployeeId"
+    },
+    {
+      "from": "Employee",
+      "to": "Employee",
+      "label": "ReportsTo -> EmployeeId"
+    },
+    {
+      "from": "Invoice",
+      "to": "Customer",
+      "label": "CustomerId -> CustomerId"
+    },
+    {
+      "from": "InvoiceLine",
+      "to": "Track",
+      "label": "TrackId -> TrackId"
+    },
+    {
+      "from": "InvoiceLine",
+      "to": "Invoice",
+      "label": "InvoiceId -> InvoiceId"
+    },
+    {
+      "from": "PlaylistTrack",
+      "to": "Track",
+      "label": "TrackId -> TrackId"
+    },
+    {
+      "from": "PlaylistTrack",
+      "to": "Playlist",
+      "label": "PlaylistId -> PlaylistId"
+    },
+    {
+      "from": "Track",
+      "to": "MediaType",
+      "label": "MediaTypeId -> MediaTypeId"
+    },
+    {
+      "from": "Track",
+      "to": "Genre",
+      "label": "GenreId -> GenreId"
+    },
+    {
+      "from": "Track",
+      "to": "Album",
+      "label": "AlbumId -> AlbumId"
+    }
+  ]
+}

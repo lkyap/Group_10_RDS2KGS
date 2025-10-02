@@ -1,0 +1,29 @@
+{
+  "id": "journal_committee",
+  "nodes": [
+    {
+      "id": "editor",
+      "label": "editor\\nPK: Editor_ID"
+    },
+    {
+      "id": "journal",
+      "label": "journal\\nPK: Journal_ID"
+    },
+    {
+      "id": "journal_committee",
+      "label": "journal_committee\\nPK: Editor_ID, Journal_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "journal_committee",
+      "to": "journal",
+      "label": "Journal_ID -> Journal_ID"
+    },
+    {
+      "from": "journal_committee",
+      "to": "editor",
+      "label": "Editor_ID -> Editor_ID"
+    }
+  ]
+}

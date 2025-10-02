@@ -1,0 +1,29 @@
+{
+  "id": "museum_visit",
+  "nodes": [
+    {
+      "id": "museum",
+      "label": "museum\\nPK: Museum_ID"
+    },
+    {
+      "id": "visit",
+      "label": "visit\\nPK: Museum_ID, visitor_ID"
+    },
+    {
+      "id": "visitor",
+      "label": "visitor\\nPK: ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "visit",
+      "to": "visitor",
+      "label": "visitor_ID -> ID"
+    },
+    {
+      "from": "visit",
+      "to": "museum",
+      "label": "Museum_ID -> Museum_ID"
+    }
+  ]
+}

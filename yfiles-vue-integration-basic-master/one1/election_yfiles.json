@@ -1,0 +1,29 @@
+{
+  "id": "election",
+  "nodes": [
+    {
+      "id": "county",
+      "label": "county\\nPK: County_Id"
+    },
+    {
+      "id": "election",
+      "label": "election\\nPK: Election_ID"
+    },
+    {
+      "id": "party",
+      "label": "party\\nPK: Party_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "election",
+      "to": "county",
+      "label": "District -> County_Id"
+    },
+    {
+      "from": "election",
+      "to": "party",
+      "label": "Party -> Party_ID"
+    }
+  ]
+}

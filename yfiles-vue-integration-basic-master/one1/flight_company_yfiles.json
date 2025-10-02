@@ -1,0 +1,29 @@
+{
+  "id": "flight_company",
+  "nodes": [
+    {
+      "id": "airport",
+      "label": "airport\\nPK: id"
+    },
+    {
+      "id": "flight",
+      "label": "flight\\nPK: id"
+    },
+    {
+      "id": "operate_company",
+      "label": "operate_company\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "flight",
+      "to": "operate_company",
+      "label": "company_id -> id"
+    },
+    {
+      "from": "flight",
+      "to": "airport",
+      "label": "airport_id -> id"
+    }
+  ]
+}

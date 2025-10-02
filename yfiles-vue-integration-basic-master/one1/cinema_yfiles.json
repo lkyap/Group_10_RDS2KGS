@@ -1,0 +1,29 @@
+{
+  "id": "cinema",
+  "nodes": [
+    {
+      "id": "cinema",
+      "label": "cinema\\nPK: Cinema_ID"
+    },
+    {
+      "id": "film",
+      "label": "film\\nPK: Film_ID"
+    },
+    {
+      "id": "schedule",
+      "label": "schedule\\nPK: Cinema_ID, Film_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "schedule",
+      "to": "cinema",
+      "label": "Cinema_ID -> Cinema_ID"
+    },
+    {
+      "from": "schedule",
+      "to": "film",
+      "label": "Film_ID -> Film_ID"
+    }
+  ]
+}

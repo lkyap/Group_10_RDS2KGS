@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "id": "university_0",
+      "label": "university",
+      "properties": {
+        "University_ID": 1,
+        "University_Name": "Augustana College",
+        "City": "Rock Island",
+        "State": "Illinois",
+        "Team_Name": "Vikings",
+        "Affiliation": "Private_Lutheran",
+        "Enrollment": 2500,
+        "Home_Conference": "CCIW"
+      }
+    },
+    {
+      "id": "university_1",
+      "label": "university",
+      "properties": {
+        "University_ID": 2,
+        "University_Name": "Aurora University",
+        "City": "Aurora",
+        "State": "Illinois",
+        "Team_Name": "Spartans",
+        "Affiliation": "Private_Non-sectarian",
+        "Enrollment": 4400,
+        "Home_Conference": "Northern"
+      }
+    },
+    {
+      "id": "university_2",
+      "label": "university",
+      "properties": {
+        "University_ID": 3,
+        "University_Name": "Beloit College",
+        "City": "Beloit",
+        "State": "Wisconsin",
+        "Team_Name": "Buccaneers",
+        "Affiliation": "Private_United Church of Christ",
+        "Enrollment": 1000,
+        "Home_Conference": "Midwest"
+      }
+    },
+    {
+      "id": "university_3",
+      "label": "university",
+      "properties": {
+        "University_ID": 4,
+        "University_Name": "Benedictine University",
+        "City": "Lisle",
+        "State": "Illinois",
+        "Team_Name": "Eagles",
+        "Affiliation": "Private_Catholic",
+        "Enrollment": 1300,
+        "Home_Conference": "Northern"
+      }
+    },
+    {
+      "id": "university_4",
+      "label": "university",
+      "properties": {
+        "University_ID": 5,
+        "University_Name": "Carroll University ",
+        "City": "Waukesha",
+        "State": "Wisconsin",
+        "Team_Name": "Pioneers",
+        "Affiliation": "Private_Presbyterian",
+        "Enrollment": 2789,
+        "Home_Conference": "Midwest"
+      }
+    },
+    {
+      "id": "university_5",
+      "label": "university",
+      "properties": {
+        "University_ID": 6,
+        "University_Name": "Carthage College",
+        "City": "Kenosha",
+        "State": "Wisconsin",
+        "Team_Name": "Red Men",
+        "Affiliation": "Private_Lutheran",
+        "Enrollment": 2188,
+        "Home_Conference": "CCIW"
+      }
+    },
+    {
+      "id": "university_6",
+      "label": "university",
+      "properties": {
+        "University_ID": 7,
+        "University_Name": "Concordia University Wisconsin",
+        "City": "Mequon",
+        "State": "Wisconsin",
+        "Team_Name": "Falcons",
+        "Affiliation": "Private_Lutheran",
+        "Enrollment": 1608,
+        "Home_Conference": "Northern"
+      }
+    },
+    {
+      "id": "university_7",
+      "label": "university",
+      "properties": {
+        "University_ID": 8,
+        "University_Name": "Cornell College",
+        "City": "Mount Vernon",
+        "State": "Iowa",
+        "Team_Name": "Rams",
+        "Affiliation": "Private_United Methodist",
+        "Enrollment": 1176,
+        "Home_Conference": "Midwest"
+      }
+    },
+    {
+      "id": "university_8",
+      "label": "university",
+      "properties": {
+        "University_ID": 9,
+        "University_Name": "Defiance College",
+        "City": "Defiance",
+        "State": "Ohio",
+        "Team_Name": "Yellow Jackets",
+        "Affiliation": "Private_United Church of Christ",
+        "Enrollment": 1000,
+        "Home_Conference": "HCAC"
+      }
+    },
+    {
+      "id": "university_9",
+      "label": "university",
+      "properties": {
+        "University_ID": 10,
+        "University_Name": "Elmhurst College",
+        "City": "Elmhurst",
+        "State": "Illinois",
+        "Team_Name": "Bluejays",
+        "Affiliation": "Private_United Church of Christ",
+        "Enrollment": 3400,
+        "Home_Conference": "CCIW"
+      }
+    },
+    {
+      "id": "university_10",
+      "label": "university",
+      "properties": {
+        "University_ID": 11,
+        "University_Name": "Fontbonne University",
+        "City": "St. Louis",
+        "State": "Missouri",
+        "Team_Name": "Griffins",
+        "Affiliation": "Private_Catholic",
+        "Enrollment": 2924,
+        "Home_Conference": "SLIAC"
+      }
+    },
+    {
+      "id": "university_11",
+      "label": "university",
+      "properties": {
+        "University_ID": 12,
+        "University_Name": "Hanover College",
+        "City": "Hanover",
+        "State": "Indiana",
+        "Team_Name": "Panthers",
+        "Affiliation": "Private_Presbyterian",
+        "Enrollment": 975,
+        "Home_Conference": "HCAC"
+      }
+    },
+    {
+      "id": "university_12",
+      "label": "university",
+      "properties": {
+        "University_ID": 13,
+        "University_Name": "Milwaukee School of Engineering",
+        "City": "Milwaukee",
+        "State": "Wisconsin",
+        "Team_Name": "Raiders",
+        "Affiliation": "Private_Non-sectarian",
+        "Enrollment": 1929,
+        "Home_Conference": "Northern"
+      }
+    },
+    {
+      "id": "overall_ranking_0",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 1,
+        "University_ID": 1,
+        "Reputation_point": 5,
+        "Research_point": 2,
+        "Citation_point": 0,
+        "Total": 7
+      }
+    },
+    {
+      "id": "overall_ranking_1",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 1,
+        "University_ID": 2,
+        "Reputation_point": 5,
+        "Research_point": 1,
+        "Citation_point": 1,
+        "Total": 7
+      }
+    },
+    {
+      "id": "overall_ranking_2",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 3,
+        "University_ID": 3,
+        "Reputation_point": 4,
+        "Research_point": 0,
+        "Citation_point": 0,
+        "Total": 4
+      }
+    },
+    {
+      "id": "overall_ranking_3",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 4,
+        "University_ID": 4,
+        "Reputation_point": 1,
+        "Research_point": 3,
+        "Citation_point": 2,
+        "Total": 6
+      }
+    },
+    {
+      "id": "overall_ranking_4",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 5,
+        "University_ID": 5,
+        "Reputation_point": 1,
+        "Research_point": 2,
+        "Citation_point": 0,
+        "Total": 3
+      }
+    },
+    {
+      "id": "overall_ranking_5",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 6,
+        "University_ID": 6,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 2,
+        "Total": 3
+      }
+    },
+    {
+      "id": "overall_ranking_6",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 7,
+        "University_ID": 7,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 1,
+        "Total": 2
+      }
+    },
+    {
+      "id": "overall_ranking_7",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 7,
+        "University_ID": 8,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 1,
+        "Total": 2
+      }
+    },
+    {
+      "id": "overall_ranking_8",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 9,
+        "University_ID": 9,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 0,
+        "Total": 1
+      }
+    },
+    {
+      "id": "overall_ranking_9",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 9,
+        "University_ID": 10,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 0,
+        "Total": 1
+      }
+    },
+    {
+      "id": "overall_ranking_10",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 9,
+        "University_ID": 11,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 0,
+        "Total": 1
+      }
+    },
+    {
+      "id": "overall_ranking_11",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 9,
+        "University_ID": 12,
+        "Reputation_point": 1,
+        "Research_point": 0,
+        "Citation_point": 0,
+        "Total": 1
+      }
+    },
+    {
+      "id": "overall_ranking_12",
+      "label": "overall_ranking",
+      "properties": {
+        "Rank": 13,
+        "University_ID": 13,
+        "Reputation_point": 0,
+        "Research_point": 0,
+        "Citation_point": 1,
+        "Total": 1
+      }
+    },
+    {
+      "id": "major_0",
+      "label": "major",
+      "properties": {
+        "Major_ID": 1,
+        "Major_Name": "Accounting",
+        "Major_Code": 1054
+      }
+    },
+    {
+      "id": "major_1",
+      "label": "major",
+      "properties": {
+        "Major_ID": 2,
+        "Major_Name": "Advertising",
+        "Major_Code": 1053
+      }
+    },
+    {
+      "id": "major_2",
+      "label": "major",
+      "properties": {
+        "Major_ID": 3,
+        "Major_Name": "Healthcare Management",
+        "Major_Code": 1154
+      }
+    },
+    {
+      "id": "major_3",
+      "label": "major",
+      "properties": {
+        "Major_ID": 4,
+        "Major_Name": "Journalism",
+        "Major_Code": 1059
+      }
+    },
+    {
+      "id": "major_4",
+      "label": "major",
+      "properties": {
+        "Major_ID": 5,
+        "Major_Name": "Urban Education",
+        "Major_Code": 1041
+      }
+    },
+    {
+      "id": "major_ranking_0",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 1,
+        "University_ID": 1,
+        "Major_ID": 1
+      }
+    },
+    {
+      "id": "major_ranking_1",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 2,
+        "University_ID": 1,
+        "Major_ID": 5
+      }
+    },
+    {
+      "id": "major_ranking_2",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 1,
+        "University_ID": 2,
+        "Major_ID": 3
+      }
+    },
+    {
+      "id": "major_ranking_3",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 2,
+        "University_ID": 1,
+        "Major_ID": 3
+      }
+    },
+    {
+      "id": "major_ranking_4",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 1,
+        "University_ID": 3,
+        "Major_ID": 1
+      }
+    },
+    {
+      "id": "major_ranking_5",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 4,
+        "University_ID": 4,
+        "Major_ID": 1
+      }
+    },
+    {
+      "id": "major_ranking_6",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 3,
+        "University_ID": 2,
+        "Major_ID": 4
+      }
+    },
+    {
+      "id": "major_ranking_7",
+      "label": "major_ranking",
+      "properties": {
+        "Rank": 2,
+        "University_ID": 1,
+        "Major_ID": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "overall_ranking_0",
+      "target": "university_0",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_1",
+      "target": "university_1",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_2",
+      "target": "university_2",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_3",
+      "target": "university_3",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_4",
+      "target": "university_4",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_5",
+      "target": "university_5",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_6",
+      "target": "university_6",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_7",
+      "target": "university_7",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_8",
+      "target": "university_8",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_9",
+      "target": "university_9",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_10",
+      "target": "university_10",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_11",
+      "target": "university_11",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "overall_ranking_12",
+      "target": "university_12",
+      "relationship": "IS_RANK_OF"
+    },
+    {
+      "source": "major_ranking_0",
+      "target": "major_0",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_1",
+      "target": "major_4",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_2",
+      "target": "major_2",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_3",
+      "target": "major_2",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_4",
+      "target": "major_0",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_5",
+      "target": "major_0",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_6",
+      "target": "major_3",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_7",
+      "target": "major_3",
+      "relationship": "IS_RANK_OF_MAJOR"
+    },
+    {
+      "source": "major_ranking_0",
+      "target": "university_0",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_1",
+      "target": "university_0",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_2",
+      "target": "university_1",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_3",
+      "target": "university_0",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_4",
+      "target": "university_2",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_5",
+      "target": "university_3",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_6",
+      "target": "university_1",
+      "relationship": "IS_MAJOR_RANK_OF"
+    },
+    {
+      "source": "major_ranking_7",
+      "target": "university_0",
+      "relationship": "IS_MAJOR_RANK_OF"
+    }
+  ]
+}

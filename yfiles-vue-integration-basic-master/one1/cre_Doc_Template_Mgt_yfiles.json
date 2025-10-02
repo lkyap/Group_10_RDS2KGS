@@ -1,0 +1,38 @@
+{
+  "id": "cre_Doc_Template_Mgt",
+  "nodes": [
+    {
+      "id": "Documents",
+      "label": "Documents\\nPK: Document_ID"
+    },
+    {
+      "id": "Paragraphs",
+      "label": "Paragraphs\\nPK: Paragraph_ID"
+    },
+    {
+      "id": "Ref_Template_Types",
+      "label": "Ref_Template_Types\\nPK: Template_Type_Code"
+    },
+    {
+      "id": "Templates",
+      "label": "Templates\\nPK: Template_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Documents",
+      "to": "Templates",
+      "label": "Template_ID -> Template_ID"
+    },
+    {
+      "from": "Paragraphs",
+      "to": "Documents",
+      "label": "Document_ID -> Document_ID"
+    },
+    {
+      "from": "Templates",
+      "to": "Ref_Template_Types",
+      "label": "Template_Type_Code -> Template_Type_Code"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "cre_Doc_Tracking_DB",
+  "nodes": [
+    {
+      "id": "All_Documents",
+      "label": "All_Documents\\nPK: Document_ID"
+    },
+    {
+      "id": "Document_Locations",
+      "label": "Document_Locations\\nPK: Document_ID, Location_Code, Date_in_Location_From"
+    },
+    {
+      "id": "Documents_to_be_Destroyed",
+      "label": "Documents_to_be_Destroyed\\nPK: Document_ID"
+    },
+    {
+      "id": "Employees",
+      "label": "Employees\\nPK: Employee_ID"
+    },
+    {
+      "id": "Ref_Calendar",
+      "label": "Ref_Calendar\\nPK: Calendar_Date"
+    },
+    {
+      "id": "Ref_Document_Types",
+      "label": "Ref_Document_Types\\nPK: Document_Type_Code"
+    },
+    {
+      "id": "Ref_Locations",
+      "label": "Ref_Locations\\nPK: Location_Code"
+    },
+    {
+      "id": "Roles",
+      "label": "Roles\\nPK: Role_Code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "All_Documents",
+      "to": "Ref_Calendar",
+      "label": "Date_Stored -> Calendar_Date"
+    },
+    {
+      "from": "All_Documents",
+      "to": "Ref_Document_Types",
+      "label": "Document_Type_Code -> Document_Type_Code"
+    },
+    {
+      "from": "Document_Locations",
+      "to": "All_Documents",
+      "label": "Document_ID -> Document_ID"
+    },
+    {
+      "from": "Document_Locations",
+      "to": "Ref_Calendar",
+      "label": "Date_in_Locaton_To -> Calendar_Date"
+    },
+    {
+      "from": "Document_Locations",
+      "to": "Ref_Calendar",
+      "label": "Date_in_Location_From -> Calendar_Date"
+    },
+    {
+      "from": "Document_Locations",
+      "to": "Ref_Locations",
+      "label": "Location_Code -> Location_Code"
+    },
+    {
+      "from": "Documents_to_be_Destroyed",
+      "to": "All_Documents",
+      "label": "Document_ID -> Document_ID"
+    },
+    {
+      "from": "Documents_to_be_Destroyed",
+      "to": "Ref_Calendar",
+      "label": "Actual_Destruction_Date -> Calendar_Date"
+    },
+    {
+      "from": "Documents_to_be_Destroyed",
+      "to": "Ref_Calendar",
+      "label": "Planned_Destruction_Date -> Calendar_Date"
+    },
+    {
+      "from": "Documents_to_be_Destroyed",
+      "to": "Employees",
+      "label": "Destruction_Authorised_by_Employee_ID -> Employee_ID"
+    },
+    {
+      "from": "Documents_to_be_Destroyed",
+      "to": "Employees",
+      "label": "Destroyed_by_Employee_ID -> Employee_ID"
+    },
+    {
+      "from": "Employees",
+      "to": "Roles",
+      "label": "Role_Code -> Role_Code"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "dog_kennels",
+  "nodes": [
+    {
+      "id": "Breeds",
+      "label": "Breeds\\nPK: breed_code"
+    },
+    {
+      "id": "Charges",
+      "label": "Charges\\nPK: charge_id"
+    },
+    {
+      "id": "Dogs",
+      "label": "Dogs\\nPK: dog_id"
+    },
+    {
+      "id": "Owners",
+      "label": "Owners\\nPK: owner_id"
+    },
+    {
+      "id": "Professionals",
+      "label": "Professionals\\nPK: professional_id"
+    },
+    {
+      "id": "Sizes",
+      "label": "Sizes\\nPK: size_code"
+    },
+    {
+      "id": "Treatment_Types",
+      "label": "Treatment_Types\\nPK: treatment_type_code"
+    },
+    {
+      "id": "Treatments",
+      "label": "Treatments\\nPK: treatment_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Dogs",
+      "to": "Owners",
+      "label": "owner_id -> owner_id"
+    },
+    {
+      "from": "Dogs",
+      "to": "Owners",
+      "label": "owner_id -> owner_id"
+    },
+    {
+      "from": "Dogs",
+      "to": "Sizes",
+      "label": "size_code -> size_code"
+    },
+    {
+      "from": "Dogs",
+      "to": "Breeds",
+      "label": "breed_code -> breed_code"
+    },
+    {
+      "from": "Treatments",
+      "to": "Dogs",
+      "label": "dog_id -> dog_id"
+    },
+    {
+      "from": "Treatments",
+      "to": "Professionals",
+      "label": "professional_id -> professional_id"
+    },
+    {
+      "from": "Treatments",
+      "to": "Treatment_Types",
+      "label": "treatment_type_code -> treatment_type_code"
+    }
+  ]
+}
