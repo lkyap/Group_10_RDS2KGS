@@ -1,0 +1,2570 @@
+{
+  "nodes": [
+    {
+      "id": "Ref_Age_Categories_0",
+      "label": "Ref_Age_Categories",
+      "properties": {
+        "age_category_code": "18-25",
+        "age_category_description": "18 - 25 years old."
+      }
+    },
+    {
+      "id": "Ref_Age_Categories_1",
+      "label": "Ref_Age_Categories",
+      "properties": {
+        "age_category_code": "Over 60",
+        "age_category_description": "Over 60 years of age."
+      }
+    },
+    {
+      "id": "Ref_Age_Categories_2",
+      "label": "Ref_Age_Categories",
+      "properties": {
+        "age_category_code": "25-60",
+        "age_category_description": "25 - 60 years old."
+      }
+    },
+    {
+      "id": "Ref_Property_Types_0",
+      "label": "Ref_Property_Types",
+      "properties": {
+        "property_type_code": "7",
+        "property_type_description": "flat"
+      }
+    },
+    {
+      "id": "Ref_Property_Types_1",
+      "label": "Ref_Property_Types",
+      "properties": {
+        "property_type_code": "8",
+        "property_type_description": "house"
+      }
+    },
+    {
+      "id": "Ref_Property_Types_2",
+      "label": "Ref_Property_Types",
+      "properties": {
+        "property_type_code": "2",
+        "property_type_description": "apt"
+      }
+    },
+    {
+      "id": "Ref_Room_Types_0",
+      "label": "Ref_Room_Types",
+      "properties": {
+        "room_type_code": "2",
+        "room_type_description": "living"
+      }
+    },
+    {
+      "id": "Ref_Room_Types_1",
+      "label": "Ref_Room_Types",
+      "properties": {
+        "room_type_code": "8",
+        "room_type_description": "kitchen"
+      }
+    },
+    {
+      "id": "Ref_Room_Types_2",
+      "label": "Ref_Room_Types",
+      "properties": {
+        "room_type_code": "4",
+        "room_type_description": "bath"
+      }
+    },
+    {
+      "id": "Ref_Room_Types_3",
+      "label": "Ref_Room_Types",
+      "properties": {
+        "room_type_code": "3",
+        "room_type_description": "bedroom"
+      }
+    },
+    {
+      "id": "Ref_User_Categories_0",
+      "label": "Ref_User_Categories",
+      "properties": {
+        "user_category_code": "Student",
+        "user_category_description": "Student"
+      }
+    },
+    {
+      "id": "Ref_User_Categories_1",
+      "label": "Ref_User_Categories",
+      "properties": {
+        "user_category_code": "Senior Citizen",
+        "user_category_description": "Senior Citizen"
+      }
+    },
+    {
+      "id": "Ref_User_Categories_2",
+      "label": "Ref_User_Categories",
+      "properties": {
+        "user_category_code": "Single Mother",
+        "user_category_description": "Single Mother"
+      }
+    },
+    {
+      "id": "Addresses_0",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 1,
+        "line_1_number_building": "6207 Marks Trafficway",
+        "line_2_number_street": "Apt. 516",
+        "line_3_area_locality": null,
+        "town_city": "Port Miafurt",
+        "zip_postcode": "349",
+        "county_state_province": "Utah",
+        "country": "United States Minor Outlying Islands",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_1",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 2,
+        "line_1_number_building": "518 Dean Village",
+        "line_2_number_street": "Apt. 261",
+        "line_3_area_locality": null,
+        "town_city": "New Juliana",
+        "zip_postcode": "979",
+        "county_state_province": "Maryland",
+        "country": "South Georgia and the South Sandwich Islands",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_2",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 3,
+        "line_1_number_building": "88324 Medhurst Parkway Suite 832",
+        "line_2_number_street": "Suite 435",
+        "line_3_area_locality": null,
+        "town_city": "Jaquanmouth",
+        "zip_postcode": "937",
+        "county_state_province": "RhodeIsland",
+        "country": "Hungary",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_3",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 4,
+        "line_1_number_building": "44916 Hand Branch",
+        "line_2_number_street": "Apt. 237",
+        "line_3_area_locality": null,
+        "town_city": "New Augusta",
+        "zip_postcode": "385",
+        "county_state_province": "Alaska",
+        "country": "Jersey",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_4",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 5,
+        "line_1_number_building": "929 Hermiston Vista Suite 955",
+        "line_2_number_street": "Apt. 235",
+        "line_3_area_locality": null,
+        "town_city": "New Zachariahport",
+        "zip_postcode": "416",
+        "county_state_province": "Louisiana",
+        "country": "Western Sahara",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_5",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 6,
+        "line_1_number_building": "8559 Birdie Mountain",
+        "line_2_number_street": "Suite 515",
+        "line_3_area_locality": null,
+        "town_city": "East Percivalfurt",
+        "zip_postcode": "298",
+        "county_state_province": "Maryland",
+        "country": "Ethiopia",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_6",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 7,
+        "line_1_number_building": "0548 Xavier Ridge Apt. 397",
+        "line_2_number_street": "Apt. 802",
+        "line_3_area_locality": null,
+        "town_city": "South Jakob",
+        "zip_postcode": "356",
+        "county_state_province": "Oklahoma",
+        "country": "Christmas Island",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_7",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 8,
+        "line_1_number_building": "6355 Maida Shores Suite 839",
+        "line_2_number_street": "Apt. 058",
+        "line_3_area_locality": null,
+        "town_city": "Lake Ezraborough",
+        "zip_postcode": "269",
+        "county_state_province": "Nevada",
+        "country": "Marshall Islands",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_8",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 9,
+        "line_1_number_building": "0182 Schuppe Ferry",
+        "line_2_number_street": "Suite 619",
+        "line_3_area_locality": null,
+        "town_city": "Mckenzieton",
+        "zip_postcode": "595",
+        "county_state_province": "Illinois",
+        "country": "Turkey",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_9",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 10,
+        "line_1_number_building": "80901 Lakin Point",
+        "line_2_number_street": "Apt. 948",
+        "line_3_area_locality": null,
+        "town_city": "Adityaport",
+        "zip_postcode": "684",
+        "county_state_province": "Wyoming",
+        "country": "Aruba",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_10",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 11,
+        "line_1_number_building": "15594 Nicholaus Ports",
+        "line_2_number_street": "Apt. 284",
+        "line_3_area_locality": null,
+        "town_city": "Port Forest",
+        "zip_postcode": "697",
+        "county_state_province": "Michigan",
+        "country": "Djibouti",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_11",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 12,
+        "line_1_number_building": "11179 Price Junctions",
+        "line_2_number_street": "Apt. 295",
+        "line_3_area_locality": null,
+        "town_city": "South Brandtport",
+        "zip_postcode": "146",
+        "county_state_province": "Colorado",
+        "country": "Svalbard & Jan Mayen Islands",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_12",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 13,
+        "line_1_number_building": "1592 Marielle Throughway",
+        "line_2_number_street": "Suite 482",
+        "line_3_area_locality": null,
+        "town_city": "Hermistonburgh",
+        "zip_postcode": "772",
+        "county_state_province": "Illinois",
+        "country": "Grenada",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_13",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 14,
+        "line_1_number_building": "340 Cleta Orchard Apt. 866",
+        "line_2_number_street": "Apt. 226",
+        "line_3_area_locality": null,
+        "town_city": "South Raymond",
+        "zip_postcode": "394",
+        "county_state_province": "Missouri",
+        "country": "Macedonia",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Addresses_14",
+      "label": "Addresses",
+      "properties": {
+        "address_id": 15,
+        "line_1_number_building": "5740 Maxwell Union Suite 546",
+        "line_2_number_street": "Suite 073",
+        "line_3_area_locality": null,
+        "town_city": "Port Johan",
+        "zip_postcode": "179",
+        "county_state_province": "Oklahoma",
+        "country": "Guam",
+        "other_address_details": null
+      }
+    },
+    {
+      "id": "Features_0",
+      "label": "Features",
+      "properties": {
+        "feature_id": 1,
+        "feature_name": "kichen",
+        "feature_description": "ea"
+      }
+    },
+    {
+      "id": "Features_1",
+      "label": "Features",
+      "properties": {
+        "feature_id": 2,
+        "feature_name": "rooftop",
+        "feature_description": "vel"
+      }
+    },
+    {
+      "id": "Features_2",
+      "label": "Features",
+      "properties": {
+        "feature_id": 3,
+        "feature_name": "garden",
+        "feature_description": "et"
+      }
+    },
+    {
+      "id": "Features_3",
+      "label": "Features",
+      "properties": {
+        "feature_id": 4,
+        "feature_name": "swimming pool",
+        "feature_description": "id"
+      }
+    },
+    {
+      "id": "Features_4",
+      "label": "Features",
+      "properties": {
+        "feature_id": 5,
+        "feature_name": "high building",
+        "feature_description": "facere"
+      }
+    },
+    {
+      "id": "Users_0",
+      "label": "Users",
+      "properties": {
+        "user_id": 1,
+        "age_category_code": "18-25",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 5,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "dolor",
+        "password": "a9dc84fe",
+        "date_registered": "1980-12-28 20:26:12",
+        "first_name": "Madonna",
+        "middle_name": "Kristoffer",
+        "last_name": "Jaskolski",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_1",
+      "label": "Users",
+      "properties": {
+        "user_id": 2,
+        "age_category_code": "25-60",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 6,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "et",
+        "password": "7daed599",
+        "date_registered": "1985-06-02 00:10:47",
+        "first_name": "Miguel",
+        "middle_name": "Dovie",
+        "last_name": "Harber",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_2",
+      "label": "Users",
+      "properties": {
+        "user_id": 3,
+        "age_category_code": "Over 60",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 15,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "repellat",
+        "password": "7061d718",
+        "date_registered": "1977-09-28 23:37:31",
+        "first_name": "Robbie",
+        "middle_name": "Angelo",
+        "last_name": "Keeling",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_3",
+      "label": "Users",
+      "properties": {
+        "user_id": 4,
+        "age_category_code": "18-25",
+        "user_category_code": "Single Mother",
+        "user_address_id": 4,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "laboriosam",
+        "password": "f78651d8",
+        "date_registered": "2016-12-01 10:47:14",
+        "first_name": "Phoebe",
+        "middle_name": "Mike",
+        "last_name": "Kohler",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_4",
+      "label": "Users",
+      "properties": {
+        "user_id": 5,
+        "age_category_code": "Over 60",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 10,
+        "is_buyer": "",
+        "is_seller": "1",
+        "login_name": "corrupti",
+        "password": "073f78a2",
+        "date_registered": "1975-12-17 05:04:32",
+        "first_name": "Brielle",
+        "middle_name": "Mariane",
+        "last_name": "Haley",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_5",
+      "label": "Users",
+      "properties": {
+        "user_id": 6,
+        "age_category_code": "18-25",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 14,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "omnis",
+        "password": "6d1ed7a2",
+        "date_registered": "1999-02-25 13:45:33",
+        "first_name": "Reggie",
+        "middle_name": "Eulah",
+        "last_name": "Ernser",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_6",
+      "label": "Users",
+      "properties": {
+        "user_id": 7,
+        "age_category_code": "25-60",
+        "user_category_code": "Student",
+        "user_address_id": 9,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "qui",
+        "password": "a44394fb",
+        "date_registered": "1988-08-11 19:23:27",
+        "first_name": "Brett",
+        "middle_name": "Jaylon",
+        "last_name": "Runte",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_7",
+      "label": "Users",
+      "properties": {
+        "user_id": 8,
+        "age_category_code": "Over 60",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 9,
+        "is_buyer": "",
+        "is_seller": "1",
+        "login_name": "ratione",
+        "password": "6af1990c",
+        "date_registered": "2015-07-29 08:52:10",
+        "first_name": "Porter",
+        "middle_name": "Creola",
+        "last_name": "Mohr",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_8",
+      "label": "Users",
+      "properties": {
+        "user_id": 9,
+        "age_category_code": "Over 60",
+        "user_category_code": "Single Mother",
+        "user_address_id": 1,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "ut",
+        "password": "b865e655",
+        "date_registered": "1993-10-17 04:08:26",
+        "first_name": "Jameson",
+        "middle_name": "Jaylin",
+        "last_name": "Rippin",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_9",
+      "label": "Users",
+      "properties": {
+        "user_id": 10,
+        "age_category_code": "18-25",
+        "user_category_code": "Single Mother",
+        "user_address_id": 1,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "in",
+        "password": "bdad75c8",
+        "date_registered": "1980-07-04 17:28:15",
+        "first_name": "Dane",
+        "middle_name": "Casey",
+        "last_name": "Fritsch",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_10",
+      "label": "Users",
+      "properties": {
+        "user_id": 11,
+        "age_category_code": "Over 60",
+        "user_category_code": "Single Mother",
+        "user_address_id": 11,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "doloremque",
+        "password": "14567850",
+        "date_registered": "1976-05-19 04:53:59",
+        "first_name": "Gudrun",
+        "middle_name": "Brock",
+        "last_name": "West",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_11",
+      "label": "Users",
+      "properties": {
+        "user_id": 12,
+        "age_category_code": "18-25",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 5,
+        "is_buyer": "",
+        "is_seller": "1",
+        "login_name": "harum",
+        "password": "223970d3",
+        "date_registered": "2006-01-19 12:22:54",
+        "first_name": "Ruby",
+        "middle_name": "Trenton",
+        "last_name": "Schulist",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_12",
+      "label": "Users",
+      "properties": {
+        "user_id": 13,
+        "age_category_code": "25-60",
+        "user_category_code": "Student",
+        "user_address_id": 14,
+        "is_buyer": "",
+        "is_seller": "1",
+        "login_name": "culpa",
+        "password": "b264c8b7",
+        "date_registered": "1979-03-14 08:07:49",
+        "first_name": "Antonio",
+        "middle_name": "Kitty",
+        "last_name": "Cronin",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_13",
+      "label": "Users",
+      "properties": {
+        "user_id": 14,
+        "age_category_code": "Over 60",
+        "user_category_code": "Senior Citizen",
+        "user_address_id": 10,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "consequatur",
+        "password": "bd0a8b12",
+        "date_registered": "2006-08-20 02:16:04",
+        "first_name": "D'angelo",
+        "middle_name": "Brisa",
+        "last_name": "Nienow",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Users_14",
+      "label": "Users",
+      "properties": {
+        "user_id": 15,
+        "age_category_code": "25-60",
+        "user_category_code": "Student",
+        "user_address_id": 1,
+        "is_buyer": "1",
+        "is_seller": "",
+        "login_name": "omnis",
+        "password": "81cce049",
+        "date_registered": "2001-04-26 09:27:50",
+        "first_name": "Theresa",
+        "middle_name": "Thurman",
+        "last_name": "Bartell",
+        "other_user_details": null
+      }
+    },
+    {
+      "id": "Properties_0",
+      "label": "Properties",
+      "properties": {
+        "property_id": 1,
+        "property_address_id": 9,
+        "owner_user_id": 13,
+        "property_type_code": "7",
+        "date_on_market": "2015-06-16 01:43:42",
+        "date_off_market": "1978-11-17 22:49:30",
+        "property_name": "garden",
+        "property_description": "dolores",
+        "garage_yn": "1",
+        "parking_lots": "",
+        "room_count": "7",
+        "vendor_requested_price": 2454.682,
+        "price_min": 20835877.439261,
+        "price_max": 352563032.06431,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_1",
+      "label": "Properties",
+      "properties": {
+        "property_id": 2,
+        "property_address_id": 8,
+        "owner_user_id": 5,
+        "property_type_code": "8",
+        "date_on_market": "2014-10-10 10:17:36",
+        "date_off_market": "2006-09-25 06:39:14",
+        "property_name": "studio",
+        "property_description": "quis",
+        "garage_yn": "",
+        "parking_lots": "1",
+        "room_count": "8",
+        "vendor_requested_price": 409217.49906266,
+        "price_min": 498.39,
+        "price_max": 55837.914362,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_2",
+      "label": "Properties",
+      "properties": {
+        "property_id": 3,
+        "property_address_id": 7,
+        "owner_user_id": 10,
+        "property_type_code": "2",
+        "date_on_market": "2011-12-15 01:52:28",
+        "date_off_market": "2017-05-27 20:55:25",
+        "property_name": "garden",
+        "property_description": "facere",
+        "garage_yn": "1",
+        "parking_lots": "1",
+        "room_count": "9",
+        "vendor_requested_price": 60571695.39357,
+        "price_min": 3897.55448,
+        "price_max": 1887.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_3",
+      "label": "Properties",
+      "properties": {
+        "property_id": 4,
+        "property_address_id": 12,
+        "owner_user_id": 7,
+        "property_type_code": "7",
+        "date_on_market": "1971-01-17 04:08:35",
+        "date_off_market": "1971-08-25 01:13:02",
+        "property_name": "studio",
+        "property_description": "ut",
+        "garage_yn": "",
+        "parking_lots": "1",
+        "room_count": "4",
+        "vendor_requested_price": 3.009911,
+        "price_min": 208147.904976,
+        "price_max": 227.624634182,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_4",
+      "label": "Properties",
+      "properties": {
+        "property_id": 5,
+        "property_address_id": 4,
+        "owner_user_id": 9,
+        "property_type_code": "8",
+        "date_on_market": "1996-12-17 20:53:52",
+        "date_off_market": "2000-03-16 23:04:27",
+        "property_name": "garden",
+        "property_description": "perspiciatis",
+        "garage_yn": "1",
+        "parking_lots": "1",
+        "room_count": "1",
+        "vendor_requested_price": 47605468.125659,
+        "price_min": 335.875884731,
+        "price_max": 0.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_5",
+      "label": "Properties",
+      "properties": {
+        "property_id": 6,
+        "property_address_id": 14,
+        "owner_user_id": 6,
+        "property_type_code": "7",
+        "date_on_market": "1989-04-04 17:34:41",
+        "date_off_market": "1981-08-03 12:46:34",
+        "property_name": "studio",
+        "property_description": "dolorum",
+        "garage_yn": "1",
+        "parking_lots": "",
+        "room_count": "1",
+        "vendor_requested_price": 46382985.88415,
+        "price_min": 0.0866,
+        "price_max": 0.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_6",
+      "label": "Properties",
+      "properties": {
+        "property_id": 7,
+        "property_address_id": 2,
+        "owner_user_id": 4,
+        "property_type_code": "8",
+        "date_on_market": "2000-09-08 06:54:00",
+        "date_off_market": "2002-10-13 04:52:26",
+        "property_name": "park",
+        "property_description": "earum",
+        "garage_yn": "1",
+        "parking_lots": "1",
+        "room_count": "8",
+        "vendor_requested_price": 428517.1,
+        "price_min": 22130.13,
+        "price_max": 0.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_7",
+      "label": "Properties",
+      "properties": {
+        "property_id": 8,
+        "property_address_id": 15,
+        "owner_user_id": 13,
+        "property_type_code": "7",
+        "date_on_market": "2010-09-27 19:19:44",
+        "date_off_market": "1998-08-19 19:29:50",
+        "property_name": "studio",
+        "property_description": "ad",
+        "garage_yn": "1",
+        "parking_lots": "",
+        "room_count": "3",
+        "vendor_requested_price": 3076499.25,
+        "price_min": 0.0,
+        "price_max": 7.4,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_8",
+      "label": "Properties",
+      "properties": {
+        "property_id": 9,
+        "property_address_id": 8,
+        "owner_user_id": 10,
+        "property_type_code": "2",
+        "date_on_market": "2002-01-06 18:44:23",
+        "date_off_market": "1978-09-24 13:42:49",
+        "property_name": "park",
+        "property_description": "magni",
+        "garage_yn": "",
+        "parking_lots": "",
+        "room_count": "7",
+        "vendor_requested_price": 19.917482,
+        "price_min": 407995518.00153,
+        "price_max": 194724.15425105,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_9",
+      "label": "Properties",
+      "properties": {
+        "property_id": 10,
+        "property_address_id": 14,
+        "owner_user_id": 2,
+        "property_type_code": "7",
+        "date_on_market": "1996-10-13 18:04:10",
+        "date_off_market": "1981-02-04 02:00:30",
+        "property_name": "park",
+        "property_description": "libero",
+        "garage_yn": "",
+        "parking_lots": "",
+        "room_count": "8",
+        "vendor_requested_price": 0.15837612,
+        "price_min": 2855.0,
+        "price_max": 2734817.1574795,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_10",
+      "label": "Properties",
+      "properties": {
+        "property_id": 11,
+        "property_address_id": 5,
+        "owner_user_id": 10,
+        "property_type_code": "2",
+        "date_on_market": "1976-08-01 00:52:48",
+        "date_off_market": "1970-11-22 02:09:50",
+        "property_name": "house",
+        "property_description": "dolorem",
+        "garage_yn": "1",
+        "parking_lots": "",
+        "room_count": "9",
+        "vendor_requested_price": 294154.455,
+        "price_min": 18123757.317,
+        "price_max": 471.9874856,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_11",
+      "label": "Properties",
+      "properties": {
+        "property_id": 12,
+        "property_address_id": 9,
+        "owner_user_id": 3,
+        "property_type_code": "7",
+        "date_on_market": "1985-09-03 23:35:59",
+        "date_off_market": "2011-11-28 01:18:51",
+        "property_name": "house",
+        "property_description": "eum",
+        "garage_yn": "",
+        "parking_lots": "1",
+        "room_count": "7",
+        "vendor_requested_price": 551.53493622,
+        "price_min": 24001489.487911,
+        "price_max": 1.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_12",
+      "label": "Properties",
+      "properties": {
+        "property_id": 13,
+        "property_address_id": 2,
+        "owner_user_id": 9,
+        "property_type_code": "2",
+        "date_on_market": "2010-06-02 05:49:21",
+        "date_off_market": "1990-01-25 07:42:34",
+        "property_name": "garage",
+        "property_description": "perspiciatis",
+        "garage_yn": "1",
+        "parking_lots": "1",
+        "room_count": "9",
+        "vendor_requested_price": 1222.603328,
+        "price_min": 6628.9,
+        "price_max": 0.0,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_13",
+      "label": "Properties",
+      "properties": {
+        "property_id": 14,
+        "property_address_id": 13,
+        "owner_user_id": 6,
+        "property_type_code": "7",
+        "date_on_market": "2001-04-15 21:14:41",
+        "date_off_market": "1981-09-12 05:26:47",
+        "property_name": "garage",
+        "property_description": "vel",
+        "garage_yn": "",
+        "parking_lots": "1",
+        "room_count": "8",
+        "vendor_requested_price": 1435608.608,
+        "price_min": 1.3248,
+        "price_max": 40172.49,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Properties_14",
+      "label": "Properties",
+      "properties": {
+        "property_id": 15,
+        "property_address_id": 15,
+        "owner_user_id": 9,
+        "property_type_code": "2",
+        "date_on_market": "1992-09-12 03:18:04",
+        "date_off_market": "1992-06-20 14:37:39",
+        "property_name": "garage",
+        "property_description": "expedita",
+        "garage_yn": "1",
+        "parking_lots": "1",
+        "room_count": "8",
+        "vendor_requested_price": 0.0,
+        "price_min": 14323.3095,
+        "price_max": 94621091.987512,
+        "other_property_details": null
+      }
+    },
+    {
+      "id": "Property_Features_0",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 14,
+        "feature_id": 3,
+        "feature_value": "temporibus",
+        "property_feature_description": "est"
+      }
+    },
+    {
+      "id": "Property_Features_1",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 4,
+        "feature_id": 2,
+        "feature_value": "et",
+        "property_feature_description": "nam"
+      }
+    },
+    {
+      "id": "Property_Features_2",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 4,
+        "feature_id": 2,
+        "feature_value": "necessitatibus",
+        "property_feature_description": "voluptates"
+      }
+    },
+    {
+      "id": "Property_Features_3",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 2,
+        "feature_id": 2,
+        "feature_value": "quo",
+        "property_feature_description": "et"
+      }
+    },
+    {
+      "id": "Property_Features_4",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 8,
+        "feature_id": 3,
+        "feature_value": "fuga",
+        "property_feature_description": "esse"
+      }
+    },
+    {
+      "id": "Property_Features_5",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 1,
+        "feature_id": 4,
+        "feature_value": "unde",
+        "property_feature_description": "ipsam"
+      }
+    },
+    {
+      "id": "Property_Features_6",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 3,
+        "feature_id": 3,
+        "feature_value": "est",
+        "property_feature_description": "ratione"
+      }
+    },
+    {
+      "id": "Property_Features_7",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 12,
+        "feature_id": 2,
+        "feature_value": "aspernatur",
+        "property_feature_description": "explicabo"
+      }
+    },
+    {
+      "id": "Property_Features_8",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 3,
+        "feature_id": 3,
+        "feature_value": "voluptas",
+        "property_feature_description": "omnis"
+      }
+    },
+    {
+      "id": "Property_Features_9",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 3,
+        "feature_id": 4,
+        "feature_value": "at",
+        "property_feature_description": "ut"
+      }
+    },
+    {
+      "id": "Property_Features_10",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 13,
+        "feature_id": 5,
+        "feature_value": "eligendi",
+        "property_feature_description": "quasi"
+      }
+    },
+    {
+      "id": "Property_Features_11",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 9,
+        "feature_id": 2,
+        "feature_value": "harum",
+        "property_feature_description": "vel"
+      }
+    },
+    {
+      "id": "Property_Features_12",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 9,
+        "feature_id": 5,
+        "feature_value": "asperiores",
+        "property_feature_description": "quod"
+      }
+    },
+    {
+      "id": "Property_Features_13",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 5,
+        "feature_id": 1,
+        "feature_value": "delectus",
+        "property_feature_description": "molestiae"
+      }
+    },
+    {
+      "id": "Property_Features_14",
+      "label": "Property_Features",
+      "properties": {
+        "property_id": 13,
+        "feature_id": 5,
+        "feature_value": "eligendi",
+        "property_feature_description": "commodi"
+      }
+    },
+    {
+      "id": "Property_Photos_0",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 5,
+        "photo_seq": 0,
+        "photo_title": "front",
+        "photo_description": "reiciendis",
+        "photo_filename": "repellat"
+      }
+    },
+    {
+      "id": "Property_Photos_1",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 15,
+        "photo_seq": 61822,
+        "photo_title": "front",
+        "photo_description": "aut",
+        "photo_filename": "iste"
+      }
+    },
+    {
+      "id": "Property_Photos_2",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 8,
+        "photo_seq": 0,
+        "photo_title": "front",
+        "photo_description": "officiis",
+        "photo_filename": "id"
+      }
+    },
+    {
+      "id": "Property_Photos_3",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 14,
+        "photo_seq": 0,
+        "photo_title": "back",
+        "photo_description": "in",
+        "photo_filename": "error"
+      }
+    },
+    {
+      "id": "Property_Photos_4",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 14,
+        "photo_seq": 3961,
+        "photo_title": "back",
+        "photo_description": "eum",
+        "photo_filename": "sed"
+      }
+    },
+    {
+      "id": "Property_Photos_5",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 9,
+        "photo_seq": 2,
+        "photo_title": "back",
+        "photo_description": "rerum",
+        "photo_filename": "ea"
+      }
+    },
+    {
+      "id": "Property_Photos_6",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 6,
+        "photo_seq": 1591,
+        "photo_title": "kitchen",
+        "photo_description": "iusto",
+        "photo_filename": "accusantium"
+      }
+    },
+    {
+      "id": "Property_Photos_7",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 14,
+        "photo_seq": 42490707,
+        "photo_title": "kitchen",
+        "photo_description": "commodi",
+        "photo_filename": "sed"
+      }
+    },
+    {
+      "id": "Property_Photos_8",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 14,
+        "photo_seq": 13182,
+        "photo_title": "bathroom",
+        "photo_description": "modi",
+        "photo_filename": "eos"
+      }
+    },
+    {
+      "id": "Property_Photos_9",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 9,
+        "photo_seq": 98,
+        "photo_title": "bathroom",
+        "photo_description": "ut",
+        "photo_filename": "corporis"
+      }
+    },
+    {
+      "id": "Property_Photos_10",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 10,
+        "photo_seq": 0,
+        "photo_title": "bedroom",
+        "photo_description": "accusamus",
+        "photo_filename": "dolor"
+      }
+    },
+    {
+      "id": "Property_Photos_11",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 14,
+        "photo_seq": 28,
+        "photo_title": "bedroom",
+        "photo_description": "ullam",
+        "photo_filename": "quo"
+      }
+    },
+    {
+      "id": "Property_Photos_12",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 7,
+        "photo_seq": 42,
+        "photo_title": "bedroom",
+        "photo_description": "aut",
+        "photo_filename": "sunt"
+      }
+    },
+    {
+      "id": "Property_Photos_13",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 12,
+        "photo_seq": 66905,
+        "photo_title": "living room",
+        "photo_description": "dolor",
+        "photo_filename": "et"
+      }
+    },
+    {
+      "id": "Property_Photos_14",
+      "label": "Property_Photos",
+      "properties": {
+        "property_id": 11,
+        "photo_seq": 180487,
+        "photo_title": "living room",
+        "photo_description": "omnis",
+        "photo_filename": "et"
+      }
+    },
+    {
+      "id": "Rooms_0",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 14,
+        "room_number": "2",
+        "room_type_code": "8",
+        "room_size": "s",
+        "other_room_details": "praesentium"
+      }
+    },
+    {
+      "id": "Rooms_1",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 1,
+        "room_number": "1",
+        "room_type_code": "2",
+        "room_size": "s",
+        "other_room_details": "repudiandae"
+      }
+    },
+    {
+      "id": "Rooms_2",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 15,
+        "room_number": "7",
+        "room_type_code": "2",
+        "room_size": "l",
+        "other_room_details": "enim"
+      }
+    },
+    {
+      "id": "Rooms_3",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 4,
+        "room_number": "5",
+        "room_type_code": "2",
+        "room_size": "l",
+        "other_room_details": "nemo"
+      }
+    },
+    {
+      "id": "Rooms_4",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 1,
+        "room_number": "8",
+        "room_type_code": "4",
+        "room_size": "s",
+        "other_room_details": "adipisci"
+      }
+    },
+    {
+      "id": "Rooms_5",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 13,
+        "room_number": "2",
+        "room_type_code": "4",
+        "room_size": "m",
+        "other_room_details": "quibusdam"
+      }
+    },
+    {
+      "id": "Rooms_6",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 6,
+        "room_number": "4",
+        "room_type_code": "2",
+        "room_size": "m",
+        "other_room_details": "eum"
+      }
+    },
+    {
+      "id": "Rooms_7",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 10,
+        "room_number": "9",
+        "room_type_code": "3",
+        "room_size": "m",
+        "other_room_details": "maxime"
+      }
+    },
+    {
+      "id": "Rooms_8",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 6,
+        "room_number": "5",
+        "room_type_code": "4",
+        "room_size": "s",
+        "other_room_details": "itaque"
+      }
+    },
+    {
+      "id": "Rooms_9",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 8,
+        "room_number": "4",
+        "room_type_code": "4",
+        "room_size": "m",
+        "other_room_details": "qui"
+      }
+    },
+    {
+      "id": "Rooms_10",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 3,
+        "room_number": "3",
+        "room_type_code": "3",
+        "room_size": "m",
+        "other_room_details": "non"
+      }
+    },
+    {
+      "id": "Rooms_11",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 9,
+        "room_number": "7",
+        "room_type_code": "3",
+        "room_size": "s",
+        "other_room_details": "impedit"
+      }
+    },
+    {
+      "id": "Rooms_12",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 5,
+        "room_number": "6",
+        "room_type_code": "4",
+        "room_size": "l",
+        "other_room_details": "nesciunt"
+      }
+    },
+    {
+      "id": "Rooms_13",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 7,
+        "room_number": "1",
+        "room_type_code": "8",
+        "room_size": "l",
+        "other_room_details": "ullam"
+      }
+    },
+    {
+      "id": "Rooms_14",
+      "label": "Rooms",
+      "properties": {
+        "property_id": 13,
+        "room_number": "9",
+        "room_type_code": "8",
+        "room_size": "let",
+        "other_room_details": "totam"
+      }
+    },
+    {
+      "id": "User_Property_History_0",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 11,
+        "property_id": 2,
+        "datestamp": "2014-07-18 19:21:51"
+      }
+    },
+    {
+      "id": "User_Property_History_1",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 2,
+        "property_id": 7,
+        "datestamp": "1992-07-19 19:34:27"
+      }
+    },
+    {
+      "id": "User_Property_History_2",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 8,
+        "property_id": 7,
+        "datestamp": "2005-11-02 07:47:38"
+      }
+    },
+    {
+      "id": "User_Property_History_3",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 4,
+        "property_id": 9,
+        "datestamp": "1985-12-16 11:41:27"
+      }
+    },
+    {
+      "id": "User_Property_History_4",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 15,
+        "property_id": 13,
+        "datestamp": "2018-02-10 21:19:14"
+      }
+    },
+    {
+      "id": "User_Property_History_5",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 7,
+        "property_id": 15,
+        "datestamp": "2004-02-24 14:27:34"
+      }
+    },
+    {
+      "id": "User_Property_History_6",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 7,
+        "property_id": 8,
+        "datestamp": "2011-10-08 00:04:34"
+      }
+    },
+    {
+      "id": "User_Property_History_7",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 8,
+        "property_id": 3,
+        "datestamp": "2014-10-02 05:34:09"
+      }
+    },
+    {
+      "id": "User_Property_History_8",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 12,
+        "property_id": 12,
+        "datestamp": "1993-08-16 03:26:05"
+      }
+    },
+    {
+      "id": "User_Property_History_9",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 2,
+        "property_id": 4,
+        "datestamp": "2001-09-05 04:01:41"
+      }
+    },
+    {
+      "id": "User_Property_History_10",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 12,
+        "property_id": 1,
+        "datestamp": "1982-10-11 13:46:08"
+      }
+    },
+    {
+      "id": "User_Property_History_11",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 13,
+        "property_id": 15,
+        "datestamp": "1977-03-13 18:50:48"
+      }
+    },
+    {
+      "id": "User_Property_History_12",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 4,
+        "property_id": 2,
+        "datestamp": "2006-10-30 22:13:52"
+      }
+    },
+    {
+      "id": "User_Property_History_13",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 5,
+        "property_id": 3,
+        "datestamp": "1982-08-06 07:39:40"
+      }
+    },
+    {
+      "id": "User_Property_History_14",
+      "label": "User_Property_History",
+      "properties": {
+        "user_id": 1,
+        "property_id": 4,
+        "datestamp": "1997-07-08 09:25:24"
+      }
+    },
+    {
+      "id": "User_Searches_0",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 13,
+        "search_seq": 50636,
+        "search_datetime": "2014-04-28 20:21:54",
+        "search_string": "optio"
+      }
+    },
+    {
+      "id": "User_Searches_1",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 1,
+        "search_seq": 203,
+        "search_datetime": "1981-11-21 22:02:12",
+        "search_string": "assumenda"
+      }
+    },
+    {
+      "id": "User_Searches_2",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 11,
+        "search_seq": 5054,
+        "search_datetime": "1972-04-13 22:48:13",
+        "search_string": "consequatur"
+      }
+    },
+    {
+      "id": "User_Searches_3",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 4,
+        "search_seq": 923800,
+        "search_datetime": "2007-09-11 14:19:26",
+        "search_string": "laudantium"
+      }
+    },
+    {
+      "id": "User_Searches_4",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 5,
+        "search_seq": 82475512,
+        "search_datetime": "1981-01-01 16:48:00",
+        "search_string": "laboriosam"
+      }
+    },
+    {
+      "id": "User_Searches_5",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 13,
+        "search_seq": 24321735,
+        "search_datetime": "1971-04-24 20:18:31",
+        "search_string": "repellat"
+      }
+    },
+    {
+      "id": "User_Searches_6",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 15,
+        "search_seq": 85717,
+        "search_datetime": "1994-11-07 23:31:00",
+        "search_string": "maiores"
+      }
+    },
+    {
+      "id": "User_Searches_7",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 2,
+        "search_seq": 45340,
+        "search_datetime": "1989-12-21 19:39:20",
+        "search_string": "facilis"
+      }
+    },
+    {
+      "id": "User_Searches_8",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 4,
+        "search_seq": 56003,
+        "search_datetime": "2004-04-08 09:29:30",
+        "search_string": "inventore"
+      }
+    },
+    {
+      "id": "User_Searches_9",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 2,
+        "search_seq": 778216600,
+        "search_datetime": "2015-10-18 18:21:09",
+        "search_string": "nesciunt"
+      }
+    },
+    {
+      "id": "User_Searches_10",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 5,
+        "search_seq": 1551910,
+        "search_datetime": "2014-08-31 08:26:53",
+        "search_string": "aliquam"
+      }
+    },
+    {
+      "id": "User_Searches_11",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 11,
+        "search_seq": 0,
+        "search_datetime": "1975-11-17 19:59:16",
+        "search_string": "at"
+      }
+    },
+    {
+      "id": "User_Searches_12",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 10,
+        "search_seq": 7,
+        "search_datetime": "2000-07-17 14:19:27",
+        "search_string": "hic"
+      }
+    },
+    {
+      "id": "User_Searches_13",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 4,
+        "search_seq": 45181074,
+        "search_datetime": "1983-05-12 23:48:23",
+        "search_string": "est"
+      }
+    },
+    {
+      "id": "User_Searches_14",
+      "label": "User_Searches",
+      "properties": {
+        "user_id": 3,
+        "search_seq": 327708,
+        "search_datetime": "1985-11-06 17:10:05",
+        "search_string": "fugiat"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Properties_0",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_1",
+      "target": "Ref_Property_Types_1",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_2",
+      "target": "Ref_Property_Types_2",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_3",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_4",
+      "target": "Ref_Property_Types_1",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_5",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_6",
+      "target": "Ref_Property_Types_1",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_7",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_8",
+      "target": "Ref_Property_Types_2",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_9",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_10",
+      "target": "Ref_Property_Types_2",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_11",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_12",
+      "target": "Ref_Property_Types_2",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_13",
+      "target": "Ref_Property_Types_0",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_14",
+      "target": "Ref_Property_Types_2",
+      "relationship": "HAS_PROPERTY_TYPE"
+    },
+    {
+      "source": "Properties_0",
+      "target": "Addresses_8",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_1",
+      "target": "Addresses_7",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_2",
+      "target": "Addresses_6",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_3",
+      "target": "Addresses_11",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_4",
+      "target": "Addresses_3",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_5",
+      "target": "Addresses_13",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_6",
+      "target": "Addresses_1",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_7",
+      "target": "Addresses_14",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_8",
+      "target": "Addresses_7",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_9",
+      "target": "Addresses_13",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_10",
+      "target": "Addresses_4",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_11",
+      "target": "Addresses_8",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_12",
+      "target": "Addresses_1",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_13",
+      "target": "Addresses_12",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_14",
+      "target": "Addresses_14",
+      "relationship": "LOCATED_AT"
+    },
+    {
+      "source": "Properties_0",
+      "target": "Users_12",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_1",
+      "target": "Users_4",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_2",
+      "target": "Users_9",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_3",
+      "target": "Users_6",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_4",
+      "target": "Users_8",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_5",
+      "target": "Users_5",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_6",
+      "target": "Users_3",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_7",
+      "target": "Users_12",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_8",
+      "target": "Users_9",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_9",
+      "target": "Users_1",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_10",
+      "target": "Users_9",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_11",
+      "target": "Users_2",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_12",
+      "target": "Users_8",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_13",
+      "target": "Users_5",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Properties_14",
+      "target": "Users_8",
+      "relationship": "OWNED_BY"
+    },
+    {
+      "source": "Property_Features_0",
+      "target": "Properties_13",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_1",
+      "target": "Properties_3",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_2",
+      "target": "Properties_3",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_3",
+      "target": "Properties_1",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_4",
+      "target": "Properties_7",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_5",
+      "target": "Properties_0",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_6",
+      "target": "Properties_2",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_7",
+      "target": "Properties_11",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_8",
+      "target": "Properties_2",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_9",
+      "target": "Properties_2",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_10",
+      "target": "Properties_12",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_11",
+      "target": "Properties_8",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_12",
+      "target": "Properties_8",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_13",
+      "target": "Properties_4",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_14",
+      "target": "Properties_12",
+      "relationship": "DESCRIBES_PROPERTY"
+    },
+    {
+      "source": "Property_Features_0",
+      "target": "Features_2",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_1",
+      "target": "Features_1",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_2",
+      "target": "Features_1",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_3",
+      "target": "Features_1",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_4",
+      "target": "Features_2",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_5",
+      "target": "Features_3",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_6",
+      "target": "Features_2",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_7",
+      "target": "Features_1",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_8",
+      "target": "Features_2",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_9",
+      "target": "Features_3",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_10",
+      "target": "Features_4",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_11",
+      "target": "Features_1",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_12",
+      "target": "Features_4",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_13",
+      "target": "Features_0",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Features_14",
+      "target": "Features_4",
+      "relationship": "REFERENCES_FEATURE"
+    },
+    {
+      "source": "Property_Photos_0",
+      "target": "Properties_4",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_1",
+      "target": "Properties_14",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_2",
+      "target": "Properties_7",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_3",
+      "target": "Properties_13",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_4",
+      "target": "Properties_13",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_5",
+      "target": "Properties_8",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_6",
+      "target": "Properties_5",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_7",
+      "target": "Properties_13",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_8",
+      "target": "Properties_13",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_9",
+      "target": "Properties_8",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_10",
+      "target": "Properties_9",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_11",
+      "target": "Properties_13",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_12",
+      "target": "Properties_6",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_13",
+      "target": "Properties_11",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Property_Photos_14",
+      "target": "Properties_10",
+      "relationship": "PHOTO_OF_PROPERTY"
+    },
+    {
+      "source": "Rooms_0",
+      "target": "Ref_Room_Types_1",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_1",
+      "target": "Ref_Room_Types_0",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_2",
+      "target": "Ref_Room_Types_0",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_3",
+      "target": "Ref_Room_Types_0",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_4",
+      "target": "Ref_Room_Types_2",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_5",
+      "target": "Ref_Room_Types_2",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_6",
+      "target": "Ref_Room_Types_0",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_7",
+      "target": "Ref_Room_Types_3",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_8",
+      "target": "Ref_Room_Types_2",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_9",
+      "target": "Ref_Room_Types_2",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_10",
+      "target": "Ref_Room_Types_3",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_11",
+      "target": "Ref_Room_Types_3",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_12",
+      "target": "Ref_Room_Types_2",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_13",
+      "target": "Ref_Room_Types_1",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_14",
+      "target": "Ref_Room_Types_1",
+      "relationship": "IS_OF_ROOM_TYPE"
+    },
+    {
+      "source": "Rooms_0",
+      "target": "Properties_13",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_1",
+      "target": "Properties_0",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_2",
+      "target": "Properties_14",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_3",
+      "target": "Properties_3",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_4",
+      "target": "Properties_0",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_5",
+      "target": "Properties_12",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_6",
+      "target": "Properties_5",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_7",
+      "target": "Properties_9",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_8",
+      "target": "Properties_5",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_9",
+      "target": "Properties_7",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_10",
+      "target": "Properties_2",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_11",
+      "target": "Properties_8",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_12",
+      "target": "Properties_4",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_13",
+      "target": "Properties_6",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "Rooms_14",
+      "target": "Properties_12",
+      "relationship": "BELONGS_TO_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_0",
+      "target": "Properties_1",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_1",
+      "target": "Properties_6",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_2",
+      "target": "Properties_6",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_3",
+      "target": "Properties_8",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_4",
+      "target": "Properties_12",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_5",
+      "target": "Properties_14",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_6",
+      "target": "Properties_7",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_7",
+      "target": "Properties_2",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_8",
+      "target": "Properties_11",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_9",
+      "target": "Properties_3",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_10",
+      "target": "Properties_0",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_11",
+      "target": "Properties_14",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_12",
+      "target": "Properties_1",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_13",
+      "target": "Properties_2",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_14",
+      "target": "Properties_3",
+      "relationship": "VIEWED_PROPERTY"
+    },
+    {
+      "source": "User_Property_History_0",
+      "target": "Users_10",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_1",
+      "target": "Users_1",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_2",
+      "target": "Users_7",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_3",
+      "target": "Users_3",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_4",
+      "target": "Users_14",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_5",
+      "target": "Users_6",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_6",
+      "target": "Users_6",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_7",
+      "target": "Users_7",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_8",
+      "target": "Users_11",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_9",
+      "target": "Users_1",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_10",
+      "target": "Users_11",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_11",
+      "target": "Users_12",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_12",
+      "target": "Users_3",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_13",
+      "target": "Users_4",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Property_History_14",
+      "target": "Users_0",
+      "relationship": "RECORDED_FOR_USER"
+    },
+    {
+      "source": "User_Searches_0",
+      "target": "Users_12",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_1",
+      "target": "Users_0",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_2",
+      "target": "Users_10",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_3",
+      "target": "Users_3",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_4",
+      "target": "Users_4",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_5",
+      "target": "Users_12",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_6",
+      "target": "Users_14",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_7",
+      "target": "Users_1",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_8",
+      "target": "Users_3",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_9",
+      "target": "Users_1",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_10",
+      "target": "Users_4",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_11",
+      "target": "Users_10",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_12",
+      "target": "Users_9",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_13",
+      "target": "Users_3",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    },
+    {
+      "source": "User_Searches_14",
+      "target": "Users_2",
+      "relationship": "SEARCH_CONDUCTED_BY"
+    }
+  ]
+}

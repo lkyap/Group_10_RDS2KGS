@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "airport",
+      "properties": [
+        "id",
+        "City",
+        "Country",
+        "IATA",
+        "ICAO",
+        "name"
+      ],
+      "key": "id"
+    },
+    {
+      "id": "operate_company",
+      "properties": [
+        "id",
+        "name",
+        "Type",
+        "Principal_activities",
+        "Incorporated_in",
+        "Group_Equity_Shareholding"
+      ],
+      "key": "id"
+    },
+    {
+      "id": "flight",
+      "properties": [
+        "id",
+        "Vehicle_Flight_number",
+        "Date",
+        "Pilot",
+        "Velocity",
+        "Altitude",
+        "airport_id",
+        "company_id"
+      ],
+      "key": "id"
+    }
+  ],
+  "edges": [
+    {
+      "source": "flight",
+      "target": "operate_company",
+      "relationship": "OPERATED_BY",
+      "source_column": "company_id",
+      "target_column": "id"
+    },
+    {
+      "source": "flight",
+      "target": "airport",
+      "relationship": "DEPARTS_FROM",
+      "source_column": "airport_id",
+      "target_column": "id"
+    }
+  ]
+}

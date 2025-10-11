@@ -1,0 +1,328 @@
+{
+  "nodes": [
+    {
+      "id": "film_0",
+      "label": "film",
+      "properties": {
+        "Film_ID": 1,
+        "Rank_in_series": 26,
+        "Number_in_season": 1,
+        "Title": "The Case of the Mystery Weekend",
+        "Directed_by": "Bill Schreiner",
+        "Original_air_date": "September 21\u201325, 1992",
+        "Production_code": "50021\u201350025"
+      }
+    },
+    {
+      "id": "film_1",
+      "label": "film",
+      "properties": {
+        "Film_ID": 2,
+        "Rank_in_series": 27,
+        "Number_in_season": 2,
+        "Title": "The Case of the Smart Dummy",
+        "Directed_by": "Bill Schreiner",
+        "Original_air_date": "September 28\u2013October 2, 1992",
+        "Production_code": "50231\u201350235"
+      }
+    },
+    {
+      "id": "film_2",
+      "label": "film",
+      "properties": {
+        "Film_ID": 3,
+        "Rank_in_series": 28,
+        "Number_in_season": 3,
+        "Title": "The Case: Off the Record",
+        "Directed_by": "Bill Schreiner",
+        "Original_air_date": "October 5\u20139, 1992",
+        "Production_code": "50011\u201350015"
+      }
+    },
+    {
+      "id": "film_3",
+      "label": "film",
+      "properties": {
+        "Film_ID": 4,
+        "Rank_in_series": 29,
+        "Number_in_season": 4,
+        "Title": "The Case of the Bermuda Triangle",
+        "Directed_by": "Jesus Salvador Trevi\u00f1o",
+        "Original_air_date": "October 12\u201316, 1992",
+        "Production_code": "50251\u201350255"
+      }
+    },
+    {
+      "id": "film_4",
+      "label": "film",
+      "properties": {
+        "Film_ID": 5,
+        "Rank_in_series": 30,
+        "Number_in_season": 5,
+        "Title": "The Case of the Piggy Banker",
+        "Directed_by": "Bill Schreiner",
+        "Original_air_date": "October 19\u201323, 1992",
+        "Production_code": "50241\u201350245"
+      }
+    },
+    {
+      "id": "cinema_0",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 1,
+        "Name": "Codling",
+        "Openning_year": 2010,
+        "Capacity": 1100,
+        "Location": "County Wicklow"
+      }
+    },
+    {
+      "id": "cinema_1",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 2,
+        "Name": "Carrowleagh",
+        "Openning_year": 2012,
+        "Capacity": 368,
+        "Location": "County Cork"
+      }
+    },
+    {
+      "id": "cinema_2",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 3,
+        "Name": "Dublin Array",
+        "Openning_year": 2015,
+        "Capacity": 364,
+        "Location": "County Dublin"
+      }
+    },
+    {
+      "id": "cinema_3",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 4,
+        "Name": "Glenmore",
+        "Openning_year": 2009,
+        "Capacity": 305,
+        "Location": "County Clare"
+      }
+    },
+    {
+      "id": "cinema_4",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 5,
+        "Name": "Glenough",
+        "Openning_year": 2010,
+        "Capacity": 325,
+        "Location": "County Tipperary"
+      }
+    },
+    {
+      "id": "cinema_5",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 6,
+        "Name": "Gortahile",
+        "Openning_year": 2010,
+        "Capacity": 208,
+        "Location": "County Laois"
+      }
+    },
+    {
+      "id": "cinema_6",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 7,
+        "Name": "Grouse Lodge",
+        "Openning_year": 2011,
+        "Capacity": 203,
+        "Location": "County Tipperary"
+      }
+    },
+    {
+      "id": "cinema_7",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 8,
+        "Name": "Moneypoint",
+        "Openning_year": 2011,
+        "Capacity": 225,
+        "Location": "County Clare"
+      }
+    },
+    {
+      "id": "cinema_8",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 9,
+        "Name": "Mount Callan",
+        "Openning_year": 2011,
+        "Capacity": 908,
+        "Location": "County Clare"
+      }
+    },
+    {
+      "id": "cinema_9",
+      "label": "cinema",
+      "properties": {
+        "Cinema_ID": 10,
+        "Name": "Oriel",
+        "Openning_year": 2013,
+        "Capacity": 330,
+        "Location": "County Louth"
+      }
+    },
+    {
+      "id": "schedule_0",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 1,
+        "Film_ID": 1,
+        "Date": "21 May",
+        "Show_times_per_day": 5,
+        "Price": 12.99
+      }
+    },
+    {
+      "id": "schedule_1",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 1,
+        "Film_ID": 2,
+        "Date": "21 May",
+        "Show_times_per_day": 3,
+        "Price": 12.99
+      }
+    },
+    {
+      "id": "schedule_2",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 1,
+        "Film_ID": 3,
+        "Date": "21 Jun",
+        "Show_times_per_day": 2,
+        "Price": 8.99
+      }
+    },
+    {
+      "id": "schedule_3",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 2,
+        "Film_ID": 1,
+        "Date": "11 July",
+        "Show_times_per_day": 5,
+        "Price": 9.99
+      }
+    },
+    {
+      "id": "schedule_4",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 6,
+        "Film_ID": 5,
+        "Date": "2 Aug",
+        "Show_times_per_day": 4,
+        "Price": 12.99
+      }
+    },
+    {
+      "id": "schedule_5",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 9,
+        "Film_ID": 4,
+        "Date": "20 May",
+        "Show_times_per_day": 5,
+        "Price": 9.99
+      }
+    },
+    {
+      "id": "schedule_6",
+      "label": "schedule",
+      "properties": {
+        "Cinema_ID": 10,
+        "Film_ID": 1,
+        "Date": "19 May",
+        "Show_times_per_day": 5,
+        "Price": 15.99
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "schedule_0",
+      "target": "cinema_0",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_1",
+      "target": "cinema_0",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_2",
+      "target": "cinema_0",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_3",
+      "target": "cinema_1",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_4",
+      "target": "cinema_5",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_5",
+      "target": "cinema_8",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_6",
+      "target": "cinema_9",
+      "relationship": "SCHEDULED_AT"
+    },
+    {
+      "source": "schedule_0",
+      "target": "film_0",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_1",
+      "target": "film_1",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_2",
+      "target": "film_2",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_3",
+      "target": "film_0",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_4",
+      "target": "film_4",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_5",
+      "target": "film_3",
+      "relationship": "SCREENING_OF"
+    },
+    {
+      "source": "schedule_6",
+      "target": "film_0",
+      "relationship": "SCREENING_OF"
+    }
+  ]
+}

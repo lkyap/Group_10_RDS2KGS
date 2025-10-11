@@ -1,0 +1,94 @@
+{
+  "tables": {
+    "pilot": {
+      "columns": [
+        "Pilot_Id",
+        "Name",
+        "Age"
+      ],
+      "primary_key": [
+        "Pilot_Id"
+      ]
+    },
+    "aircraft": {
+      "columns": [
+        "Aircraft_ID",
+        "Aircraft",
+        "Description",
+        "Max_Gross_Weight",
+        "Total_disk_area",
+        "Max_disk_Loading"
+      ],
+      "primary_key": [
+        "Aircraft_ID"
+      ]
+    },
+    "match": {
+      "columns": [
+        "Round",
+        "Location",
+        "Country",
+        "Date",
+        "Fastest_Qualifying",
+        "Winning_Pilot",
+        "Winning_Aircraft"
+      ],
+      "primary_key": [
+        "Round"
+      ]
+    },
+    "airport": {
+      "columns": [
+        "Airport_ID",
+        "Airport_Name",
+        "Total_Passengers",
+        "%_Change_2007",
+        "International_Passengers",
+        "Domestic_Passengers",
+        "Transit_Passengers",
+        "Aircraft_Movements",
+        "Freight_Metric_Tonnes"
+      ],
+      "primary_key": [
+        "Airport_ID"
+      ]
+    },
+    "airport_aircraft": {
+      "columns": [
+        "ID",
+        "Airport_ID",
+        "Aircraft_ID"
+      ],
+      "primary_key": [
+        "Airport_ID",
+        "Aircraft_ID"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "match",
+      "parent_table": "pilot",
+      "from_column": "Winning_Pilot",
+      "parent_column": "Pilot_Id"
+    },
+    {
+      "from_table": "match",
+      "parent_table": "aircraft",
+      "from_column": "Winning_Aircraft",
+      "parent_column": "Aircraft_ID"
+    },
+    {
+      "from_table": "airport_aircraft",
+      "parent_table": "aircraft",
+      "from_column": "Aircraft_ID",
+      "parent_column": "Aircraft_ID"
+    },
+    {
+      "from_table": "airport_aircraft",
+      "parent_table": "airport",
+      "from_column": "Airport_ID",
+      "parent_column": "Airport_ID"
+    }
+  ]
+}

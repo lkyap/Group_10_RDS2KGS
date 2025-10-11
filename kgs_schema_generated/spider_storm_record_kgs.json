@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "storm",
+      "properties": [
+        "Storm_ID",
+        "Name",
+        "Dates_active",
+        "Max_speed",
+        "Damage_millions_USD",
+        "Number_Deaths"
+      ],
+      "key": "Storm_ID"
+    },
+    {
+      "id": "region",
+      "properties": [
+        "Region_id",
+        "Region_code",
+        "Region_name"
+      ],
+      "key": "Region_id"
+    },
+    {
+      "id": "affected_region",
+      "properties": [
+        "Region_id",
+        "Storm_ID",
+        "Number_city_affected"
+      ],
+      "key": "Region_id,Storm_ID"
+    }
+  ],
+  "edges": [
+    {
+      "source": "affected_region",
+      "target": "storm",
+      "relationship": "ASSOCIATED_WITH_STORM",
+      "source_column": "Storm_ID",
+      "target_column": "Storm_ID"
+    },
+    {
+      "source": "affected_region",
+      "target": "region",
+      "relationship": "ASSOCIATED_WITH_REGION",
+      "source_column": "Region_id",
+      "target_column": "Region_id"
+    },
+    {
+      "source": "storm",
+      "target": "region",
+      "relationship": "AFFECTS",
+      "source_column": "Storm_ID",
+      "target_column": "Region_id"
+    }
+  ]
+}

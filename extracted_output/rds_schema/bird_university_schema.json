@@ -1,0 +1,94 @@
+{
+  "tables": {
+    "country": {
+      "columns": [
+        "id",
+        "country_name"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "ranking_system": {
+      "columns": [
+        "id",
+        "system_name"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "ranking_criteria": {
+      "columns": [
+        "id",
+        "ranking_system_id",
+        "criteria_name"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "university": {
+      "columns": [
+        "id",
+        "country_id",
+        "university_name"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "university_ranking_year": {
+      "columns": [
+        "university_id",
+        "ranking_criteria_id",
+        "year",
+        "score"
+      ],
+      "primary_key": []
+    },
+    "university_year": {
+      "columns": [
+        "university_id",
+        "year",
+        "num_students",
+        "student_staff_ratio",
+        "pct_international_students",
+        "pct_female_students"
+      ],
+      "primary_key": []
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "ranking_criteria",
+      "parent_table": "ranking_system",
+      "from_column": "ranking_system_id",
+      "parent_column": "id"
+    },
+    {
+      "from_table": "university",
+      "parent_table": "country",
+      "from_column": "country_id",
+      "parent_column": "id"
+    },
+    {
+      "from_table": "university_ranking_year",
+      "parent_table": "university",
+      "from_column": "university_id",
+      "parent_column": "id"
+    },
+    {
+      "from_table": "university_ranking_year",
+      "parent_table": "ranking_criteria",
+      "from_column": "ranking_criteria_id",
+      "parent_column": "id"
+    },
+    {
+      "from_table": "university_year",
+      "parent_table": "university",
+      "from_column": "university_id",
+      "parent_column": "id"
+    }
+  ]
+}

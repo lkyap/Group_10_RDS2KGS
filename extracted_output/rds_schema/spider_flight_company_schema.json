@@ -1,0 +1,59 @@
+{
+  "tables": {
+    "airport": {
+      "columns": [
+        "id",
+        "City",
+        "Country",
+        "IATA",
+        "ICAO",
+        "name"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "operate_company": {
+      "columns": [
+        "id",
+        "name",
+        "Type",
+        "Principal_activities",
+        "Incorporated_in",
+        "Group_Equity_Shareholding"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    },
+    "flight": {
+      "columns": [
+        "id",
+        "Vehicle_Flight_number",
+        "Date",
+        "Pilot",
+        "Velocity",
+        "Altitude",
+        "airport_id",
+        "company_id"
+      ],
+      "primary_key": [
+        "id"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "flight",
+      "parent_table": "operate_company",
+      "from_column": "company_id",
+      "parent_column": "id"
+    },
+    {
+      "from_table": "flight",
+      "parent_table": "airport",
+      "from_column": "airport_id",
+      "parent_column": "id"
+    }
+  ]
+}

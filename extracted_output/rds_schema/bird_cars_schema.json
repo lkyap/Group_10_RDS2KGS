@@ -1,0 +1,75 @@
+{
+  "tables": {
+    "country": {
+      "columns": [
+        "origin",
+        "country"
+      ],
+      "primary_key": [
+        "origin"
+      ]
+    },
+    "price": {
+      "columns": [
+        "ID",
+        "price"
+      ],
+      "primary_key": [
+        "ID"
+      ]
+    },
+    "data": {
+      "columns": [
+        "ID",
+        "mpg",
+        "cylinders",
+        "displacement",
+        "horsepower",
+        "weight",
+        "acceleration",
+        "model",
+        "car_name"
+      ],
+      "primary_key": [
+        "ID"
+      ]
+    },
+    "production": {
+      "columns": [
+        "ID",
+        "model_year",
+        "country"
+      ],
+      "primary_key": [
+        "ID",
+        "model_year"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "data",
+      "parent_table": "price",
+      "from_column": "ID",
+      "parent_column": "ID"
+    },
+    {
+      "from_table": "production",
+      "parent_table": "price",
+      "from_column": "ID",
+      "parent_column": "ID"
+    },
+    {
+      "from_table": "production",
+      "parent_table": "data",
+      "from_column": "ID",
+      "parent_column": "ID"
+    },
+    {
+      "from_table": "production",
+      "parent_table": "country",
+      "from_column": "country",
+      "parent_column": "origin"
+    }
+  ]
+}

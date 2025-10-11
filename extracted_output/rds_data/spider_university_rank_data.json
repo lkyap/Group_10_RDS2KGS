@@ -1,0 +1,309 @@
+{
+  "university": [
+    {
+      "University_ID": 1,
+      "University_Name": "Augustana College",
+      "City": "Rock Island",
+      "State": "Illinois",
+      "Team_Name": "Vikings",
+      "Affiliation": "Private_Lutheran",
+      "Enrollment": 2500,
+      "Home_Conference": "CCIW"
+    },
+    {
+      "University_ID": 2,
+      "University_Name": "Aurora University",
+      "City": "Aurora",
+      "State": "Illinois",
+      "Team_Name": "Spartans",
+      "Affiliation": "Private_Non-sectarian",
+      "Enrollment": 4400,
+      "Home_Conference": "Northern"
+    },
+    {
+      "University_ID": 3,
+      "University_Name": "Beloit College",
+      "City": "Beloit",
+      "State": "Wisconsin",
+      "Team_Name": "Buccaneers",
+      "Affiliation": "Private_United Church of Christ",
+      "Enrollment": 1000,
+      "Home_Conference": "Midwest"
+    },
+    {
+      "University_ID": 4,
+      "University_Name": "Benedictine University",
+      "City": "Lisle",
+      "State": "Illinois",
+      "Team_Name": "Eagles",
+      "Affiliation": "Private_Catholic",
+      "Enrollment": 1300,
+      "Home_Conference": "Northern"
+    },
+    {
+      "University_ID": 5,
+      "University_Name": "Carroll University ",
+      "City": "Waukesha",
+      "State": "Wisconsin",
+      "Team_Name": "Pioneers",
+      "Affiliation": "Private_Presbyterian",
+      "Enrollment": 2789,
+      "Home_Conference": "Midwest"
+    },
+    {
+      "University_ID": 6,
+      "University_Name": "Carthage College",
+      "City": "Kenosha",
+      "State": "Wisconsin",
+      "Team_Name": "Red Men",
+      "Affiliation": "Private_Lutheran",
+      "Enrollment": 2188,
+      "Home_Conference": "CCIW"
+    },
+    {
+      "University_ID": 7,
+      "University_Name": "Concordia University Wisconsin",
+      "City": "Mequon",
+      "State": "Wisconsin",
+      "Team_Name": "Falcons",
+      "Affiliation": "Private_Lutheran",
+      "Enrollment": 1608,
+      "Home_Conference": "Northern"
+    },
+    {
+      "University_ID": 8,
+      "University_Name": "Cornell College",
+      "City": "Mount Vernon",
+      "State": "Iowa",
+      "Team_Name": "Rams",
+      "Affiliation": "Private_United Methodist",
+      "Enrollment": 1176,
+      "Home_Conference": "Midwest"
+    },
+    {
+      "University_ID": 9,
+      "University_Name": "Defiance College",
+      "City": "Defiance",
+      "State": "Ohio",
+      "Team_Name": "Yellow Jackets",
+      "Affiliation": "Private_United Church of Christ",
+      "Enrollment": 1000,
+      "Home_Conference": "HCAC"
+    },
+    {
+      "University_ID": 10,
+      "University_Name": "Elmhurst College",
+      "City": "Elmhurst",
+      "State": "Illinois",
+      "Team_Name": "Bluejays",
+      "Affiliation": "Private_United Church of Christ",
+      "Enrollment": 3400,
+      "Home_Conference": "CCIW"
+    },
+    {
+      "University_ID": 11,
+      "University_Name": "Fontbonne University",
+      "City": "St. Louis",
+      "State": "Missouri",
+      "Team_Name": "Griffins",
+      "Affiliation": "Private_Catholic",
+      "Enrollment": 2924,
+      "Home_Conference": "SLIAC"
+    },
+    {
+      "University_ID": 12,
+      "University_Name": "Hanover College",
+      "City": "Hanover",
+      "State": "Indiana",
+      "Team_Name": "Panthers",
+      "Affiliation": "Private_Presbyterian",
+      "Enrollment": 975,
+      "Home_Conference": "HCAC"
+    },
+    {
+      "University_ID": 13,
+      "University_Name": "Milwaukee School of Engineering",
+      "City": "Milwaukee",
+      "State": "Wisconsin",
+      "Team_Name": "Raiders",
+      "Affiliation": "Private_Non-sectarian",
+      "Enrollment": 1929,
+      "Home_Conference": "Northern"
+    }
+  ],
+  "overall_ranking": [
+    {
+      "Rank": 1,
+      "University_ID": 1,
+      "Reputation_point": 5,
+      "Research_point": 2,
+      "Citation_point": 0,
+      "Total": 7
+    },
+    {
+      "Rank": 1,
+      "University_ID": 2,
+      "Reputation_point": 5,
+      "Research_point": 1,
+      "Citation_point": 1,
+      "Total": 7
+    },
+    {
+      "Rank": 3,
+      "University_ID": 3,
+      "Reputation_point": 4,
+      "Research_point": 0,
+      "Citation_point": 0,
+      "Total": 4
+    },
+    {
+      "Rank": 4,
+      "University_ID": 4,
+      "Reputation_point": 1,
+      "Research_point": 3,
+      "Citation_point": 2,
+      "Total": 6
+    },
+    {
+      "Rank": 5,
+      "University_ID": 5,
+      "Reputation_point": 1,
+      "Research_point": 2,
+      "Citation_point": 0,
+      "Total": 3
+    },
+    {
+      "Rank": 6,
+      "University_ID": 6,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 2,
+      "Total": 3
+    },
+    {
+      "Rank": 7,
+      "University_ID": 7,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 1,
+      "Total": 2
+    },
+    {
+      "Rank": 7,
+      "University_ID": 8,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 1,
+      "Total": 2
+    },
+    {
+      "Rank": 9,
+      "University_ID": 9,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 0,
+      "Total": 1
+    },
+    {
+      "Rank": 9,
+      "University_ID": 10,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 0,
+      "Total": 1
+    },
+    {
+      "Rank": 9,
+      "University_ID": 11,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 0,
+      "Total": 1
+    },
+    {
+      "Rank": 9,
+      "University_ID": 12,
+      "Reputation_point": 1,
+      "Research_point": 0,
+      "Citation_point": 0,
+      "Total": 1
+    },
+    {
+      "Rank": 13,
+      "University_ID": 13,
+      "Reputation_point": 0,
+      "Research_point": 0,
+      "Citation_point": 1,
+      "Total": 1
+    }
+  ],
+  "major": [
+    {
+      "Major_ID": 1,
+      "Major_Name": "Accounting",
+      "Major_Code": 1054
+    },
+    {
+      "Major_ID": 2,
+      "Major_Name": "Advertising",
+      "Major_Code": 1053
+    },
+    {
+      "Major_ID": 3,
+      "Major_Name": "Healthcare Management",
+      "Major_Code": 1154
+    },
+    {
+      "Major_ID": 4,
+      "Major_Name": "Journalism",
+      "Major_Code": 1059
+    },
+    {
+      "Major_ID": 5,
+      "Major_Name": "Urban Education",
+      "Major_Code": 1041
+    }
+  ],
+  "major_ranking": [
+    {
+      "Rank": 1,
+      "University_ID": 1,
+      "Major_ID": 1
+    },
+    {
+      "Rank": 2,
+      "University_ID": 1,
+      "Major_ID": 5
+    },
+    {
+      "Rank": 1,
+      "University_ID": 2,
+      "Major_ID": 3
+    },
+    {
+      "Rank": 2,
+      "University_ID": 1,
+      "Major_ID": 3
+    },
+    {
+      "Rank": 1,
+      "University_ID": 3,
+      "Major_ID": 1
+    },
+    {
+      "Rank": 4,
+      "University_ID": 4,
+      "Major_ID": 1
+    },
+    {
+      "Rank": 3,
+      "University_ID": 2,
+      "Major_ID": 4
+    },
+    {
+      "Rank": 2,
+      "University_ID": 1,
+      "Major_ID": 4
+    }
+  ]
+}

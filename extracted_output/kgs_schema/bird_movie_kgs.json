@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "actor",
+      "properties": [
+        "ActorID",
+        "Name",
+        "Date of Birth",
+        "Birth City",
+        "Birth Country",
+        "Height (Inches)",
+        "Biography",
+        "Gender",
+        "Ethnicity",
+        "NetWorth"
+      ],
+      "key": "ActorID"
+    },
+    {
+      "id": "movie",
+      "properties": [
+        "MovieID",
+        "Title",
+        "MPAA Rating",
+        "Budget",
+        "Gross",
+        "Release Date",
+        "Genre",
+        "Runtime",
+        "Rating",
+        "Rating Count",
+        "Summary"
+      ],
+      "key": "MovieID"
+    },
+    {
+      "id": "characters",
+      "properties": [
+        "MovieID",
+        "ActorID",
+        "Character Name",
+        "creditOrder",
+        "pay",
+        "screentime"
+      ],
+      "key": "MovieID,ActorID"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters",
+      "target": "movie",
+      "relationship": "IN_MOVIE",
+      "source_column": "MovieID",
+      "target_column": "MovieID"
+    },
+    {
+      "source": "characters",
+      "target": "actor",
+      "relationship": "PORTRAYED_BY",
+      "source_column": "ActorID",
+      "target_column": "ActorID"
+    }
+  ]
+}

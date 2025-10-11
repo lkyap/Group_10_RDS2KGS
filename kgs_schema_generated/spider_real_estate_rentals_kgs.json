@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "id": "Ref_Age_Categories",
+      "properties": [
+        "age_category_code",
+        "age_category_description"
+      ],
+      "key": "age_category_code"
+    },
+    {
+      "id": "Ref_Property_Types",
+      "properties": [
+        "property_type_code",
+        "property_type_description"
+      ],
+      "key": "property_type_code"
+    },
+    {
+      "id": "Ref_Room_Types",
+      "properties": [
+        "room_type_code",
+        "room_type_description"
+      ],
+      "key": "room_type_code"
+    },
+    {
+      "id": "Ref_User_Categories",
+      "properties": [
+        "user_category_code",
+        "user_category_description"
+      ],
+      "key": "user_category_code"
+    },
+    {
+      "id": "Addresses",
+      "properties": [
+        "address_id",
+        "line_1_number_building",
+        "line_2_number_street",
+        "line_3_area_locality",
+        "town_city",
+        "zip_postcode",
+        "county_state_province",
+        "country",
+        "other_address_details"
+      ],
+      "key": "address_id"
+    },
+    {
+      "id": "Features",
+      "properties": [
+        "feature_id",
+        "feature_name",
+        "feature_description"
+      ],
+      "key": "feature_id"
+    },
+    {
+      "id": "Users",
+      "properties": [
+        "user_id",
+        "age_category_code",
+        "user_category_code",
+        "user_address_id",
+        "is_buyer",
+        "is_seller",
+        "login_name",
+        "password",
+        "date_registered",
+        "first_name",
+        "middle_name",
+        "last_name",
+        "other_user_details"
+      ],
+      "key": "user_id"
+    },
+    {
+      "id": "Properties",
+      "properties": [
+        "property_id",
+        "property_address_id",
+        "owner_user_id",
+        "property_type_code",
+        "date_on_market",
+        "date_off_market",
+        "property_name",
+        "property_description",
+        "garage_yn",
+        "parking_lots",
+        "room_count",
+        "vendor_requested_price",
+        "price_min",
+        "price_max",
+        "other_property_details"
+      ],
+      "key": "property_id"
+    },
+    {
+      "id": "Property_Features",
+      "properties": [
+        "property_id",
+        "feature_id",
+        "feature_value",
+        "property_feature_description"
+      ],
+      "key": ""
+    },
+    {
+      "id": "Property_Photos",
+      "properties": [
+        "property_id",
+        "photo_seq",
+        "photo_title",
+        "photo_description",
+        "photo_filename"
+      ],
+      "key": ""
+    },
+    {
+      "id": "Rooms",
+      "properties": [
+        "property_id",
+        "room_number",
+        "room_type_code",
+        "room_size",
+        "other_room_details"
+      ],
+      "key": ""
+    },
+    {
+      "id": "User_Property_History",
+      "properties": [
+        "user_id",
+        "property_id",
+        "datestamp"
+      ],
+      "key": ""
+    },
+    {
+      "id": "User_Searches",
+      "properties": [
+        "user_id",
+        "search_seq",
+        "search_datetime",
+        "search_string"
+      ],
+      "key": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "Properties",
+      "target": "Ref_Property_Types",
+      "relationship": "HAS_PROPERTY_TYPE",
+      "source_column": "property_type_code",
+      "target_column": "property_type_code"
+    },
+    {
+      "source": "Properties",
+      "target": "Addresses",
+      "relationship": "LOCATED_AT",
+      "source_column": "property_address_id",
+      "target_column": "address_id"
+    },
+    {
+      "source": "Properties",
+      "target": "Users",
+      "relationship": "OWNED_BY",
+      "source_column": "owner_user_id",
+      "target_column": "user_id"
+    },
+    {
+      "source": "Property_Features",
+      "target": "Properties",
+      "relationship": "DESCRIBES_PROPERTY",
+      "source_column": "property_id",
+      "target_column": "property_id"
+    },
+    {
+      "source": "Property_Features",
+      "target": "Features",
+      "relationship": "REFERENCES_FEATURE",
+      "source_column": "feature_id",
+      "target_column": "feature_id"
+    },
+    {
+      "source": "Property_Photos",
+      "target": "Properties",
+      "relationship": "PHOTO_OF_PROPERTY",
+      "source_column": "property_id",
+      "target_column": "property_id"
+    },
+    {
+      "source": "Rooms",
+      "target": "Ref_Room_Types",
+      "relationship": "IS_OF_ROOM_TYPE",
+      "source_column": "room_type_code",
+      "target_column": "room_type_code"
+    },
+    {
+      "source": "Rooms",
+      "target": "Properties",
+      "relationship": "BELONGS_TO_PROPERTY",
+      "source_column": "property_id",
+      "target_column": "property_id"
+    },
+    {
+      "source": "User_Property_History",
+      "target": "Properties",
+      "relationship": "VIEWED_PROPERTY",
+      "source_column": "property_id",
+      "target_column": "property_id"
+    },
+    {
+      "source": "User_Property_History",
+      "target": "Users",
+      "relationship": "RECORDED_FOR_USER",
+      "source_column": "user_id",
+      "target_column": "user_id"
+    },
+    {
+      "source": "User_Searches",
+      "target": "Users",
+      "relationship": "SEARCH_CONDUCTED_BY",
+      "source_column": "user_id",
+      "target_column": "user_id"
+    }
+  ]
+}

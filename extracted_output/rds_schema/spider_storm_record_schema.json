@@ -1,0 +1,52 @@
+{
+  "tables": {
+    "storm": {
+      "columns": [
+        "Storm_ID",
+        "Name",
+        "Dates_active",
+        "Max_speed",
+        "Damage_millions_USD",
+        "Number_Deaths"
+      ],
+      "primary_key": [
+        "Storm_ID"
+      ]
+    },
+    "region": {
+      "columns": [
+        "Region_id",
+        "Region_code",
+        "Region_name"
+      ],
+      "primary_key": [
+        "Region_id"
+      ]
+    },
+    "affected_region": {
+      "columns": [
+        "Region_id",
+        "Storm_ID",
+        "Number_city_affected"
+      ],
+      "primary_key": [
+        "Region_id",
+        "Storm_ID"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "affected_region",
+      "parent_table": "storm",
+      "from_column": "Storm_ID",
+      "parent_column": "Storm_ID"
+    },
+    {
+      "from_table": "affected_region",
+      "parent_table": "region",
+      "from_column": "Region_id",
+      "parent_column": "Region_id"
+    }
+  ]
+}

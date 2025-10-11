@@ -1,0 +1,1457 @@
+{
+  "nodes": [
+    {
+      "id": "Apartment_Buildings_0",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 133,
+        "building_short_name": "Normandie Court",
+        "building_full_name": "Normandie Court",
+        "building_description": "Studio",
+        "building_address": "7950 Casper Vista Apt. 176\nMarquiseberg, CA 70496",
+        "building_manager": "Emma",
+        "building_phone": "(948)040-1064x387"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_1",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 153,
+        "building_short_name": "Mercedes House",
+        "building_full_name": "Mercedes House",
+        "building_description": "Studio",
+        "building_address": "354 Otto Villages\nCharliefort, VT 71664",
+        "building_manager": "Brenden",
+        "building_phone": "915-617-2408x832"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_2",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 191,
+        "building_short_name": "The Eugene",
+        "building_full_name": "The Eugene",
+        "building_description": "Flat",
+        "building_address": "71537 Gorczany Inlet\nWisozkburgh, AL 08256",
+        "building_manager": "Melyssa",
+        "building_phone": "(609)946-0491"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_3",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 196,
+        "building_short_name": "VIA 57 WEST",
+        "building_full_name": "VIA 57 WEST",
+        "building_description": "Studio",
+        "building_address": "959 Ethel Viaduct\nWest Efrainburgh, DE 40074",
+        "building_manager": "Kathlyn",
+        "building_phone": "681.772.2454"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_4",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 225,
+        "building_short_name": "Columbus Square",
+        "building_full_name": "Columbus Square",
+        "building_description": "Studio",
+        "building_address": "0703 Danika Mountains Apt. 362\nMohrland, AL 56839-5028",
+        "building_manager": "Kyle",
+        "building_phone": "1-724-982-9507x640"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_5",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 532,
+        "building_short_name": "Avalon Park",
+        "building_full_name": "Avalon Park",
+        "building_description": "Duplex",
+        "building_address": "6827 Kessler Parkway Suite 908\nAhmedberg, WI 48788",
+        "building_manager": "Albert",
+        "building_phone": "376-017-3538"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_6",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 556,
+        "building_short_name": "Peter Cooper Village",
+        "building_full_name": "Peter Cooper Village",
+        "building_description": "Flat",
+        "building_address": "861 Narciso Glens Suite 392\nEast Ottis, ND 73970",
+        "building_manager": "Darlene",
+        "building_phone": "1-224-619-0295x13195"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_7",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 624,
+        "building_short_name": "Stuyvesant Town",
+        "building_full_name": "Stuyvesant Town",
+        "building_description": "Studio",
+        "building_address": "101 Queenie Mountains Suite 619\nNew Korbinmouth, KS 88726-1376",
+        "building_manager": "Marie",
+        "building_phone": "(145)411-6406"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_8",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 644,
+        "building_short_name": "The Anthem",
+        "building_full_name": "The Anthem",
+        "building_description": "Flat",
+        "building_address": "50804 Mason Isle Suite 844\nWest Whitney, ID 66511",
+        "building_manager": "Ewald",
+        "building_phone": "(909)086-5221x3455"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_9",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 673,
+        "building_short_name": "Barclay Tower",
+        "building_full_name": "Barclay Tower",
+        "building_description": "Flat",
+        "building_address": "1579 Runte Forges Apt. 548\nLeuschkeland, OK 12009-8683",
+        "building_manager": "Rogers",
+        "building_phone": "1-326-267-3386x613"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_10",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 734,
+        "building_short_name": "Windsor Court",
+        "building_full_name": "Windsor Court",
+        "building_description": "Studio",
+        "building_address": "601 Graham Roads\nPort Luz, VA 29660-6703",
+        "building_manager": "Olaf",
+        "building_phone": "(480)480-7401"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_11",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 744,
+        "building_short_name": "Silver Towers",
+        "building_full_name": "Silver Towers",
+        "building_description": "Flat",
+        "building_address": "1844 Armstrong Stravenue Suite 853\nMyrnatown, CT 13528",
+        "building_manager": "Claude",
+        "building_phone": "1-667-728-2287x3158"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_12",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 790,
+        "building_short_name": "Biltmore Plaza",
+        "building_full_name": "Biltmore Plaza",
+        "building_description": "Duplex",
+        "building_address": "489 Josh Orchard Apt. 998\nSipesview, DE 69053",
+        "building_manager": "Sydni",
+        "building_phone": "544-148-5565x2847"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_13",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 808,
+        "building_short_name": "Petersfield",
+        "building_full_name": "Petersfield",
+        "building_description": "Studio",
+        "building_address": "54686 Christopher Circles Apt. 321\nDaytonland, ID 88081-3991",
+        "building_manager": "Juvenal",
+        "building_phone": "318-398-8140"
+      }
+    },
+    {
+      "id": "Apartment_Buildings_14",
+      "label": "Apartment_Buildings",
+      "properties": {
+        "building_id": 968,
+        "building_short_name": "The Clinton",
+        "building_full_name": "The Clinton",
+        "building_description": "Flat",
+        "building_address": "012 Arnoldo Mountain\nGerholdland, ID 23342",
+        "building_manager": "Holly",
+        "building_phone": "1-605-511-1973x25011"
+      }
+    },
+    {
+      "id": "Apartments_0",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 1,
+        "building_id": 808,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 645",
+        "bathroom_count": 1,
+        "bedroom_count": 3,
+        "room_count": "7"
+      }
+    },
+    {
+      "id": "Apartments_1",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 2,
+        "building_id": 624,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 585",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "5"
+      }
+    },
+    {
+      "id": "Apartments_2",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 3,
+        "building_id": 225,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 908",
+        "bathroom_count": 1,
+        "bedroom_count": 6,
+        "room_count": "7"
+      }
+    },
+    {
+      "id": "Apartments_3",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 4,
+        "building_id": 225,
+        "apt_type_code": "Duplex",
+        "apt_number": "Suite 749",
+        "bathroom_count": 1,
+        "bedroom_count": 5,
+        "room_count": "8"
+      }
+    },
+    {
+      "id": "Apartments_4",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 5,
+        "building_id": 744,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 307",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "9"
+      }
+    },
+    {
+      "id": "Apartments_5",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 6,
+        "building_id": 191,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 187",
+        "bathroom_count": 3,
+        "bedroom_count": 5,
+        "room_count": "9"
+      }
+    },
+    {
+      "id": "Apartments_6",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 7,
+        "building_id": 790,
+        "apt_type_code": "Studio",
+        "apt_number": "Suite 088",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "6"
+      }
+    },
+    {
+      "id": "Apartments_7",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 8,
+        "building_id": 153,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 693",
+        "bathroom_count": 2,
+        "bedroom_count": 3,
+        "room_count": "9"
+      }
+    },
+    {
+      "id": "Apartments_8",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 9,
+        "building_id": 624,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 940",
+        "bathroom_count": 1,
+        "bedroom_count": 4,
+        "room_count": "8"
+      }
+    },
+    {
+      "id": "Apartments_9",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 10,
+        "building_id": 225,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 859",
+        "bathroom_count": 2,
+        "bedroom_count": 3,
+        "room_count": "6"
+      }
+    },
+    {
+      "id": "Apartments_10",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 11,
+        "building_id": 734,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 794",
+        "bathroom_count": 1,
+        "bedroom_count": 5,
+        "room_count": "3"
+      }
+    },
+    {
+      "id": "Apartments_11",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 12,
+        "building_id": 673,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 477",
+        "bathroom_count": 2,
+        "bedroom_count": 6,
+        "room_count": "3"
+      }
+    },
+    {
+      "id": "Apartments_12",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 13,
+        "building_id": 744,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 411",
+        "bathroom_count": 2,
+        "bedroom_count": 5,
+        "room_count": "9"
+      }
+    },
+    {
+      "id": "Apartments_13",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 14,
+        "building_id": 225,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 837",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "8"
+      }
+    },
+    {
+      "id": "Apartments_14",
+      "label": "Apartments",
+      "properties": {
+        "apt_id": 15,
+        "building_id": 790,
+        "apt_type_code": "Duplex",
+        "apt_number": "Suite 634",
+        "bathroom_count": 3,
+        "bedroom_count": 6,
+        "room_count": "8"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_0",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 1,
+        "facility_code": "Boardband"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_1",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 2,
+        "facility_code": "Boardband"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_2",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 3,
+        "facility_code": "Gym"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_3",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 5,
+        "facility_code": "Swimming Pool"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_4",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 6,
+        "facility_code": "Cable TV"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_5",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 9,
+        "facility_code": "Boardband"
+      }
+    },
+    {
+      "id": "Apartment_Facilities_6",
+      "label": "Apartment_Facilities",
+      "properties": {
+        "apt_id": 15,
+        "facility_code": "Gym"
+      }
+    },
+    {
+      "id": "Guests_0",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 1,
+        "gender_code": "Male",
+        "guest_first_name": "Kip",
+        "guest_last_name": "DuBuque",
+        "date_of_birth": "1995-11-04 07:09:57"
+      }
+    },
+    {
+      "id": "Guests_1",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 2,
+        "gender_code": "Unknown",
+        "guest_first_name": "Rebeca",
+        "guest_last_name": "Runolfsdottir",
+        "date_of_birth": "1974-05-12 21:53:58"
+      }
+    },
+    {
+      "id": "Guests_2",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 3,
+        "gender_code": "Female",
+        "guest_first_name": "Keon",
+        "guest_last_name": "Treutel",
+        "date_of_birth": "1974-08-20 09:28:05"
+      }
+    },
+    {
+      "id": "Guests_3",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 4,
+        "gender_code": "Female",
+        "guest_first_name": "Gabe",
+        "guest_last_name": "Bode",
+        "date_of_birth": "2007-09-11 19:01:39"
+      }
+    },
+    {
+      "id": "Guests_4",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 5,
+        "gender_code": "Female",
+        "guest_first_name": "Lou",
+        "guest_last_name": "Grady",
+        "date_of_birth": "1997-01-15 17:37:40"
+      }
+    },
+    {
+      "id": "Guests_5",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 6,
+        "gender_code": "Unknown",
+        "guest_first_name": "Josefina",
+        "guest_last_name": "Jerde",
+        "date_of_birth": "1978-03-08 04:43:04"
+      }
+    },
+    {
+      "id": "Guests_6",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 7,
+        "gender_code": "Female",
+        "guest_first_name": "Mozell",
+        "guest_last_name": "Toy",
+        "date_of_birth": "1997-01-20 17:11:31"
+      }
+    },
+    {
+      "id": "Guests_7",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 8,
+        "gender_code": "Unknown",
+        "guest_first_name": "Keith",
+        "guest_last_name": "Hoeger",
+        "date_of_birth": "2001-06-18 20:05:55"
+      }
+    },
+    {
+      "id": "Guests_8",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 9,
+        "gender_code": "Female",
+        "guest_first_name": "Crystal",
+        "guest_last_name": "Runolfsson",
+        "date_of_birth": "1971-01-04 04:22:58"
+      }
+    },
+    {
+      "id": "Guests_9",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 10,
+        "gender_code": "Female",
+        "guest_first_name": "Nikki",
+        "guest_last_name": "Lehner",
+        "date_of_birth": "1980-06-20 18:15:39"
+      }
+    },
+    {
+      "id": "Guests_10",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 11,
+        "gender_code": "Male",
+        "guest_first_name": "Gregoria",
+        "guest_last_name": "Schowalter",
+        "date_of_birth": "2015-02-03 23:34:13"
+      }
+    },
+    {
+      "id": "Guests_11",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 12,
+        "gender_code": "Male",
+        "guest_first_name": "Louvenia",
+        "guest_last_name": "Crona",
+        "date_of_birth": "1983-08-26 15:45:08"
+      }
+    },
+    {
+      "id": "Guests_12",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 13,
+        "gender_code": "Female",
+        "guest_first_name": "Else",
+        "guest_last_name": "Roberts",
+        "date_of_birth": "1971-11-02 01:51:56"
+      }
+    },
+    {
+      "id": "Guests_13",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 14,
+        "gender_code": "Female",
+        "guest_first_name": "Juvenal",
+        "guest_last_name": "Kautzer",
+        "date_of_birth": "2003-07-29 22:08:15"
+      }
+    },
+    {
+      "id": "Guests_14",
+      "label": "Guests",
+      "properties": {
+        "guest_id": 15,
+        "gender_code": "Female",
+        "guest_first_name": "Tamia",
+        "guest_last_name": "Mante",
+        "date_of_birth": "2013-02-22 11:26:22"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_0",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 258,
+        "apt_id": 10,
+        "guest_id": 2,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2016-09-26 17:13:49",
+        "booking_end_date": "2017-10-07 11:38:48"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_1",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 279,
+        "apt_id": 15,
+        "guest_id": 15,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2016-04-01 06:28:08",
+        "booking_end_date": "2017-10-25 11:08:42"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_2",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 337,
+        "apt_id": 8,
+        "guest_id": 5,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2017-03-13 16:20:14",
+        "booking_end_date": "2018-02-19 16:59:08"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_3",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 343,
+        "apt_id": 4,
+        "guest_id": 13,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2016-08-04 10:33:00",
+        "booking_end_date": "2017-09-29 12:43:50"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_4",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 365,
+        "apt_id": 9,
+        "guest_id": 12,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2017-02-11 14:34:14",
+        "booking_end_date": "2017-10-07 20:47:19"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_5",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 401,
+        "apt_id": 7,
+        "guest_id": 14,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2016-05-24 20:09:38",
+        "booking_end_date": "2017-10-03 01:56:21"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_6",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 497,
+        "apt_id": 10,
+        "guest_id": 8,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2016-07-25 02:57:04",
+        "booking_end_date": "2017-09-28 11:08:15"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_7",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 526,
+        "apt_id": 8,
+        "guest_id": 7,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2016-11-26 05:04:31",
+        "booking_end_date": "2018-02-25 15:15:37"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_8",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 575,
+        "apt_id": 6,
+        "guest_id": 3,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2017-05-13 18:17:20",
+        "booking_end_date": "2017-10-06 11:15:58"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_9",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 577,
+        "apt_id": 12,
+        "guest_id": 2,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2017-03-04 02:23:49",
+        "booking_end_date": "2018-02-06 16:57:05"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_10",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 623,
+        "apt_id": 4,
+        "guest_id": 5,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2016-06-07 05:05:18",
+        "booking_end_date": "2017-11-13 13:59:45"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_11",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 807,
+        "apt_id": 11,
+        "guest_id": 2,
+        "booking_status_code": "Provisional",
+        "booking_start_date": "2016-04-17 12:53:59",
+        "booking_end_date": "2018-03-20 17:32:58"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_12",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 889,
+        "apt_id": 10,
+        "guest_id": 4,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2016-09-28 05:00:50",
+        "booking_end_date": "2017-09-30 18:41:04"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_13",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 920,
+        "apt_id": 2,
+        "guest_id": 2,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2017-04-07 04:53:27",
+        "booking_end_date": "2017-11-29 12:59:42"
+      }
+    },
+    {
+      "id": "Apartment_Bookings_14",
+      "label": "Apartment_Bookings",
+      "properties": {
+        "apt_booking_id": 924,
+        "apt_id": 8,
+        "guest_id": 3,
+        "booking_status_code": "Confirmed",
+        "booking_start_date": "2017-07-03 14:15:56",
+        "booking_end_date": "2017-11-12 01:05:09"
+      }
+    },
+    {
+      "id": "View_Unit_Status_0",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 11,
+        "apt_booking_id": 920,
+        "status_date": "1970-09-28 10:24:29",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_1",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 15,
+        "apt_booking_id": 575,
+        "status_date": "1972-03-23 22:55:53",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_2",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 15,
+        "apt_booking_id": 924,
+        "status_date": "1973-10-28 04:30:14",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_3",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 6,
+        "apt_booking_id": 497,
+        "status_date": "1976-12-18 04:03:51",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_4",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 12,
+        "apt_booking_id": 807,
+        "status_date": "1977-04-15 13:42:19",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_5",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 13,
+        "apt_booking_id": 575,
+        "status_date": "1978-12-28 11:53:34",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_6",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 2,
+        "apt_booking_id": 497,
+        "status_date": "1980-11-12 13:34:45",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_7",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 14,
+        "apt_booking_id": 401,
+        "status_date": "1985-11-05 11:46:35",
+        "available_yn": 0
+      }
+    },
+    {
+      "id": "View_Unit_Status_8",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 11,
+        "apt_booking_id": 497,
+        "status_date": "1990-11-04 17:57:50",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_9",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 13,
+        "apt_booking_id": 337,
+        "status_date": "2000-02-04 07:50:09",
+        "available_yn": 0
+      }
+    },
+    {
+      "id": "View_Unit_Status_10",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 14,
+        "apt_booking_id": 279,
+        "status_date": "2001-02-17 20:17:09",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_11",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 5,
+        "apt_booking_id": 337,
+        "status_date": "2003-07-25 10:13:48",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_12",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 1,
+        "apt_booking_id": 497,
+        "status_date": "2003-08-02 08:36:36",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_13",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 10,
+        "apt_booking_id": 497,
+        "status_date": "2006-02-23 05:50:04",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_14",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 6,
+        "apt_booking_id": 401,
+        "status_date": "2011-02-12 09:04:07",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_15",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 9,
+        "apt_booking_id": 623,
+        "status_date": "2011-11-06 22:08:42",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_16",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 14,
+        "apt_booking_id": 920,
+        "status_date": "2012-11-24 13:39:37",
+        "available_yn": 0
+      }
+    },
+    {
+      "id": "View_Unit_Status_17",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 4,
+        "apt_booking_id": 258,
+        "status_date": "2014-12-10 13:53:21",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_18",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 13,
+        "apt_booking_id": 343,
+        "status_date": "2015-06-19 07:59:01",
+        "available_yn": 1
+      }
+    },
+    {
+      "id": "View_Unit_Status_19",
+      "label": "View_Unit_Status",
+      "properties": {
+        "apt_id": 5,
+        "apt_booking_id": 889,
+        "status_date": "2015-07-15 11:06:29",
+        "available_yn": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Apartments_0",
+      "target": "Apartment_Buildings_13",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_1",
+      "target": "Apartment_Buildings_7",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_2",
+      "target": "Apartment_Buildings_4",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_3",
+      "target": "Apartment_Buildings_4",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_4",
+      "target": "Apartment_Buildings_11",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_5",
+      "target": "Apartment_Buildings_2",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_6",
+      "target": "Apartment_Buildings_12",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_7",
+      "target": "Apartment_Buildings_1",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_8",
+      "target": "Apartment_Buildings_7",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_9",
+      "target": "Apartment_Buildings_4",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_10",
+      "target": "Apartment_Buildings_10",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_11",
+      "target": "Apartment_Buildings_9",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_12",
+      "target": "Apartment_Buildings_11",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_13",
+      "target": "Apartment_Buildings_4",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartments_14",
+      "target": "Apartment_Buildings_12",
+      "relationship": "LOCATED_IN"
+    },
+    {
+      "source": "Apartment_Facilities_0",
+      "target": "Apartments_0",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_1",
+      "target": "Apartments_1",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_2",
+      "target": "Apartments_2",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_3",
+      "target": "Apartments_4",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_4",
+      "target": "Apartments_5",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_5",
+      "target": "Apartments_8",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Facilities_6",
+      "target": "Apartments_14",
+      "relationship": "FOR_APARTMENT"
+    },
+    {
+      "source": "Apartment_Bookings_0",
+      "target": "Guests_1",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_1",
+      "target": "Guests_14",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_2",
+      "target": "Guests_4",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_3",
+      "target": "Guests_12",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_4",
+      "target": "Guests_11",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_5",
+      "target": "Guests_13",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_6",
+      "target": "Guests_7",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_7",
+      "target": "Guests_6",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_8",
+      "target": "Guests_2",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_9",
+      "target": "Guests_1",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_10",
+      "target": "Guests_4",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_11",
+      "target": "Guests_1",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_12",
+      "target": "Guests_3",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_13",
+      "target": "Guests_1",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_14",
+      "target": "Guests_2",
+      "relationship": "BOOKED_BY"
+    },
+    {
+      "source": "Apartment_Bookings_0",
+      "target": "Apartments_9",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_1",
+      "target": "Apartments_14",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_2",
+      "target": "Apartments_7",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_3",
+      "target": "Apartments_3",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_4",
+      "target": "Apartments_8",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_5",
+      "target": "Apartments_6",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_6",
+      "target": "Apartments_9",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_7",
+      "target": "Apartments_7",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_8",
+      "target": "Apartments_5",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_9",
+      "target": "Apartments_11",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_10",
+      "target": "Apartments_3",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_11",
+      "target": "Apartments_10",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_12",
+      "target": "Apartments_9",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_13",
+      "target": "Apartments_1",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "Apartment_Bookings_14",
+      "target": "Apartments_7",
+      "relationship": "BOOKING_FOR"
+    },
+    {
+      "source": "View_Unit_Status_0",
+      "target": "Apartment_Bookings_13",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_1",
+      "target": "Apartment_Bookings_8",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_2",
+      "target": "Apartment_Bookings_14",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_3",
+      "target": "Apartment_Bookings_6",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_4",
+      "target": "Apartment_Bookings_11",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_5",
+      "target": "Apartment_Bookings_8",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_6",
+      "target": "Apartment_Bookings_6",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_7",
+      "target": "Apartment_Bookings_5",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_8",
+      "target": "Apartment_Bookings_6",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_9",
+      "target": "Apartment_Bookings_2",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_10",
+      "target": "Apartment_Bookings_1",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_11",
+      "target": "Apartment_Bookings_2",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_12",
+      "target": "Apartment_Bookings_6",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_13",
+      "target": "Apartment_Bookings_6",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_14",
+      "target": "Apartment_Bookings_5",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_15",
+      "target": "Apartment_Bookings_10",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_16",
+      "target": "Apartment_Bookings_13",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_17",
+      "target": "Apartment_Bookings_0",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_18",
+      "target": "Apartment_Bookings_3",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_19",
+      "target": "Apartment_Bookings_12",
+      "relationship": "REFERS_TO_BOOKING"
+    },
+    {
+      "source": "View_Unit_Status_0",
+      "target": "Apartments_10",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_1",
+      "target": "Apartments_14",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_2",
+      "target": "Apartments_14",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_3",
+      "target": "Apartments_5",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_4",
+      "target": "Apartments_11",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_5",
+      "target": "Apartments_12",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_6",
+      "target": "Apartments_1",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_7",
+      "target": "Apartments_13",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_8",
+      "target": "Apartments_10",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_9",
+      "target": "Apartments_12",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_10",
+      "target": "Apartments_13",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_11",
+      "target": "Apartments_4",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_12",
+      "target": "Apartments_0",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_13",
+      "target": "Apartments_9",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_14",
+      "target": "Apartments_5",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_15",
+      "target": "Apartments_8",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_16",
+      "target": "Apartments_13",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_17",
+      "target": "Apartments_3",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_18",
+      "target": "Apartments_12",
+      "relationship": "STATUS_OF_UNIT"
+    },
+    {
+      "source": "View_Unit_Status_19",
+      "target": "Apartments_4",
+      "relationship": "STATUS_OF_UNIT"
+    }
+  ]
+}
