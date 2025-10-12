@@ -1,62 +1,70 @@
-
 # Knowledge Graph End-to-End Toolkit
 
-This repository combines the relational-data extraction pipeline (`main.py`) with
-the yFiles Vue front-end so you can generate, evaluate, and visualise knowledge
-graphs in a single run.
+This repository combines the relational-data extraction pipeline (`main.py`)
+with a yFiles + Vue front-end so that you can extract, evaluate, and visualise
+knowledge graphs end to end.
 
 ## Prerequisites
 
-- Python 3.10+ available on your `PATH`
-- Node.js 18+ and npm
-- Neo4j Desktop (local) or Neo4j Aura credentials (if you want to load the
-  generated metagraph)
+- Python 3.10 or newer available on `PATH`
+- Node.js 18 or newer (which ships with `npm`)
+- Neo4j Desktop/Aura credentials (only if you want the optional metagraph load)
+- A yFiles for HTML licence package (`yfiles-*.tgz`). Replace the placeholder
+  file in `yfiles-vue-integration-basic-master/` with your own licence before
+  running the setup script.
 
 ## Pipeline Outputs
 
-After a successful run the workspace will contain:
+After a successful run you will find:
 
 - `extracted_output/`
-  - `rds_schema/` – relational schemas exported as JSON
-  - `rds_data/` – relational row data in JSON form
-  - `kgs_schema/` – knowledge-graph schema JSON returned by the LLM (metadata)
-  - `kgs_data/` – knowledge-graph instance data mapped from the RDS export
+  - `rds_schema/` – relational schema exports (JSON)
+  - `rds_data/` – relational data exports (JSON)
+  - `kgs_schema/` – LLM-generated knowledge-graph schema metadata (JSON)
+  - `kgs_data/` – knowledge-graph instance data mapped from the RDS export (JSON)
 - `evaluation_summary/evaluation_summary.csv` – per-database metrics with a
-  `KGS` column matching the corresponding `*_kgs_data.json` file.
+  `KGS` column matching the corresponding `*_kgs_data.json` file
 
-The yFiles Vue app consumes the `kgs_data` (real data) and `kgs_schema`
-(metadata) JSON directly from `extracted_output/`, and the evaluation sidebar
-reads the CSV to display schema/relationship completeness scores.
+The Vue/yFiles UI reads directly from these folders when rendering graphs.
 
-## One-Click Execution
+## First-Time Setup (Windows)
 
-1. Double-click `run_end_to_end.bat` (Windows) or run `python run_end_to_end.py`
-   from the project root. A desktop window appears for credential entry.
-2. Provide:
-   - OpenAI API key (required for the GPT-5 based extraction steps)
-   - Neo4j Bolt URI, user, and password (defaults are pre-filled from
-     `cred.env`, if available)
-3. Click **Run End-to-End**. The launcher will:
-   - write `cred.env` with the supplied values
-   - create/refresh the `.venv` environment and install Python dependencies
-   - execute `main.py` to populate `extracted_output/` and
-     `evaluation_summary/`
-   - install Node dependencies (first run only), build the Vue front-end, and
-     serve the compiled site at <http://127.0.0.1:4173/>
-4. Your default browser will open the interactive yFiles interface. Leave the
-   console window open while exploring; press Enter in the console when you’re
-   ready to stop the preview server.
+1. Copy your licensed `yfiles-*.tgz` into
+   `yfiles-vue-integration-basic-master/` (overwrite the placeholder if present).
+2. Double-click `setup_and_run.ps1` (or run
+   `powershell -ExecutionPolicy Bypass -File setup_and_run.ps1`).
+   - The script creates a `.venv`, installs Python requirements, runs
+     `npm install`, and builds the yFiles front-end.
+   - Pass `-SkipRun` if you only want to install dependencies without launching
+     the UI.
+3. When the GUI appears, provide:
+   - OpenAI API key (required for the GPT-5 pipeline steps)
+   - Neo4j Bolt URI, user, and password (defaults are pre-filled from `cred.env`
+     when available)
+4. The launcher then:
+   - writes your credentials to `cred.env`
+   - executes `main.py` to populate `extracted_output/` and `evaluation_summary/`
+   - builds the Vue/yFiles front-end and serves it at
+     <http://127.0.0.1:4173/>
+5. Keep the console window open while exploring the UI; press Enter in that
+   window to stop the preview server when you are done.
+
+## Subsequent Runs
+
+Once the environment is prepared, simply double-click `run_end_to_end.bat`
+(or run `python run_end_to_end.py`) to reopen the launcher without reinstalling
+dependencies.
 
 ## Neo4j Integration
 
-If you provide valid Neo4j credentials, `main.py` will reset the specified
-database and load the first generated schema as a metagraph so you can inspect
-it side-by-side with the yFiles UI. Leave the credentials blank to skip this
-step.
+When valid Neo4j credentials are supplied, `main.py` resets the specified
+database and loads the first generated schema as a metagraph so you can inspect
+it alongside the yFiles UI. If you skip credentials, this step is silently
+ignored.
 
 ## Manual Operation
 
-If you prefer to run the pieces yourself:
+If you want to run everything manually instead of using the helper scripts:
 
 ```powershell
 # Configure credentials
@@ -80,4 +88,5 @@ cd dist
 python -m http.server 4173
 ```
 
-Then browse to <http://127.0.0.1:4173/>.
+Then browse to <http://127.0.0.1:4173/>. Press Ctrl+C in the terminal to stop
+the preview server.
