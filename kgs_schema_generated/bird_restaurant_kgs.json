@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "geographic",
+      "properties": [
+        "city",
+        "county",
+        "region"
+      ],
+      "key": "city"
+    },
+    {
+      "id": "generalinfo",
+      "properties": [
+        "id_restaurant",
+        "label",
+        "food_type",
+        "review"
+      ],
+      "key": "id_restaurant"
+    },
+    {
+      "id": "location",
+      "properties": [
+        "id_restaurant",
+        "street_num",
+        "street_name"
+      ],
+      "key": "id_restaurant"
+    }
+  ],
+  "edges": [
+    {
+      "source": "generalinfo",
+      "target": "geographic",
+      "relationship": "LOCATED_IN",
+      "source_column": "city",
+      "target_column": "city"
+    },
+    {
+      "source": "location",
+      "target": "generalinfo",
+      "relationship": "BELONGS_TO",
+      "source_column": "id_restaurant",
+      "target_column": "id_restaurant"
+    },
+    {
+      "source": "location",
+      "target": "geographic",
+      "relationship": "LOCATED_IN",
+      "source_column": "city",
+      "target_column": "city"
+    }
+  ]
+}

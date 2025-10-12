@@ -1,0 +1,74 @@
+{
+  "tables": {
+    "university": {
+      "columns": [
+        "University_ID",
+        "University_Name",
+        "City",
+        "State",
+        "Team_Name",
+        "Affiliation",
+        "Enrollment",
+        "Home_Conference"
+      ],
+      "primary_key": [
+        "University_ID"
+      ]
+    },
+    "overall_ranking": {
+      "columns": [
+        "Rank",
+        "University_ID",
+        "Reputation_point",
+        "Research_point",
+        "Citation_point",
+        "Total"
+      ],
+      "primary_key": [
+        "University_ID"
+      ]
+    },
+    "major": {
+      "columns": [
+        "Major_ID",
+        "Major_Name",
+        "Major_Code"
+      ],
+      "primary_key": [
+        "Major_ID"
+      ]
+    },
+    "major_ranking": {
+      "columns": [
+        "Rank",
+        "University_ID",
+        "Major_ID"
+      ],
+      "primary_key": [
+        "Rank",
+        "University_ID",
+        "Major_ID"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "overall_ranking",
+      "parent_table": "university",
+      "from_column": "University_ID",
+      "parent_column": "University_ID"
+    },
+    {
+      "from_table": "major_ranking",
+      "parent_table": "major",
+      "from_column": "Major_ID",
+      "parent_column": "Major_ID"
+    },
+    {
+      "from_table": "major_ranking",
+      "parent_table": "university",
+      "from_column": "University_ID",
+      "parent_column": "University_ID"
+    }
+  ]
+}

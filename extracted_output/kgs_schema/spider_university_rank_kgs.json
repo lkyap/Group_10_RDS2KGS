@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "university",
+      "properties": [
+        "University_ID",
+        "University_Name",
+        "City",
+        "State",
+        "Team_Name",
+        "Affiliation",
+        "Enrollment",
+        "Home_Conference"
+      ],
+      "key": "University_ID"
+    },
+    {
+      "id": "overall_ranking",
+      "properties": [
+        "Rank",
+        "University_ID",
+        "Reputation_point",
+        "Research_point",
+        "Citation_point",
+        "Total"
+      ],
+      "key": "University_ID"
+    },
+    {
+      "id": "major",
+      "properties": [
+        "Major_ID",
+        "Major_Name",
+        "Major_Code"
+      ],
+      "key": "Major_ID"
+    },
+    {
+      "id": "major_ranking",
+      "properties": [
+        "Rank",
+        "University_ID",
+        "Major_ID"
+      ],
+      "key": "Rank,University_ID,Major_ID"
+    }
+  ],
+  "edges": [
+    {
+      "source": "overall_ranking",
+      "target": "university",
+      "relationship": "RANKS",
+      "source_column": "University_ID",
+      "target_column": "University_ID"
+    },
+    {
+      "source": "major_ranking",
+      "target": "major",
+      "relationship": "RANKS_MAJOR",
+      "source_column": "Major_ID",
+      "target_column": "Major_ID"
+    },
+    {
+      "source": "major_ranking",
+      "target": "university",
+      "relationship": "RANKS_UNIVERSITY",
+      "source_column": "University_ID",
+      "target_column": "University_ID"
+    }
+  ]
+}

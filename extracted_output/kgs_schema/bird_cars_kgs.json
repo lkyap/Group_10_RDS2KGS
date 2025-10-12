@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "country",
+      "properties": [
+        "origin",
+        "country"
+      ],
+      "key": "origin"
+    },
+    {
+      "id": "price",
+      "properties": [
+        "ID",
+        "price"
+      ],
+      "key": "ID"
+    },
+    {
+      "id": "data",
+      "properties": [
+        "ID",
+        "mpg",
+        "cylinders",
+        "displacement",
+        "horsepower",
+        "weight",
+        "acceleration",
+        "model",
+        "car_name"
+      ],
+      "key": "ID"
+    },
+    {
+      "id": "production",
+      "properties": [
+        "ID",
+        "model_year",
+        "country"
+      ],
+      "key": "ID,model_year"
+    }
+  ],
+  "edges": [
+    {
+      "source": "data",
+      "target": "price",
+      "relationship": "HAS_PRICE",
+      "source_column": "ID",
+      "target_column": "ID"
+    },
+    {
+      "source": "production",
+      "target": "price",
+      "relationship": "HAS_PRICE",
+      "source_column": "ID",
+      "target_column": "ID"
+    },
+    {
+      "source": "production",
+      "target": "data",
+      "relationship": "DESCRIBES",
+      "source_column": "ID",
+      "target_column": "ID"
+    },
+    {
+      "source": "production",
+      "target": "country",
+      "relationship": "PRODUCED_IN",
+      "source_column": "country",
+      "target_column": "origin"
+    }
+  ]
+}

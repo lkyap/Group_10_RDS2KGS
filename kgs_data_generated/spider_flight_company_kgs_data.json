@@ -1,0 +1,594 @@
+{
+  "nodes": [
+    {
+      "id": "airport_0",
+      "label": "airport",
+      "properties": {
+        "id": 1,
+        "City": "Akureyri",
+        "Country": "Iceland",
+        "IATA": "AEY",
+        "ICAO": "BIAR",
+        "name": "Akureyri Airport"
+      }
+    },
+    {
+      "id": "airport_1",
+      "label": "airport",
+      "properties": {
+        "id": 2,
+        "City": "Amsterdam",
+        "Country": "Netherlands",
+        "IATA": "AMS",
+        "ICAO": "EHAM",
+        "name": "Schiphol Airport"
+      }
+    },
+    {
+      "id": "airport_2",
+      "label": "airport",
+      "properties": {
+        "id": 3,
+        "City": "Anchorage",
+        "Country": "United States",
+        "IATA": "ANC",
+        "ICAO": "PANC",
+        "name": "Ted Stevens Airport"
+      }
+    },
+    {
+      "id": "airport_3",
+      "label": "airport",
+      "properties": {
+        "id": 4,
+        "City": "Baltimore",
+        "Country": "United States",
+        "IATA": "BWI",
+        "ICAO": "KBWI",
+        "name": "Baltimore-Washington Airport"
+      }
+    },
+    {
+      "id": "airport_4",
+      "label": "airport",
+      "properties": {
+        "id": 5,
+        "City": "Barcelona",
+        "Country": "Spain",
+        "IATA": "BCN",
+        "ICAO": "LEBL",
+        "name": "El Prat Airport"
+      }
+    },
+    {
+      "id": "airport_5",
+      "label": "airport",
+      "properties": {
+        "id": 6,
+        "City": "Bergen",
+        "Country": "Norway",
+        "IATA": "BGO",
+        "ICAO": "ENBR",
+        "name": "Bergen Airport"
+      }
+    },
+    {
+      "id": "airport_6",
+      "label": "airport",
+      "properties": {
+        "id": 7,
+        "City": "Billund",
+        "Country": "Denmark",
+        "IATA": "BLL",
+        "ICAO": "EKBI",
+        "name": "Billund Airport"
+      }
+    },
+    {
+      "id": "airport_7",
+      "label": "airport",
+      "properties": {
+        "id": 8,
+        "City": "Boston",
+        "Country": "United States",
+        "IATA": "BOS",
+        "ICAO": "KBOS",
+        "name": "Logan International Airport"
+      }
+    },
+    {
+      "id": "airport_8",
+      "label": "airport",
+      "properties": {
+        "id": 9,
+        "City": "Brussels",
+        "Country": "Belgium",
+        "IATA": "BRU",
+        "ICAO": "EBBR",
+        "name": "National Airport"
+      }
+    },
+    {
+      "id": "operate_company_0",
+      "label": "operate_company",
+      "properties": {
+        "id": 1,
+        "name": "Air China",
+        "Type": "Corporate",
+        "Principal_activities": "Airline",
+        "Incorporated_in": "China",
+        "Group_Equity_Shareholding": 18.77
+      }
+    },
+    {
+      "id": "operate_company_1",
+      "label": "operate_company",
+      "properties": {
+        "id": 2,
+        "name": "Air China Cargo",
+        "Type": "Joint Venture",
+        "Principal_activities": "Cargo airline",
+        "Incorporated_in": "China",
+        "Group_Equity_Shareholding": 49.0
+      }
+    },
+    {
+      "id": "operate_company_2",
+      "label": "operate_company",
+      "properties": {
+        "id": 3,
+        "name": "Air Hong Kong",
+        "Type": "Joint Venture",
+        "Principal_activities": "Cargo airline",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 60.0
+      }
+    },
+    {
+      "id": "operate_company_3",
+      "label": "operate_company",
+      "properties": {
+        "id": 4,
+        "name": "Dragonair",
+        "Type": "Subsidiary",
+        "Principal_activities": "Airline",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_4",
+      "label": "operate_company",
+      "properties": {
+        "id": 5,
+        "name": "Cathay Pacific Cargo",
+        "Type": "Subsidiary",
+        "Principal_activities": "Cargo airline",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_5",
+      "label": "operate_company",
+      "properties": {
+        "id": 6,
+        "name": "Cathay Pacific Catering Services (HK) Limited",
+        "Type": "Subsidiary",
+        "Principal_activities": "Catering services",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_6",
+      "label": "operate_company",
+      "properties": {
+        "id": 7,
+        "name": "Cathay Pacific Services Limited",
+        "Type": "Subsidiary",
+        "Principal_activities": "Cargo",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_7",
+      "label": "operate_company",
+      "properties": {
+        "id": 8,
+        "name": "Cathay Pacific Holidays",
+        "Type": "Subsidiary",
+        "Principal_activities": "Travel agency",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_8",
+      "label": "operate_company",
+      "properties": {
+        "id": 9,
+        "name": "Dragonair Holidays",
+        "Type": "Subsidiary",
+        "Principal_activities": "Travel agency",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_9",
+      "label": "operate_company",
+      "properties": {
+        "id": 10,
+        "name": "Hong Kong Airport Services",
+        "Type": "Subsidiary",
+        "Principal_activities": "Ground handling",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_10",
+      "label": "operate_company",
+      "properties": {
+        "id": 11,
+        "name": "Vogue Laundry Service Limited",
+        "Type": "Subsidiary",
+        "Principal_activities": "Laundry",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0
+      }
+    },
+    {
+      "id": "operate_company_11",
+      "label": "operate_company",
+      "properties": {
+        "id": 12,
+        "name": "China Pacific Laundry Services",
+        "Type": "Joint Venture",
+        "Principal_activities": "Laundry",
+        "Incorporated_in": "Taiwan",
+        "Group_Equity_Shareholding": 45.0
+      }
+    },
+    {
+      "id": "operate_company_12",
+      "label": "operate_company",
+      "properties": {
+        "id": 13,
+        "name": "VN/CX Catering Services Limited",
+        "Type": "Joint Venture",
+        "Principal_activities": "Catering services",
+        "Incorporated_in": "Vietnam",
+        "Group_Equity_Shareholding": 40.0
+      }
+    },
+    {
+      "id": "operate_company_13",
+      "label": "operate_company",
+      "properties": {
+        "id": 14,
+        "name": "CLS Catering Services Limited",
+        "Type": "Joint Venture",
+        "Principal_activities": "Catering services",
+        "Incorporated_in": "Canada",
+        "Group_Equity_Shareholding": 30.0
+      }
+    },
+    {
+      "id": "flight_0",
+      "label": "flight",
+      "properties": {
+        "id": 1,
+        "Vehicle_Flight_number": "M2-F1 #0",
+        "Date": "March 1, 1963",
+        "Pilot": "Thompson",
+        "Velocity": 135.0,
+        "Altitude": 0.0,
+        "airport_id": 1,
+        "company_id": 2
+      }
+    },
+    {
+      "id": "flight_1",
+      "label": "flight",
+      "properties": {
+        "id": 2,
+        "Vehicle_Flight_number": "M2-F1 #1",
+        "Date": "August 16, 1963",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 2,
+        "company_id": 3
+      }
+    },
+    {
+      "id": "flight_2",
+      "label": "flight",
+      "properties": {
+        "id": 3,
+        "Vehicle_Flight_number": "M2-F1 #6",
+        "Date": "September 3, 1963",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 2,
+        "company_id": 4
+      }
+    },
+    {
+      "id": "flight_3",
+      "label": "flight",
+      "properties": {
+        "id": 4,
+        "Vehicle_Flight_number": "M2-F1 #13",
+        "Date": "October 25, 1963",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 3,
+        "company_id": 4
+      }
+    },
+    {
+      "id": "flight_4",
+      "label": "flight",
+      "properties": {
+        "id": 5,
+        "Vehicle_Flight_number": "M2-F1 #14",
+        "Date": "November 8, 1963",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 4,
+        "company_id": 5
+      }
+    },
+    {
+      "id": "flight_5",
+      "label": "flight",
+      "properties": {
+        "id": 6,
+        "Vehicle_Flight_number": "M2-F1 #21",
+        "Date": "January 29, 1964",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 4,
+        "company_id": 6
+      }
+    },
+    {
+      "id": "flight_6",
+      "label": "flight",
+      "properties": {
+        "id": 7,
+        "Vehicle_Flight_number": "M2-F1 #33",
+        "Date": "March 30, 1964",
+        "Pilot": "Peterson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 5,
+        "company_id": 11
+      }
+    },
+    {
+      "id": "flight_7",
+      "label": "flight",
+      "properties": {
+        "id": 8,
+        "Vehicle_Flight_number": "M2-F1 #39",
+        "Date": "May 19, 1964",
+        "Pilot": "Peterson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 2,
+        "company_id": 13
+      }
+    },
+    {
+      "id": "flight_8",
+      "label": "flight",
+      "properties": {
+        "id": 9,
+        "Vehicle_Flight_number": "M2-F1 #61",
+        "Date": "July 16, 1965",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 6,
+        "company_id": 11
+      }
+    },
+    {
+      "id": "flight_9",
+      "label": "flight",
+      "properties": {
+        "id": 10,
+        "Vehicle_Flight_number": "M2-F1 #64",
+        "Date": "August 30, 1965",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 9,
+        "company_id": 1
+      }
+    },
+    {
+      "id": "flight_10",
+      "label": "flight",
+      "properties": {
+        "id": 11,
+        "Vehicle_Flight_number": "M2-F1 #70",
+        "Date": "October 8, 1965",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 4,
+        "company_id": 5
+      }
+    },
+    {
+      "id": "flight_11",
+      "label": "flight",
+      "properties": {
+        "id": 12,
+        "Vehicle_Flight_number": "M2-F1 #71",
+        "Date": "March 28, 1966",
+        "Pilot": "Thompson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 6,
+        "company_id": 7
+      }
+    },
+    {
+      "id": "flight_12",
+      "label": "flight",
+      "properties": {
+        "id": 13,
+        "Vehicle_Flight_number": "M2-F1 #73",
+        "Date": "August 4, 1966",
+        "Pilot": "Peterson",
+        "Velocity": 240.0,
+        "Altitude": 3650.0,
+        "airport_id": 8,
+        "company_id": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "flight_0",
+      "target": "airport_0",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_1",
+      "target": "airport_1",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_2",
+      "target": "airport_1",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_3",
+      "target": "airport_2",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_4",
+      "target": "airport_3",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_5",
+      "target": "airport_3",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_6",
+      "target": "airport_4",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_7",
+      "target": "airport_1",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_8",
+      "target": "airport_5",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_9",
+      "target": "airport_8",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_10",
+      "target": "airport_3",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_11",
+      "target": "airport_5",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_12",
+      "target": "airport_7",
+      "relationship": "DEPARTS_FROM"
+    },
+    {
+      "source": "flight_0",
+      "target": "operate_company_1",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_1",
+      "target": "operate_company_2",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_2",
+      "target": "operate_company_3",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_3",
+      "target": "operate_company_3",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_4",
+      "target": "operate_company_4",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_5",
+      "target": "operate_company_5",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_6",
+      "target": "operate_company_10",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_7",
+      "target": "operate_company_12",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_8",
+      "target": "operate_company_10",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_9",
+      "target": "operate_company_0",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_10",
+      "target": "operate_company_4",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_11",
+      "target": "operate_company_6",
+      "relationship": "OPERATED_BY"
+    },
+    {
+      "source": "flight_12",
+      "target": "operate_company_8",
+      "relationship": "OPERATED_BY"
+    }
+  ]
+}

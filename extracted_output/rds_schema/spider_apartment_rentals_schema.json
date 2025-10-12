@@ -1,0 +1,116 @@
+{
+  "tables": {
+    "Apartment_Buildings": {
+      "columns": [
+        "building_id",
+        "building_short_name",
+        "building_full_name",
+        "building_description",
+        "building_address",
+        "building_manager",
+        "building_phone"
+      ],
+      "primary_key": [
+        "building_id"
+      ]
+    },
+    "Apartments": {
+      "columns": [
+        "apt_id",
+        "building_id",
+        "apt_type_code",
+        "apt_number",
+        "bathroom_count",
+        "bedroom_count",
+        "room_count"
+      ],
+      "primary_key": [
+        "apt_id"
+      ]
+    },
+    "Apartment_Facilities": {
+      "columns": [
+        "apt_id",
+        "facility_code"
+      ],
+      "primary_key": [
+        "apt_id",
+        "facility_code"
+      ]
+    },
+    "Guests": {
+      "columns": [
+        "guest_id",
+        "gender_code",
+        "guest_first_name",
+        "guest_last_name",
+        "date_of_birth"
+      ],
+      "primary_key": [
+        "guest_id"
+      ]
+    },
+    "Apartment_Bookings": {
+      "columns": [
+        "apt_booking_id",
+        "apt_id",
+        "guest_id",
+        "booking_status_code",
+        "booking_start_date",
+        "booking_end_date"
+      ],
+      "primary_key": [
+        "apt_booking_id"
+      ]
+    },
+    "View_Unit_Status": {
+      "columns": [
+        "apt_id",
+        "apt_booking_id",
+        "status_date",
+        "available_yn"
+      ],
+      "primary_key": [
+        "status_date"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "Apartments",
+      "parent_table": "Apartment_Buildings",
+      "from_column": "building_id",
+      "parent_column": "building_id"
+    },
+    {
+      "from_table": "Apartment_Facilities",
+      "parent_table": "Apartments",
+      "from_column": "apt_id",
+      "parent_column": "apt_id"
+    },
+    {
+      "from_table": "Apartment_Bookings",
+      "parent_table": "Guests",
+      "from_column": "guest_id",
+      "parent_column": "guest_id"
+    },
+    {
+      "from_table": "Apartment_Bookings",
+      "parent_table": "Apartments",
+      "from_column": "apt_id",
+      "parent_column": "apt_id"
+    },
+    {
+      "from_table": "View_Unit_Status",
+      "parent_table": "Apartment_Bookings",
+      "from_column": "apt_booking_id",
+      "parent_column": "apt_booking_id"
+    },
+    {
+      "from_table": "View_Unit_Status",
+      "parent_table": "Apartments",
+      "from_column": "apt_id",
+      "parent_column": "apt_id"
+    }
+  ]
+}

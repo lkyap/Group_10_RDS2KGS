@@ -1,0 +1,57 @@
+{
+  "tables": {
+    "film": {
+      "columns": [
+        "Film_ID",
+        "Rank_in_series",
+        "Number_in_season",
+        "Title",
+        "Directed_by",
+        "Original_air_date",
+        "Production_code"
+      ],
+      "primary_key": [
+        "Film_ID"
+      ]
+    },
+    "cinema": {
+      "columns": [
+        "Cinema_ID",
+        "Name",
+        "Openning_year",
+        "Capacity",
+        "Location"
+      ],
+      "primary_key": [
+        "Cinema_ID"
+      ]
+    },
+    "schedule": {
+      "columns": [
+        "Cinema_ID",
+        "Film_ID",
+        "Date",
+        "Show_times_per_day",
+        "Price"
+      ],
+      "primary_key": [
+        "Cinema_ID",
+        "Film_ID"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "schedule",
+      "parent_table": "cinema",
+      "from_column": "Cinema_ID",
+      "parent_column": "Cinema_ID"
+    },
+    {
+      "from_table": "schedule",
+      "parent_table": "film",
+      "from_column": "Film_ID",
+      "parent_column": "Film_ID"
+    }
+  ]
+}

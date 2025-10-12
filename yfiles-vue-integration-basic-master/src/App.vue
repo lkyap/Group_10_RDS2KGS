@@ -1,5 +1,6 @@
-﻿<script setup lang="ts">
-import GraphComponent from './components/GraphComponent.vue'
+<script setup lang="ts">
+import GraphComponent from "./components/GraphComponent.vue"
+import "@yfiles/yfiles/view-layout-bridge.js"
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import GraphComponent from './components/GraphComponent.vue'
 
 <style scoped>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #1f2937;
@@ -76,3 +77,4 @@ import GraphComponent from './components/GraphComponent.vue'
   }
 }
 </style>
+

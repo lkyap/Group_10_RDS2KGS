@@ -9,7 +9,7 @@ This sample application serves as a basic scaffold of how to integrate [yFiles f
 ## Prerequisites
 
 - Install [Node.js](https://nodejs.org/) (LTS version is recommended) before running any npm scripts.
-- Download a matching yFiles for HTML `.tgz` archive from your yFiles installation. In the evaluation package you will find it inside the `lib/` folder (for example `lib/yfiles-30.0.3+eval-dev.tgz`). Copy that file into the project root so that it sits next to `package.json`. The dependency declaration in `package.json` expects the file at `./yfiles-30.0.3+eval-dev.tgz` – adjust the name if you are using a different yFiles build.
+- Download a matching yFiles for HTML `.tgz` archive from your yFiles installation. In the evaluation package you will find it inside the `lib/` folder (for example `lib/yfiles-30.0.3+eval-dev.tgz`). Copy that file into the project root so that it sits next to `package.json`. The dependency declaration in `package.json` expects the file at `./yfiles-30.0.3+eval-dev.tgz` ï¿½ adjust the name if you are using a different yFiles build.
 - Replace the placeholder `license.json` in the project root with the license file that belongs to your yFiles distribution. The post-install script copies it to `src/license.json`, so keeping it up to date here is enough.
 
 ## Version Information

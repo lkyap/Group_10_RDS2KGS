@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "film",
+      "properties": [
+        "Film_ID",
+        "Rank_in_series",
+        "Number_in_season",
+        "Title",
+        "Directed_by",
+        "Original_air_date",
+        "Production_code"
+      ],
+      "key": "Film_ID"
+    },
+    {
+      "id": "cinema",
+      "properties": [
+        "Cinema_ID",
+        "Name",
+        "Openning_year",
+        "Capacity",
+        "Location"
+      ],
+      "key": "Cinema_ID"
+    },
+    {
+      "id": "schedule",
+      "properties": [
+        "Cinema_ID",
+        "Film_ID",
+        "Date",
+        "Show_times_per_day",
+        "Price"
+      ],
+      "key": "Cinema_ID,Film_ID"
+    }
+  ],
+  "edges": [
+    {
+      "source": "schedule",
+      "target": "cinema",
+      "relationship": "SCHEDULED_AT",
+      "source_column": "Cinema_ID",
+      "target_column": "Cinema_ID"
+    },
+    {
+      "source": "schedule",
+      "target": "film",
+      "relationship": "SCREENING_OF",
+      "source_column": "Film_ID",
+      "target_column": "Film_ID"
+    }
+  ]
+}

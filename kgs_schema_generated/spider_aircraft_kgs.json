@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "pilot",
+      "properties": [
+        "Pilot_Id",
+        "Name",
+        "Age"
+      ],
+      "key": "Pilot_Id"
+    },
+    {
+      "id": "aircraft",
+      "properties": [
+        "Aircraft_ID",
+        "Aircraft",
+        "Description",
+        "Max_Gross_Weight",
+        "Total_disk_area",
+        "Max_disk_Loading"
+      ],
+      "key": "Aircraft_ID"
+    },
+    {
+      "id": "match",
+      "properties": [
+        "Round",
+        "Location",
+        "Country",
+        "Date",
+        "Fastest_Qualifying",
+        "Winning_Pilot",
+        "Winning_Aircraft"
+      ],
+      "key": "Round"
+    },
+    {
+      "id": "airport",
+      "properties": [
+        "Airport_ID",
+        "Airport_Name",
+        "Total_Passengers",
+        "%_Change_2007",
+        "International_Passengers",
+        "Domestic_Passengers",
+        "Transit_Passengers",
+        "Aircraft_Movements",
+        "Freight_Metric_Tonnes"
+      ],
+      "key": "Airport_ID"
+    }
+  ],
+  "edges": [
+    {
+      "source": "match",
+      "target": "pilot",
+      "relationship": "WON_BY",
+      "source_column": "Winning_Pilot",
+      "target_column": "Pilot_Id"
+    },
+    {
+      "source": "match",
+      "target": "aircraft",
+      "relationship": "WINNING_AIRCRAFT",
+      "source_column": "Winning_Aircraft",
+      "target_column": "Aircraft_ID"
+    },
+    {
+      "source": "airport",
+      "target": "aircraft",
+      "relationship": "HOSTS_AIRCRAFT",
+      "source_column": "Airport_ID",
+      "target_column": "Aircraft_ID"
+    }
+  ]
+}

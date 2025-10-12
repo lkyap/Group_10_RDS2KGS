@@ -1,0 +1,67 @@
+{
+  "tables": {
+    "actor": {
+      "columns": [
+        "ActorID",
+        "Name",
+        "Date of Birth",
+        "Birth City",
+        "Birth Country",
+        "Height (Inches)",
+        "Biography",
+        "Gender",
+        "Ethnicity",
+        "NetWorth"
+      ],
+      "primary_key": [
+        "ActorID"
+      ]
+    },
+    "movie": {
+      "columns": [
+        "MovieID",
+        "Title",
+        "MPAA Rating",
+        "Budget",
+        "Gross",
+        "Release Date",
+        "Genre",
+        "Runtime",
+        "Rating",
+        "Rating Count",
+        "Summary"
+      ],
+      "primary_key": [
+        "MovieID"
+      ]
+    },
+    "characters": {
+      "columns": [
+        "MovieID",
+        "ActorID",
+        "Character Name",
+        "creditOrder",
+        "pay",
+        "screentime"
+      ],
+      "primary_key": [
+        "MovieID",
+        "ActorID"
+      ]
+    }
+  },
+  "foreign_keys": [
+    {
+      "from_table": "characters",
+      "parent_table": "movie",
+      "from_column": "MovieID",
+      "parent_column": "MovieID"
+    },
+    {
+      "from_table": "characters",
+      "parent_table": "actor",
+      "from_column": "ActorID",
+      "parent_column": "ActorID"
+    }
+  ]
+}
