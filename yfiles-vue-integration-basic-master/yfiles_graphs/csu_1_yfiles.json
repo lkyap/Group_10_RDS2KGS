@@ -1,0 +1,56 @@
+{
+  "id": "csu_1",
+  "nodes": [
+    {
+      "id": "Campuses",
+      "label": "Campuses\\nPK: Id"
+    },
+    {
+      "id": "csu_fees",
+      "label": "csu_fees\\nPK: Campus"
+    },
+    {
+      "id": "degrees",
+      "label": "degrees\\nPK: Year, Campus"
+    },
+    {
+      "id": "discipline_enrollments",
+      "label": "discipline_enrollments\\nPK: Campus, Discipline"
+    },
+    {
+      "id": "enrollments",
+      "label": "enrollments\\nPK: Campus, Year"
+    },
+    {
+      "id": "faculty",
+      "label": "faculty\\nPK: (none)"
+    }
+  ],
+  "edges": [
+    {
+      "from": "csu_fees",
+      "to": "Campuses",
+      "label": "Campus -> Id"
+    },
+    {
+      "from": "degrees",
+      "to": "Campuses",
+      "label": "Campus -> Id"
+    },
+    {
+      "from": "discipline_enrollments",
+      "to": "Campuses",
+      "label": "Campus -> Id"
+    },
+    {
+      "from": "enrollments",
+      "to": "Campuses",
+      "label": "Campus -> Id"
+    },
+    {
+      "from": "faculty",
+      "to": "Campuses",
+      "label": "Campus -> Id"
+    }
+  ]
+}

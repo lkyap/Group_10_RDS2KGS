@@ -1,0 +1,153 @@
+{
+  "id": "assets_maintenance",
+  "nodes": [
+    {
+      "id": "Asset_Parts",
+      "label": "Asset_Parts\\nPK: (none)"
+    },
+    {
+      "id": "Assets",
+      "label": "Assets\\nPK: asset_id"
+    },
+    {
+      "id": "Engineer_Skills",
+      "label": "Engineer_Skills\\nPK: (none)"
+    },
+    {
+      "id": "Engineer_Visits",
+      "label": "Engineer_Visits\\nPK: engineer_visit_id"
+    },
+    {
+      "id": "Fault_Log",
+      "label": "Fault_Log\\nPK: fault_log_entry_id"
+    },
+    {
+      "id": "Fault_Log_Parts",
+      "label": "Fault_Log_Parts\\nPK: (none)"
+    },
+    {
+      "id": "Maintenance_Contracts",
+      "label": "Maintenance_Contracts\\nPK: maintenance_contract_id"
+    },
+    {
+      "id": "Maintenance_Engineers",
+      "label": "Maintenance_Engineers\\nPK: engineer_id"
+    },
+    {
+      "id": "Part_Faults",
+      "label": "Part_Faults\\nPK: part_fault_id"
+    },
+    {
+      "id": "Parts",
+      "label": "Parts\\nPK: part_id"
+    },
+    {
+      "id": "Skills",
+      "label": "Skills\\nPK: skill_id"
+    },
+    {
+      "id": "Skills_Required_To_Fix",
+      "label": "Skills_Required_To_Fix\\nPK: (none)"
+    },
+    {
+      "id": "Staff",
+      "label": "Staff\\nPK: staff_id"
+    },
+    {
+      "id": "Third_Party_Companies",
+      "label": "Third_Party_Companies\\nPK: company_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Asset_Parts",
+      "to": "Assets",
+      "label": "asset_id -> asset_id"
+    },
+    {
+      "from": "Asset_Parts",
+      "to": "Parts",
+      "label": "part_id -> part_id"
+    },
+    {
+      "from": "Assets",
+      "to": "Third_Party_Companies",
+      "label": "supplier_company_id -> company_id"
+    },
+    {
+      "from": "Assets",
+      "to": "Maintenance_Contracts",
+      "label": "maintenance_contract_id -> maintenance_contract_id"
+    },
+    {
+      "from": "Engineer_Skills",
+      "to": "Skills",
+      "label": "skill_id -> skill_id"
+    },
+    {
+      "from": "Engineer_Skills",
+      "to": "Maintenance_Engineers",
+      "label": "engineer_id -> engineer_id"
+    },
+    {
+      "from": "Engineer_Visits",
+      "to": "Staff",
+      "label": "contact_staff_id -> staff_id"
+    },
+    {
+      "from": "Engineer_Visits",
+      "to": "Maintenance_Engineers",
+      "label": "engineer_id -> engineer_id"
+    },
+    {
+      "from": "Engineer_Visits",
+      "to": "Fault_Log",
+      "label": "fault_log_entry_id -> fault_log_entry_id"
+    },
+    {
+      "from": "Fault_Log",
+      "to": "Staff",
+      "label": "recorded_by_staff_id -> staff_id"
+    },
+    {
+      "from": "Fault_Log",
+      "to": "Assets",
+      "label": "asset_id -> asset_id"
+    },
+    {
+      "from": "Fault_Log_Parts",
+      "to": "Fault_Log",
+      "label": "fault_log_entry_id -> fault_log_entry_id"
+    },
+    {
+      "from": "Fault_Log_Parts",
+      "to": "Part_Faults",
+      "label": "part_fault_id -> part_fault_id"
+    },
+    {
+      "from": "Maintenance_Contracts",
+      "to": "Third_Party_Companies",
+      "label": "maintenance_contract_company_id -> company_id"
+    },
+    {
+      "from": "Maintenance_Engineers",
+      "to": "Third_Party_Companies",
+      "label": "company_id -> company_id"
+    },
+    {
+      "from": "Part_Faults",
+      "to": "Parts",
+      "label": "part_id -> part_id"
+    },
+    {
+      "from": "Skills_Required_To_Fix",
+      "to": "Skills",
+      "label": "skill_id -> skill_id"
+    },
+    {
+      "from": "Skills_Required_To_Fix",
+      "to": "Part_Faults",
+      "label": "part_fault_id -> part_fault_id"
+    }
+  ]
+}

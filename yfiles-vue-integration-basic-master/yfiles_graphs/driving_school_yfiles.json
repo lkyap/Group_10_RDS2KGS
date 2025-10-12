@@ -1,0 +1,61 @@
+{
+  "id": "driving_school",
+  "nodes": [
+    {
+      "id": "Addresses",
+      "label": "Addresses\\nPK: address_id"
+    },
+    {
+      "id": "Customer_Payments",
+      "label": "Customer_Payments\\nPK: customer_id, datetime_payment"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: customer_id"
+    },
+    {
+      "id": "Lessons",
+      "label": "Lessons\\nPK: lesson_id"
+    },
+    {
+      "id": "Staff",
+      "label": "Staff\\nPK: staff_id"
+    },
+    {
+      "id": "Vehicles",
+      "label": "Vehicles\\nPK: vehicle_id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Customer_Payments",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Customers",
+      "to": "Addresses",
+      "label": "customer_address_id -> address_id"
+    },
+    {
+      "from": "Lessons",
+      "to": "Customers",
+      "label": "customer_id -> customer_id"
+    },
+    {
+      "from": "Lessons",
+      "to": "Staff",
+      "label": "staff_id -> staff_id"
+    },
+    {
+      "from": "Lessons",
+      "to": "Vehicles",
+      "label": "vehicle_id -> vehicle_id"
+    },
+    {
+      "from": "Staff",
+      "to": "Addresses",
+      "label": "staff_address_id -> address_id"
+    }
+  ]
+}

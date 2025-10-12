@@ -1,0 +1,38 @@
+{
+  "id": "farm",
+  "nodes": [
+    {
+      "id": "city",
+      "label": "city\\nPK: City_ID"
+    },
+    {
+      "id": "competition_record",
+      "label": "competition_record\\nPK: Competition_ID, Farm_ID"
+    },
+    {
+      "id": "farm",
+      "label": "farm\\nPK: Farm_ID"
+    },
+    {
+      "id": "farm_competition",
+      "label": "farm_competition\\nPK: Competition_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "competition_record",
+      "to": "farm",
+      "label": "Farm_ID -> Farm_ID"
+    },
+    {
+      "from": "competition_record",
+      "to": "farm_competition",
+      "label": "Competition_ID -> Competition_ID"
+    },
+    {
+      "from": "farm_competition",
+      "to": "city",
+      "label": "Host_city_ID -> City_ID"
+    }
+  ]
+}

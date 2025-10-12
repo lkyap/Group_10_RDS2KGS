@@ -1,0 +1,56 @@
+{
+  "id": "car_1",
+  "nodes": [
+    {
+      "id": "car_makers",
+      "label": "car_makers\\nPK: Id"
+    },
+    {
+      "id": "car_names",
+      "label": "car_names\\nPK: MakeId"
+    },
+    {
+      "id": "cars_data",
+      "label": "cars_data\\nPK: Id"
+    },
+    {
+      "id": "continents",
+      "label": "continents\\nPK: ContId"
+    },
+    {
+      "id": "countries",
+      "label": "countries\\nPK: CountryId"
+    },
+    {
+      "id": "model_list",
+      "label": "model_list\\nPK: ModelId"
+    }
+  ],
+  "edges": [
+    {
+      "from": "car_makers",
+      "to": "countries",
+      "label": "Country -> CountryId"
+    },
+    {
+      "from": "car_names",
+      "to": "model_list",
+      "label": "Model -> Model"
+    },
+    {
+      "from": "cars_data",
+      "to": "car_names",
+      "label": "Id -> MakeId"
+    },
+    {
+      "from": "countries",
+      "to": "continents",
+      "label": "Continent -> ContId"
+    },
+    {
+      "from": "model_list",
+      "to": "car_makers",
+      "label": "Maker -> Id"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "manufacturer",
+  "nodes": [
+    {
+      "id": "furniture",
+      "label": "furniture\\nPK: Furniture_ID"
+    },
+    {
+      "id": "furniture_manufacte",
+      "label": "furniture_manufacte\\nPK: Manufacturer_ID, Furniture_ID"
+    },
+    {
+      "id": "manufacturer",
+      "label": "manufacturer\\nPK: Manufacturer_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "furniture_manufacte",
+      "to": "furniture",
+      "label": "Furniture_ID -> Furniture_ID"
+    },
+    {
+      "from": "furniture_manufacte",
+      "to": "manufacturer",
+      "label": "Manufacturer_ID -> Manufacturer_ID"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "college_2",
+  "nodes": [
+    {
+      "id": "advisor",
+      "label": "advisor\\nPK: s_ID"
+    },
+    {
+      "id": "classroom",
+      "label": "classroom\\nPK: building, room_number"
+    },
+    {
+      "id": "course",
+      "label": "course\\nPK: course_id"
+    },
+    {
+      "id": "department",
+      "label": "department\\nPK: dept_name"
+    },
+    {
+      "id": "instructor",
+      "label": "instructor\\nPK: ID"
+    },
+    {
+      "id": "prereq",
+      "label": "prereq\\nPK: course_id, prereq_id"
+    },
+    {
+      "id": "section",
+      "label": "section\\nPK: course_id, sec_id, semester, year"
+    },
+    {
+      "id": "student",
+      "label": "student\\nPK: ID"
+    },
+    {
+      "id": "takes",
+      "label": "takes\\nPK: ID, course_id, sec_id, semester, year"
+    },
+    {
+      "id": "teaches",
+      "label": "teaches\\nPK: ID, course_id, sec_id, semester, year"
+    },
+    {
+      "id": "time_slot",
+      "label": "time_slot\\nPK: time_slot_id, day, start_hr, start_min"
+    }
+  ],
+  "edges": [
+    {
+      "from": "advisor",
+      "to": "student",
+      "label": "s_ID -> ID"
+    },
+    {
+      "from": "advisor",
+      "to": "instructor",
+      "label": "i_ID -> ID"
+    },
+    {
+      "from": "course",
+      "to": "department",
+      "label": "dept_name -> dept_name"
+    },
+    {
+      "from": "instructor",
+      "to": "department",
+      "label": "dept_name -> dept_name"
+    },
+    {
+      "from": "prereq",
+      "to": "course",
+      "label": "prereq_id -> course_id"
+    },
+    {
+      "from": "prereq",
+      "to": "course",
+      "label": "course_id -> course_id"
+    },
+    {
+      "from": "section",
+      "to": "classroom",
+      "label": "building -> building"
+    },
+    {
+      "from": "section",
+      "to": "classroom",
+      "label": "room_number -> room_number"
+    },
+    {
+      "from": "section",
+      "to": "course",
+      "label": "course_id -> course_id"
+    },
+    {
+      "from": "student",
+      "to": "department",
+      "label": "dept_name -> dept_name"
+    },
+    {
+      "from": "takes",
+      "to": "student",
+      "label": "ID -> ID"
+    },
+    {
+      "from": "takes",
+      "to": "section",
+      "label": "course_id -> course_id"
+    },
+    {
+      "from": "takes",
+      "to": "section",
+      "label": "sec_id -> sec_id"
+    },
+    {
+      "from": "takes",
+      "to": "section",
+      "label": "semester -> semester"
+    },
+    {
+      "from": "takes",
+      "to": "section",
+      "label": "year -> year"
+    },
+    {
+      "from": "teaches",
+      "to": "instructor",
+      "label": "ID -> ID"
+    },
+    {
+      "from": "teaches",
+      "to": "section",
+      "label": "course_id -> course_id"
+    },
+    {
+      "from": "teaches",
+      "to": "section",
+      "label": "sec_id -> sec_id"
+    },
+    {
+      "from": "teaches",
+      "to": "section",
+      "label": "semester -> semester"
+    },
+    {
+      "from": "teaches",
+      "to": "section",
+      "label": "year -> year"
+    }
+  ]
+}

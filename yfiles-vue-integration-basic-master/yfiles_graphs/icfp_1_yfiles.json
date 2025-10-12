@@ -1,0 +1,38 @@
+{
+  "id": "icfp_1",
+  "nodes": [
+    {
+      "id": "Authors",
+      "label": "Authors\\nPK: authID"
+    },
+    {
+      "id": "Authorship",
+      "label": "Authorship\\nPK: authID, instID, paperID"
+    },
+    {
+      "id": "Inst",
+      "label": "Inst\\nPK: instID"
+    },
+    {
+      "id": "Papers",
+      "label": "Papers\\nPK: paperID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Authorship",
+      "to": "Papers",
+      "label": "paperID -> paperID"
+    },
+    {
+      "from": "Authorship",
+      "to": "Inst",
+      "label": "instID -> instID"
+    },
+    {
+      "from": "Authorship",
+      "to": "Authors",
+      "label": "authID -> authID"
+    }
+  ]
+}

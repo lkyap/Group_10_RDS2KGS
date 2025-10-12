@@ -1,0 +1,29 @@
+{
+  "id": "movie_1",
+  "nodes": [
+    {
+      "id": "Movie",
+      "label": "Movie\\nPK: mID"
+    },
+    {
+      "id": "Rating",
+      "label": "Rating\\nPK: (none)"
+    },
+    {
+      "id": "Reviewer",
+      "label": "Reviewer\\nPK: rID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Rating",
+      "to": "Reviewer",
+      "label": "rID -> rID"
+    },
+    {
+      "from": "Rating",
+      "to": "Movie",
+      "label": "mID -> mID"
+    }
+  ]
+}

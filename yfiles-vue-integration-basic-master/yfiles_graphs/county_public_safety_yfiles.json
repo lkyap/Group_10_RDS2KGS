@@ -1,0 +1,20 @@
+{
+  "id": "county_public_safety",
+  "nodes": [
+    {
+      "id": "city",
+      "label": "city\\nPK: City_ID"
+    },
+    {
+      "id": "county_public_safety",
+      "label": "county_public_safety\\nPK: County_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "city",
+      "to": "county_public_safety",
+      "label": "County_ID -> County_ID"
+    }
+  ]
+}

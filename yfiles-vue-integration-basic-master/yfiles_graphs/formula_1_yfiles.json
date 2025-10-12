@@ -1,0 +1,144 @@
+{
+  "id": "formula_1",
+  "nodes": [
+    {
+      "id": "circuits",
+      "label": "circuits\\nPK: circuitId"
+    },
+    {
+      "id": "constructorResults",
+      "label": "constructorResults\\nPK: constructorResultsId"
+    },
+    {
+      "id": "constructorStandings",
+      "label": "constructorStandings\\nPK: constructorStandingsId"
+    },
+    {
+      "id": "constructors",
+      "label": "constructors\\nPK: constructorId"
+    },
+    {
+      "id": "driverStandings",
+      "label": "driverStandings\\nPK: driverStandingsId"
+    },
+    {
+      "id": "drivers",
+      "label": "drivers\\nPK: driverId"
+    },
+    {
+      "id": "lapTimes",
+      "label": "lapTimes\\nPK: raceId, driverId, lap"
+    },
+    {
+      "id": "pitStops",
+      "label": "pitStops\\nPK: raceId, driverId, stop"
+    },
+    {
+      "id": "qualifying",
+      "label": "qualifying\\nPK: qualifyId"
+    },
+    {
+      "id": "races",
+      "label": "races\\nPK: raceId"
+    },
+    {
+      "id": "results",
+      "label": "results\\nPK: resultId"
+    },
+    {
+      "id": "seasons",
+      "label": "seasons\\nPK: year"
+    },
+    {
+      "id": "status",
+      "label": "status\\nPK: statusId"
+    }
+  ],
+  "edges": [
+    {
+      "from": "constructorResults",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "constructorResults",
+      "to": "constructors",
+      "label": "constructorId -> constructorId"
+    },
+    {
+      "from": "constructorStandings",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "constructorStandings",
+      "to": "constructors",
+      "label": "constructorId -> constructorId"
+    },
+    {
+      "from": "driverStandings",
+      "to": "drivers",
+      "label": "driverId -> driverId"
+    },
+    {
+      "from": "driverStandings",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "lapTimes",
+      "to": "drivers",
+      "label": "driverId -> driverId"
+    },
+    {
+      "from": "lapTimes",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "pitStops",
+      "to": "drivers",
+      "label": "driverId -> driverId"
+    },
+    {
+      "from": "pitStops",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "qualifying",
+      "to": "drivers",
+      "label": "driverId -> driverId"
+    },
+    {
+      "from": "qualifying",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "qualifying",
+      "to": "constructors",
+      "label": "constructorId -> constructorId"
+    },
+    {
+      "from": "races",
+      "to": "circuits",
+      "label": "circuitId -> circuitId"
+    },
+    {
+      "from": "results",
+      "to": "drivers",
+      "label": "driverId -> driverId"
+    },
+    {
+      "from": "results",
+      "to": "races",
+      "label": "raceId -> raceId"
+    },
+    {
+      "from": "results",
+      "to": "constructors",
+      "label": "constructorId -> constructorId"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gymnast",
+  "nodes": [
+    {
+      "id": "gymnast",
+      "label": "gymnast\\nPK: Gymnast_ID"
+    },
+    {
+      "id": "people",
+      "label": "people\\nPK: People_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "gymnast",
+      "to": "people",
+      "label": "Gymnast_ID -> People_ID"
+    }
+  ]
+}

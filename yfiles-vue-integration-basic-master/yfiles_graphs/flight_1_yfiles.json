@@ -1,0 +1,38 @@
+{
+  "id": "flight_1",
+  "nodes": [
+    {
+      "id": "aircraft",
+      "label": "aircraft\\nPK: aid"
+    },
+    {
+      "id": "certificate",
+      "label": "certificate\\nPK: eid, aid"
+    },
+    {
+      "id": "employee",
+      "label": "employee\\nPK: eid"
+    },
+    {
+      "id": "flight",
+      "label": "flight\\nPK: flno"
+    }
+  ],
+  "edges": [
+    {
+      "from": "certificate",
+      "to": "aircraft",
+      "label": "aid -> aid"
+    },
+    {
+      "from": "certificate",
+      "to": "employee",
+      "label": "eid -> eid"
+    },
+    {
+      "from": "flight",
+      "to": "aircraft",
+      "label": "aid -> aid"
+    }
+  ]
+}

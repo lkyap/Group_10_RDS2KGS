@@ -1,0 +1,20 @@
+{
+  "id": "manufactory_1",
+  "nodes": [
+    {
+      "id": "Manufacturers",
+      "label": "Manufacturers\\nPK: Code"
+    },
+    {
+      "id": "Products",
+      "label": "Products\\nPK: Code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Products",
+      "to": "Manufacturers",
+      "label": "Manufacturer -> Code"
+    }
+  ]
+}

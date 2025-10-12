@@ -1,0 +1,29 @@
+{
+  "id": "club_1",
+  "nodes": [
+    {
+      "id": "Club",
+      "label": "Club\\nPK: ClubID"
+    },
+    {
+      "id": "Member_of_club",
+      "label": "Member_of_club\\nPK: (none)"
+    },
+    {
+      "id": "Student",
+      "label": "Student\\nPK: StuID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Member_of_club",
+      "to": "Club",
+      "label": "ClubID -> ClubID"
+    },
+    {
+      "from": "Member_of_club",
+      "to": "Student",
+      "label": "StuID -> StuID"
+    }
+  ]
+}

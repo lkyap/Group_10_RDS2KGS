@@ -1,0 +1,47 @@
+{
+  "id": "insurance_policies",
+  "nodes": [
+    {
+      "id": "Claims",
+      "label": "Claims\\nPK: Claim_ID"
+    },
+    {
+      "id": "Customer_Policies",
+      "label": "Customer_Policies\\nPK: Policy_ID"
+    },
+    {
+      "id": "Customers",
+      "label": "Customers\\nPK: Customer_ID"
+    },
+    {
+      "id": "Payments",
+      "label": "Payments\\nPK: Payment_ID"
+    },
+    {
+      "id": "Settlements",
+      "label": "Settlements\\nPK: Settlement_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Claims",
+      "to": "Customer_Policies",
+      "label": "Policy_ID -> Policy_ID"
+    },
+    {
+      "from": "Customer_Policies",
+      "to": "Customers",
+      "label": "Customer_ID -> Customer_ID"
+    },
+    {
+      "from": "Payments",
+      "to": "Settlements",
+      "label": "Settlement_ID -> Settlement_ID"
+    },
+    {
+      "from": "Settlements",
+      "to": "Claims",
+      "label": "Claim_ID -> Claim_ID"
+    }
+  ]
+}

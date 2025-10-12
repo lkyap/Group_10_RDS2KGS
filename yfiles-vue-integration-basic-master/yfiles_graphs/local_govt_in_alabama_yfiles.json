@@ -1,0 +1,38 @@
+{
+  "id": "local_govt_in_alabama",
+  "nodes": [
+    {
+      "id": "Events",
+      "label": "Events\\nPK: Event_ID"
+    },
+    {
+      "id": "Participants",
+      "label": "Participants\\nPK: Participant_ID"
+    },
+    {
+      "id": "Participants_in_Events",
+      "label": "Participants_in_Events\\nPK: Event_ID, Participant_ID"
+    },
+    {
+      "id": "Services",
+      "label": "Services\\nPK: Service_ID"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Events",
+      "to": "Services",
+      "label": "Service_ID -> Service_ID"
+    },
+    {
+      "from": "Participants_in_Events",
+      "to": "Events",
+      "label": "Event_ID -> Event_ID"
+    },
+    {
+      "from": "Participants_in_Events",
+      "to": "Participants",
+      "label": "Participant_ID -> Participant_ID"
+    }
+  ]
+}

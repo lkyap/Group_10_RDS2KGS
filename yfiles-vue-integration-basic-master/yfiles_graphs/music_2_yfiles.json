@@ -1,0 +1,75 @@
+{
+  "id": "music_2",
+  "nodes": [
+    {
+      "id": "Albums",
+      "label": "Albums\\nPK: AId"
+    },
+    {
+      "id": "Band",
+      "label": "Band\\nPK: Id"
+    },
+    {
+      "id": "Instruments",
+      "label": "Instruments\\nPK: SongId, BandmateId, Instrument"
+    },
+    {
+      "id": "Performance",
+      "label": "Performance\\nPK: SongId, Bandmate"
+    },
+    {
+      "id": "Songs",
+      "label": "Songs\\nPK: SongId"
+    },
+    {
+      "id": "Tracklists",
+      "label": "Tracklists\\nPK: AlbumId, Position"
+    },
+    {
+      "id": "Vocals",
+      "label": "Vocals\\nPK: SongId, Bandmate"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Instruments",
+      "to": "Band",
+      "label": "BandmateId -> Id"
+    },
+    {
+      "from": "Instruments",
+      "to": "Songs",
+      "label": "SongId -> SongId"
+    },
+    {
+      "from": "Performance",
+      "to": "Band",
+      "label": "Bandmate -> Id"
+    },
+    {
+      "from": "Performance",
+      "to": "Songs",
+      "label": "SongId -> SongId"
+    },
+    {
+      "from": "Tracklists",
+      "to": "Albums",
+      "label": "AlbumId -> AId"
+    },
+    {
+      "from": "Tracklists",
+      "to": "Songs",
+      "label": "SongId -> SongId"
+    },
+    {
+      "from": "Vocals",
+      "to": "Band",
+      "label": "Bandmate -> Id"
+    },
+    {
+      "from": "Vocals",
+      "to": "Songs",
+      "label": "SongId -> SongId"
+    }
+  ]
+}

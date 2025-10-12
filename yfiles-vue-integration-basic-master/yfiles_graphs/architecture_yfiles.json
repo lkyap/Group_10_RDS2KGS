@@ -1,0 +1,29 @@
+{
+  "id": "architecture",
+  "nodes": [
+    {
+      "id": "architect",
+      "label": "architect\\nPK: id"
+    },
+    {
+      "id": "bridge",
+      "label": "bridge\\nPK: id"
+    },
+    {
+      "id": "mill",
+      "label": "mill\\nPK: id"
+    }
+  ],
+  "edges": [
+    {
+      "from": "bridge",
+      "to": "architect",
+      "label": "architect_id -> id"
+    },
+    {
+      "from": "mill",
+      "to": "architect",
+      "label": "architect_id -> id"
+    }
+  ]
+}
