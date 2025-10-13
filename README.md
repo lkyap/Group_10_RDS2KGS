@@ -28,7 +28,7 @@ To view the metagraph, do the following
 
 | Member Name | Student ID | Tasks for the project | Skills contributed to the team & project | 
 | :------- | :------: | -------: | -------: |
-| Liang Kooi Yap | 24332936 | Completed end to end pipeline by using LLM prompt, Completed evaluation section for schema completeness and relationship completeness, Visualization of metagraph using Neo4j, documentation in Github | Organize & host client meetings, tracking overall project progress, researching skills to solve the problem, provide guidance to other team members | 
+| Liang Kooi Yap | 24332936 | Completed end to end pipeline by using LLM prompt (Approach 2), Completed evaluation section for schema completeness and relationship completeness, Visualization of metagraph using Neo4j, documentation in Github | Organize & host client meetings, tracking overall project progress, researching skills to solve the problem, provide guidance to other team members | 
 | Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 | Row 2 Col 3 |
 
 
