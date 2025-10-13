@@ -30,6 +30,7 @@ To view the metagraph, do the following
 | :------- | :------: | -------: | -------: |
 | Liang Kooi Yap | 24332936 | Completed end to end pipeline by using LLM prompt (Approach 2), Completed evaluation section for schema completeness and relationship completeness, Visualization of metagraph using Neo4j, documentation in Github | Organize & host client meetings, tracking overall project progress, researching skills to solve the problem, provide guidance to other team members | 
 | Shijin Wang | 24417624 | Virsualisation & merged the upstream components and visualization into a single end-to-end application | Front-end engineering (Vue, yFiles), graph visualization, and layout tuning. Performance optimisation (incremental rendering, light client layout), debugging, and error handling. Clear communication & demos. Report & presentation writing.|
+| Felix Mavrodoglu | 23720305 | Built SQLite schema extraction and validation scripts, set up Git LFS for large Spider dataset, delegated and coordinated tasks for Approach 1, attended client meetings and led presentations | Python scripting, Git LFS, JSON handling, workflow organisation and coordination, presentation and client communication |
 | Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 | Row 2 Col 3 |
 
 
