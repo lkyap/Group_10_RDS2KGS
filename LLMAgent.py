@@ -16,7 +16,7 @@ Improvement plan:
 
 import json
 from openai import OpenAI
-from LLMPrompt import entity_discovery_prompt, relationship_discovery_prompt, graph_entity_prompt,graph_entity_rds_prompt
+from LLMPrompt import entity_discovery_prompt, relationship_discovery_prompt, graph_entity_prompt
 
 class LLMKGAgent:
     def __init__(self,api_key ,model = "gpt-5-mini"):
