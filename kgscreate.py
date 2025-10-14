@@ -2,11 +2,9 @@
 Author: Yap
 
 Description:
-1. Build metagraph from the result of LLM
+1. Build metagraph by using Neo4j
 
 """
-
-
 from neo4j import GraphDatabase
 
 class MetaGraphBuilder:
