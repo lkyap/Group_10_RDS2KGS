@@ -23,24 +23,23 @@ To view the metagraph, do the following
 3. Under neo4j database, you should see the metagraph
 4. If you face error, create a new database in neo4j, and remember the password and the host. Then use the same host after you visited localhost:7474. 
 
-User-Question Evaluation — How to run (with trimmed dataset)
-After running main.py
-Load only the evaluated KGs into Neo4j
-python load_kgs_to_neo4j.py --wipe --only bird_cars,cinema
-Ensure the trimmed question set
-If data/spider/dev.json isn’t already trimmed, generate it from your full file:
-python - <<'PY'
-import json, pathlib
-full = json.loads(pathlib.Path("data/spider/dev_full.json").read_text("utf-8"))
-keep = [r for r in full if r.get("db_id") in {"bird_cars","cinema"}]
-pathlib.Path("data/spider/dev.json").write_text(json.dumps(keep, indent=2), encoding="utf-8")
-print("Trimmed to:", sorted({r["db_id"] for r in keep}), "queries:", len(keep))
-PY
-Run the evaluator (LLM SQL→Cypher)
-python eval_user_questions_auto.py --all --per 10
-# or:
-python eval_user_questions_auto.py --db cinema --per 10
-python eval_user_questions_auto.py --db bird_cars --per 10
+User-Question Evaluation — How to run (with trimmed dataset)           
+After running main.py         
+Load only the evaluated KGs into Neo4j            
+python load_kgs_to_neo4j.py --wipe --only bird_cars,cinema            
+Ensure the trimmed question set         
+If data/spider/dev.json isn’t already trimmed, generate it from your full file:         
+python - <<'PY'          
+import json, pathlib          
+full = json.loads(pathlib.Path("data/spider/dev_full.json").read_text("utf-8"))        
+keep = [r for r in full if r.get("db_id") in {"bird_cars","cinema"}]        
+pathlib.Path("data/spider/dev.json").write_text(json.dumps(keep, indent=2), encoding="utf-8")       
+print("Trimmed to:", sorted({r["db_id"] for r in keep}), "queries:", len(keep))           
+PY      
+Run the evaluator (LLM SQL→Cypher)      
+python eval_user_questions_auto.py --all --per 10      
+python eval_user_questions_auto.py --db cinema --per 10      
+python eval_user_questions_auto.py --db bird_cars --per 10         
 
 
 # Team contribution
