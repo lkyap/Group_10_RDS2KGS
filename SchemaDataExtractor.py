@@ -1,7 +1,11 @@
 """
 Authors: Yap, Felix
 
-Description: Extract database schema from SQLITE database 
+Description: Extract database schema from SQLITE database
+1. The code was modified from Jupyter notebook named "extract.ipynb"
+2. More function was added such as extraction data of Relational Database, export result to JSON
+
+
 Input: Database in SQLITE
 Output: Database schema / data / schema & data
 
@@ -35,7 +39,7 @@ class DatabaseExtractor:
 
         # Get the table name 
         # Can add in (if name[0] != "sqlite_sequence" ) if required
-        tables = [table_name[0] for table_name in cursor.fetchall()] 
+        tables = [table_name[0] for table_name in cursor.fetchall()]
 
         # Looping all the tables
         for name in tables:
@@ -44,7 +48,7 @@ class DatabaseExtractor:
 
             # Retrieve the columns name, type and primary key
             # Table_info return col_id, col_name, type, nt_null, default_value, primary key
-            cursor.execute(f"PRAGMA table_info({name})")
+            cursor.execute(f"PRAGMA table_info('{name}')")
             for col in cursor.fetchall():
                 schema["tables"][name]["columns"].append(col[1]) # Append column name
                 # If pk column not 0, obtain the primary key(s)
@@ -53,7 +57,7 @@ class DatabaseExtractor:
             
             # Foreign_key_list return one row for each foreign keys constraint,(a tuple of 8 elements)
             # Refer to https://www.sqlite.org/pragma.html#pragma_foreign_key_list
-            cursor.execute(f"PRAGMA foreign_key_list({name})")
+            cursor.execute(f"PRAGMA foreign_key_list('{name}')")
             for fkey in cursor.fetchall():
                 schema["foreign_keys"].append({
                     "from_table":name, # current table
@@ -83,7 +87,7 @@ class DatabaseExtractor:
 
         for name in tables:
             # Retrieve all rows 
-            query = f"select * from {name}"
+            query = f"select * from '{name}'"
             # set the limit of row if user defined
             if limit != None:
                 query += f" limit {limit}"
@@ -110,13 +114,15 @@ class DatabaseExtractor:
         return {"schema":schema, "data": data}
 
     # Export schema / data to JSON format
-
     def export_to_json(self, content, filename):
+
+        if not filename.endswith(".json"):
+            filename = f"{filename}.json"
 
         with open(filename,"w") as f:
             json.dump(content,f,indent=4)
         
-        print(f"Exported to {filename}")
+        print(f"Exported to {filename}.json")
 
 
 
