@@ -19,7 +19,6 @@ from SchemaDataExtractor import DatabaseExtractor
 from LLMAgent import LLMKGAgent
 import json
 import os
-from GraphCreation import GraphCreation
 from kgscreate import MetaGraphBuilder
 import DataMapping
 from pathlib import Path
