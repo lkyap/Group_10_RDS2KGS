@@ -4,8 +4,12 @@ Author: Yap
 Descriptions:
 
 1. Evaluate the conversion of the RDS to KGS by using Schema Completeness and Relationship Completeness
-2. Schema Completeness: Compare between number of records of an Entity in Relational Database (RDS) and number of nodes in KGS
-3. Relationship Completeness: Compare number of records of an Entity in RDS that has relationship with another entity against number of edges between nodes that represent these entities
+2. Schema Completeness (SC): Compare between number of records of an Entity in Relational Database (RDS) and number of nodes in KGS
+3. Relationship Completeness (RC): Compare number of records of an Entity in RDS that has relationship with another entity against number of edges between nodes that represent these entities
+
+Note:
+
+1. The definition of SC and RC used was referenced from the paper "An Automated Graph Construction Approach from Relational Databases to Neo4j", https://ieeexplore.ieee.org/document/10029438
 
 """
 # Libary
@@ -13,7 +17,6 @@ import json
 from collections import Counter
 
 # Schema evaluation class
-
 
 class Schema_Evaluation:
     def __init__(self, rds_data_file, kgs_data_file):
@@ -69,7 +72,7 @@ class Schema_Evaluation:
 
         return schema_comp_table
 
-
+# Relationship completeness evaluation
 class Relationship_Evaluation:
 
     def __init__(self,rds_schema_file, rds_data_file,kgs_data_file):
