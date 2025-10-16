@@ -1,21 +1,27 @@
 
 # Data Science Capstone Project - RDS to KGS
 
-Total 5 scripts 
+Total 7 scripts required to run the pipeline for APPROACH 2 (Using LLM Prompt method):
 
 1. SchemaDataExtractor.py
 2. LLMPrompt.py
 3. LLMAgent.py
 4. kgscreate.py
-5. main.py
+5. DataMapping.py
+6. schema_relationship_eval.py
+7. main.py
+
+Notes: 
+1. The API key and Neo4j user login information are needed to be set in the credential environment file.
+2. The Python packages needed to run the pipeline is in the requirement.txt
+
 
 Before running the main.py, do the following steps:
 
 1. Save all the files under the same folder. 
-2. Set your API_KEY in the local environment. In your VScode terminal, type in " $env:OPENAI_API_KEY = 'put your api key here' " . Remove the double quotes when you key into terminal.
-3. Under main.py, replace the password of your neo4j.
-4. Replace the database directory to the database that you would like to convert
-5. You should be running smoothly if you did the above steps correctly.
+2. Set your API_KEY and Neo4j login credential in credential environment file. 
+3. Replace the database directory to the database that you would like to convert
+4. You should be running smoothly if you did the above steps correctly.
 
 To view the metagraph, do the following
 1. Open Google Chrome, type in localhost:7474
