@@ -3,13 +3,13 @@
 
 Total 7 scripts required to run the pipeline for APPROACH 2 (Using LLM Prompt method):
 
-1. SchemaDataExtractor.py
-2. LLMPrompt.py
-3. LLMAgent.py
-4. kgscreate.py
-5. DataMapping.py
-6. schema_relationship_eval.py
-7. main.py
+1. SchemaDataExtractor.py - Used RDS schema and data extraction
+2. LLMPrompt.py - Set up Prompt for LLM
+3. LLMAgent.py - Set up LLM
+4. kgscreate.py - Create KGS Metagraph
+5. DataMapping.py - Map the extracted RDS data with KGS Schema returned by LLM
+6. schema_relationship_eval.py - For evaluation: Schema and Relationship Completeness
+7. main.py - Main scripts to import all the modules from other scripts
 
 Notes: 
 1. The API key and Neo4j user login information are needed to be set in the credential environment file.
